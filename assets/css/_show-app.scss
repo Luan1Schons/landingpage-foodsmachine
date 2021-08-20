@@ -1,0 +1,38 @@
+.show-app {
+    margin-top: 10rem;
+    .container{
+        .title {
+            
+            h3{
+                font-family: 'FuturaBk', Arial, sans-serif;
+                font-size: 53px;
+                letter-spacing: 0px;
+                b{
+                    font: normal normal bold 53px/65px 'TheFontBold';
+                }
+            }
+            h2{
+                font-size: 90px;
+                font-family: 'TheFontBold', Arial, sans-serif;
+                span{
+                    font-family: 'FuturaBk', Arial, sans-serif;
+                    font-size: 70px;
+                }
+            }
+            .desc { 
+                font-family: 'FuturaBk', Arial, sans-serif;
+                font-size: 53px;
+
+                b{
+                    font-family: 'TheFontBold', Arial, sans-serif;
+                    color: #FE1846;
+                }
+
+                span{
+                    font-family: 'TheFontBold', Arial, sans-serif;
+                    color: #0197A6;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,301 @@
+.mount-your-plan{
+    margin-top: 150px;
+    
+    .brands{
+        margin-bottom: -21rem;
+        img{
+            width: 85%;
+            height: 100%;
+            display: block;
+        }
+    }
+    .card {
+        position: relative;
+        background-color: #FCFCFC;
+        border: solid 3px #fff;
+        border-radius: 20px;
+        -webkit-box-shadow: 0px 1px 9px -4px #000000; 
+        box-shadow: 0px 1px 9px -4px #a79696;  
+    }
+    .content{
+        margin-top: 150px;
+
+        .description {
+            h3{
+                font-family: 'TheFontBold', Arial, sans-serif;
+                font-size: 40px;
+                span {
+                    font-family: 'FuturaBk', Arial, sans-serif;
+                }
+            }
+
+            .tiny {
+                font-family: 'FuturaBk', Arial, sans-serif;
+                font-size: 25px;
+                color: #BABABA;
+            }
+        }
+
+    }
+
+    .mount {
+        margin-top: 40px;
+
+        .mount-image {
+            width: 95%;
+            height: 95%;
+            position: relative;
+            margin-bottom: -20px;
+        }
+        
+        .gradient {
+        border-radius:40px;
+        background: rgb(61,5,71);
+        background: linear-gradient(180deg, rgba(61,5,71,1) 32%, rgba(76,8,68,1) 53%, rgba(106,13,63,1) 72%, rgba(150,20,55,1) 86%, rgba(246,37,36,1) 100%);
+            h2 {
+                font-size: 53px;
+                font-family: 'TheFontBold', Arial, sans-serif;
+                color: #fff;
+            }
+            h1 {
+                font-size: 88px;
+                font-family: 'TheFontBold', Arial, sans-serif;
+                color: #fff;
+            }
+
+            .heart {
+                width: 65px;
+                margin-left: 10px;
+            }
+        }
+
+        .modules {
+            -webkit-box-shadow: inset 0px 1px 5px -4px #000000; 
+            box-shadow: inset 0px 1px 5px -4px #000000;
+            margin: 10px;
+            overflow-y: auto;
+            max-height: 75rem;
+            
+
+            .plan-details {
+                .title {
+                    h3 {
+                    font-family: 'FuturaBk', Arial, sans-serif;
+                    font-size: 27px;
+                    color: #CFC9C9;
+                    }
+                }
+
+                .price {
+                    h2 {
+                        font-family: 'TheFontBold', Arial, sans-serif;
+                        font-size: 31px;
+                        color: #030000;
+                    }
+                    h1 {
+                        font-family: 'TheFontBold', Arial, sans-serif;
+                        font-size: 75px;
+                        color: #20BBBD;
+                    }
+                }
+                .line {
+                    border: solid 2px red;
+                    margin: 0px 30px;
+                }
+            }
+            .module-list {
+                .card {
+                    padding: 35px;
+                    margin-bottom: 20px;
+                    .item {
+                        font-family: 'TheFontBold', Arial, sans-serif;
+                        font-size: 25px;
+                        color: #000000;
+                        .icon{
+                            margin-right:25px;
+                        }
+
+                        p {
+                            font-size: 15px;
+                            font-family: 'FuturaBk', Arial, sans-serif;
+                        }
+                    }
+                }
+                .active {
+                    background-color: #21BBC0;
+                    border: solid 3px #21BBC0;
+                    color: #fff;
+
+                    .btn {
+                        background-color: #fff0;
+                        color: #fff;
+                    }
+
+                    h4 { 
+                        color:#fff;
+                    }
+
+                    h3 {
+                        font-size: 25px;
+                        font-family: 'TheFontBold', Arial, sans-serif;
+                        color:#0F6A6D;
+                    }
+                }
+
+                .coming-soon {
+
+                    h4 { 
+                        color:rgb(228, 228, 228);
+                    }
+
+                    h3 {
+                        color:rgb(228, 228, 228);
+                    }
+                }
+
+                .btn {
+                    color: #000000;
+                    -webkit-box-shadow: 0px 1px 8px -4px #000000;
+                    background-color: #EEECEC;
+                    box-shadow: 0px 1px 8px -4px #000000;
+                    padding: 5px 25px;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        .modules::-webkit-scrollbar {
+            width: 5px;
+        }
+           
+        .modules::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+        }
+           
+        .modules::-webkit-scrollbar-thumb {
+            background-color: #fcfcfc00;
+            outline: 1px solid #fcfcfc00;
+        }
+    }
+
+    .modules-selected {
+        padding: 80px 120px 0px 120px;
+
+        .card {
+            border-radius: 45px;
+            border: solid 3px #fff;
+            background-color: #fff;
+            webkit-box-shadow: 0px 1px 9px -4px #a79696;
+            box-shadow: -5px 4px 9px -4px #a79696;
+        }
+        .selected-modules {
+            background-color: #000000;
+            padding: 10px 40px;
+            border-radius: 35px;
+            font-size: 24px;
+            color: #fff;
+            font-family: 'FuturaBk', Arial, sans-serif;
+            b{
+                font-family: 'TheFontBold', Arial, sans-serif;
+            }
+        }
+
+        .add-modules {
+            margin-top: 80px;
+            margin-bottom: 60px;
+            .card {
+                border-radius: 25px;
+                border: solid 3px #fff;
+                background-color: #fff;
+                webkit-box-shadow: -2px 5px 9px -4px #a79696;
+                box-shadow: -2px 5px 9px -4px #a79696;
+            }
+            h3 {
+                font-family: 'TheFontBold', Arial, sans-serif;
+                font-size: 29px;
+            }
+        }
+    }
+
+    .sell-showcase {
+        padding: 0px 120px;
+
+        .card {
+            height: 100%;
+            width: 100%;
+        }
+        .green {
+            background-color: #0BD877;
+            border: solid 3px #0BD877;
+            padding: 25px 55px;
+
+            h1 { 
+                font-size: 76px;
+                font-family: 'TheFontBold', Arial, sans-serif;
+            }
+
+            h2 { 
+                font-size: 76px;
+                font-family: 'TheFontBold', Arial, sans-serif;
+            }
+            p {
+                font-family: 'FuturaBk', Arial, sans-serif;
+                font-size: 40px;
+            }
+        }
+
+        .black{
+            background-color: #000000;
+            border: solid 5px #fff;
+            -webkit-box-shadow: 0px 1px 8px -4px #000000;
+            box-shadow: 0px 1px 8px -4px #000000;
+            padding: 25px 55px;
+
+            .discount {
+                text-align: left;
+                font-family: 'TheFontBold', Arial, sans-serif;
+                color: #fff;
+                h1 {
+
+                    font-size: 98px;
+                }
+            
+                span {
+                    font-size: 17px;
+                    position: relative;
+                    top: 75px;
+                }
+                b{
+                    font-size: 25px;
+                }
+            }
+
+            .price {
+                text-align: left;
+                font-family: 'TheFontBold', Arial, sans-serif;
+                color: #fff;
+
+                h1 {
+                    color: #0AD875;
+                    font-size: 178px;
+                }
+
+                h2 {
+                    font-size: 90px;
+                    font-family: 'FuturaBk', Arial, sans-serif;
+                }
+
+                span {
+                    top: 135px;
+                    position: relative;
+                    font-size: 31px;
+                }
+            }
+        }
+    }
+    .advertising {
+        font-size: 28px;
+        color: #989898;
+        font-family: 'FuturaBk', Arial, sans-serif;
+    }
+}

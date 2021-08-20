@@ -1,0 +1,19 @@
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 35px;
+    /* font-weight: 400; */
+    /* line-height: 1.5; */
+    color: #D2D3D5;
+    text-align: center;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 1rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: "FuturaBk", Arial, sans-serif;
+}

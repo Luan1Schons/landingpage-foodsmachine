@@ -1,0 +1,25 @@
+.youtube-video {
+
+    .youtube-presentation {
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+
+        iframe {
+            padding: 15px;
+            background: rgb(63,5,70);
+            background: linear-gradient(180deg, rgba(63,5,70,1) 23%, rgba(108,13,62,1) 33%, rgba(190,27,47,1) 69%, rgba(244,37,36,1) 100%);
+            border-radius: 25px;
+        }
+    }
+
+    .alert {
+        span {
+            background-color: #FE043C;
+            padding: 5px;
+            color: #fff;
+            justify-items: center;
+        }
+    }
+
+}

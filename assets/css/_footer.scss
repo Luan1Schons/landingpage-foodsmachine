@@ -1,0 +1,61 @@
+.footer{
+    margin-top: -120px;
+    width: 100%;
+    position: absolute;
+    background-image: url("/assets/imgs/svgs/footer.svg");
+
+    .content {
+        margin-top: 130px;
+        padding: 0px 220px;
+
+        p {
+            font-family: "FuturaBk", Arial, sans-serif;
+            font-size: 25px;
+            b{
+                font-family: "TheFontBold", Arial, sans-serif;
+            }
+        }
+
+        .btn {
+            padding: 20px;
+            b {
+                font-size: 23px;
+                font-family: "TheFontBold", Arial, sans-serif;
+            }
+
+            span {
+                font-family: "FuturaBk", Arial, sans-serif;
+                font-size: 18px;
+            }
+        }
+
+        .line {
+            border: solid 2px #000000;
+
+        }
+    }
+
+    .footer-details {
+        text-align: center;
+        .socials {
+            p {
+                font-size: 13px;
+            }
+        }
+
+        p {
+            font-family: "TheFontBold", Arial, sans-serif;
+            font-size: 21px;
+        }
+
+        .small {
+            font-family: "FuturaBk", Arial, sans-serif;
+            font-size: 25px;
+        }
+
+        .small-hours {
+            font-family: "FuturaBk", Arial, sans-serif;
+            font-size: 17px;
+        }
+    }
+}

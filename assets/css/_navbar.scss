@@ -1,0 +1,20 @@
+.navbar { 
+    .nav-item { 
+        font-family: 'FuturaBk', Arial, sans-serif;
+        margin: 0px 35px;
+
+        .nav-link { 
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+
+    .nav-link.active {
+        color: #fff !important;
+    }
+
+    .navbar-brand {
+        padding: 16px 33px;
+        margin-right: 77px;
+    }
+}

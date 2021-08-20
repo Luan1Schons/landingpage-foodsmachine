@@ -1,0 +1,37 @@
+.perfect-for-all {
+    margin-top: 120px;
+
+    .title {
+        h2{ 
+            font-family: 'TheFontBold', Arial, sans-serif;
+            color: #A8A8A8;
+            font-size: 42px;
+        }
+    }
+
+    .perfect-for-all-card {
+        background-color: #F8F8F8;
+        border: solid 2px #fff;
+        border-radius: 35px;
+        padding: 10px 0px;
+        -webkit-box-shadow: -7px 8px 15px 2px rgba(0,0,0,0.21); 
+        box-shadow: -7px 8px 15px 2px rgba(0,0,0,0.21);
+        .owl-carousel {
+
+            .owl-dots { 
+                display: none !important;
+            }
+            .item {
+                .icon{ 
+                    padding: 3px;
+                    margin-right: 20px;
+                }
+            }
+        }
+
+        h3 {
+            font-size: 35px;
+            font-weight: 300;
+        }
+    }
+}

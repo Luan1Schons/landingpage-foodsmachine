@@ -1,0 +1,35 @@
+.header-card { 
+    margin: 50px 90px;
+    margin-top: 20%;
+    font-family: 'TheFontBold', Arial, sans-serif;
+    text-align: center;
+    h2 {
+        color: #fff;
+        font-size: 60px;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 90px;
+    }
+
+    .card {
+        padding: 15px;
+        background-color: #D9D2D6;
+        border: solid 4px #fff;
+        border-radius: 25px;
+
+
+        p {
+            font-size: 24px;
+            font-family: arial,sans-serif;
+            b {
+                font-family: 'TheFontBold', Arial, sans-serif;
+            }
+        }
+    }
+
+    .info-apps { 
+        margin-top: 35px;
+    }
+}

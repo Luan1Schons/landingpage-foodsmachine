@@ -1,0 +1,20 @@
+.help-me {
+    h1 {
+        font-family: 'TheFontBold', Arial, sans-serif;
+        font-size: 31px;
+    }
+
+    .card {
+        background-color: #FBFBFB;
+        border-radius: 45px;
+        border: solid 4px #fff;
+        -webkit-box-shadow: 0px 1px 8px -4px #000000;
+        box-shadow: 0px 1px 8px -4px #000000;
+
+        label{
+            font-size: 26px;
+            font-family: "FuturaBk", Arial, sans-serif;
+            color: #6A6A6A;
+        }
+    }
+}

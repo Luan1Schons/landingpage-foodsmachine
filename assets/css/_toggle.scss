@@ -1,0 +1,81 @@
+/**
+ * Switch Styles by Alexandre Joffroy
+ * - https://codepen.io/alexjoffroy/pen/ORXOmR
+ */
+
+ $switch-on-color: #fff !default;
+ $slider-on-color: #21bbc0;
+ 
+ $switch-off-color: #eeeeee;
+ $slider-off-color: #c5c5c5;
+ 
+ // Sizes
+ $slider-height: 11px !default;
+ $slider-width: $slider-height * 5 !default; // 32px
+ $switch-height: $slider-height * 3 !default; // 24px
+ $switch-width: $switch-height !default; // 24px
+ $switch-shift: $slider-height !default; // 8px
+ 
+ // Transitions
+ $transition-duration: .2s !default;
+ $transition-function: ease !default;
+ $transition: all $transition-duration $transition-function !default;
+ 
+ .switch {
+   display: block;
+   
+   .slider {
+     position: relative;
+     display: inline-block;
+     height: $slider-height;
+     width: $slider-width;
+     border-radius: $slider-height;
+     cursor: pointer;
+     background: $slider-off-color;
+     transition: $transition;
+     
+     &:after {
+       background: $switch-off-color;
+       position: absolute;
+       left: -$switch-shift;
+       top: ($slider-height - $switch-height) / 2;
+       display: block;
+       width: $switch-height;
+       height: $switch-width;
+       border-radius: 50%;
+       box-shadow: 0px 2px 2px rgba(#000, .2);
+       content: '';
+       transition: $transition;
+     }
+   }
+   
+   label {
+     margin-right: 7px;
+   }
+   
+   .input {
+     display: none;
+     
+     ~ .label {
+       margin-left: $slider-height;
+     }
+        
+     &:checked ~ .slider {
+       
+       &:after {
+         left: $slider-width - $switch-width + $switch-shift;
+       }
+     }
+   }
+   
+   .input:checked ~ .slider {
+     background: $slider-on-color;
+ 
+     &:after {
+       background: $switch-on-color;
+     }
+   }
+ }
+ 
+ @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+ 

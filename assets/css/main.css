@@ -1,0 +1,981 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@font-face {
+  font-family: "TheFontBold";
+  src: url("/assets/fonts/theboldfont.ttf");
+}
+
+@font-face {
+  font-family: "FuturaBk";
+  src: url("/assets/fonts/FuturaBkBTBook.ttf");
+}
+
+html, body {
+  margin: 0;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+body .presentation {
+  background-image: url("/assets/imgs/background-header.png");
+  background-repeat: no-repeat;
+  height: 1200px;
+}
+
+body .ml-4 {
+  margin-left: 8px;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #592B65;
+  outline: 1px solid #672978;
+}
+
+.navbar .nav-item {
+  font-family: 'FuturaBk', Arial, sans-serif;
+  margin: 0px 35px;
+}
+
+.navbar .nav-item .nav-link {
+  font-size: 14px;
+  color: #fff;
+}
+
+.navbar .nav-link.active {
+  color: #fff !important;
+}
+
+.navbar .navbar-brand {
+  padding: 16px 33px;
+  margin-right: 77px;
+}
+
+.btn-purple {
+  background-color: #592b65;
+  border: solid 2px #672978;
+  border-radius: 7px;
+  color: #fff;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-purple:hover {
+  color: #fff;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.btn-red-glow {
+  background-color: #fe043c;
+  border: solid 2px #fe043c;
+  border-radius: 7px;
+  color: #fff;
+  -webkit-box-shadow: 0px 2px 20px rgba(255, 0, 0, 0.609);
+          box-shadow: 0px 2px 20px rgba(255, 0, 0, 0.609);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-red-glow:hover {
+  color: #fff;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.btn-red-functionalities {
+  background-color: #fe043c;
+  border: solid 3px #fff;
+  border-radius: 15px;
+  color: #fff;
+  padding: 8px 25px;
+  -webkit-box-shadow: 0px 1px 9px -4px #000000;
+  box-shadow: 0px 1px 9px -4px #000000;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 35px;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.btn-red-functionalities:hover {
+  color: #fff;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.btn-red-functionalities b {
+  font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.btn-red-modules {
+  background-color: #fe043c;
+  border: solid 2px #fe043c;
+  border-radius: 20px;
+  color: #fff;
+  padding: 6px 25px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 3px 5px -4px #000000;
+  font-size: 19px;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.btn-red-modules:hover {
+  color: #fff;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.btn-red-modules b {
+  font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.btn-red-help {
+  background-color: #fe043c;
+  border: solid 2px #fe043c;
+  border-radius: 45px;
+  color: #fff;
+  padding: 35px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 3px 5px -4px #000000;
+  font-size: 23px;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.btn-red-help:hover {
+  color: #fff;
+}
+
+.btn-red-help b {
+  font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.btn-gradient {
+  background: #b3131b;
+  background: linear-gradient(80deg, #b3131b 28%, #6b0c39 58%, #530943 100%);
+  border-radius: 20px;
+  color: #fff;
+  padding: 20px 55px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 3px 5px -4px #000000;
+  font-size: 38px;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.btn-gradient:hover {
+  color: #fff;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.btn-gradient b {
+  font-family: "TheFontBold", Arial, sans-serif;
+  font-size: 45px;
+}
+
+.btn-white {
+  background: #fff;
+  border-radius: 20px;
+  color: #000000;
+  padding: 20px 55px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  -webkit-box-shadow: 0px 1px 8px -4px #000000;
+  box-shadow: 0px 1px 8px -4px #000000;
+  font-size: 26px;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.btn-white:hover {
+  color: #000000;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.btn-white b {
+  font-family: "TheFontBold", Arial, sans-serif;
+  font-size: 45px;
+}
+
+/**
+ * Switch Styles by Alexandre Joffroy
+ * - https://codepen.io/alexjoffroy/pen/ORXOmR
+ */
+.switch {
+  display: block;
+}
+
+.switch .slider {
+  position: relative;
+  display: inline-block;
+  height: 11px;
+  width: 55px;
+  border-radius: 11px;
+  cursor: pointer;
+  background: #c5c5c5;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.switch .slider:after {
+  background: #eeeeee;
+  position: absolute;
+  left: -11px;
+  top: -11px;
+  display: block;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  content: '';
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.switch label {
+  margin-right: 7px;
+}
+
+.switch .input {
+  display: none;
+}
+
+.switch .input ~ .label {
+  margin-left: 11px;
+}
+
+.switch .input:checked ~ .slider:after {
+  left: 33px;
+}
+
+.switch .input:checked ~ .slider {
+  background: #21bbc0;
+}
+
+.switch .input:checked ~ .slider:after {
+  background: #fff;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 35px;
+  /* font-weight: 400; */
+  /* line-height: 1.5; */
+  color: #D2D3D5;
+  text-align: center;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 1rem;
+  -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.alert-red {
+  padding: 8px !important;
+  font-family: 'FuturaBk', Arial, sans-serif;
+  text-align: center;
+  background-color: #FE043C;
+  color: #fff;
+  border-radius: 14px;
+}
+
+.header-card {
+  margin: 50px 90px;
+  margin-top: 20%;
+  font-family: 'TheFontBold', Arial, sans-serif;
+  text-align: center;
+}
+
+.header-card h2 {
+  color: #fff;
+  font-size: 60px;
+}
+
+.header-card h1 {
+  color: #fff;
+  font-size: 90px;
+}
+
+.header-card .card {
+  padding: 15px;
+  background-color: #D9D2D6;
+  border: solid 4px #fff;
+  border-radius: 25px;
+}
+
+.header-card .card p {
+  font-size: 24px;
+  font-family: arial,sans-serif;
+}
+
+.header-card .card p b {
+  font-family: 'TheFontBold', Arial, sans-serif;
+}
+
+.header-card .info-apps {
+  margin-top: 35px;
+}
+
+.youtube-video .youtube-presentation {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.youtube-video .youtube-presentation iframe {
+  padding: 15px;
+  background: #3f0546;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(23%, #3f0546), color-stop(33%, #6c0d3e), color-stop(69%, #be1b2f), to(#f42524));
+  background: linear-gradient(180deg, #3f0546 23%, #6c0d3e 33%, #be1b2f 69%, #f42524 100%);
+  border-radius: 25px;
+}
+
+.youtube-video .alert span {
+  background-color: #FE043C;
+  padding: 5px;
+  color: #fff;
+  justify-items: center;
+}
+
+.perfect-for-all {
+  margin-top: 120px;
+}
+
+.perfect-for-all .title h2 {
+  font-family: 'TheFontBold', Arial, sans-serif;
+  color: #A8A8A8;
+  font-size: 42px;
+}
+
+.perfect-for-all .perfect-for-all-card {
+  background-color: #F8F8F8;
+  border: solid 2px #fff;
+  border-radius: 35px;
+  padding: 10px 0px;
+  -webkit-box-shadow: -7px 8px 15px 2px rgba(0, 0, 0, 0.21);
+  box-shadow: -7px 8px 15px 2px rgba(0, 0, 0, 0.21);
+}
+
+.perfect-for-all .perfect-for-all-card .owl-carousel .owl-dots {
+  display: none !important;
+}
+
+.perfect-for-all .perfect-for-all-card .owl-carousel .item .icon {
+  padding: 3px;
+  margin-right: 20px;
+}
+
+.perfect-for-all .perfect-for-all-card h3 {
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.steps {
+  width: 100%;
+  margin-top: 160px;
+}
+
+.steps .peoples {
+  height: 310px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.steps .peoples .item {
+  margin-right: 12rem;
+}
+
+.steps .peoples .item img {
+  position: absolute;
+  width: 240px;
+}
+
+.steps .cloud img {
+  display: block;
+  position: absolute;
+  z-index: 9998;
+  height: 500px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.steps .three-steps {
+  position: relative;
+  z-index: 9999;
+  margin-top: 100px;
+}
+
+.steps .three-steps .step .card {
+  -webkit-box-shadow: 0px 1px 9px -4px #000000;
+  box-shadow: 0px 1px 9px -4px #a79696;
+  border: solid #fff 3px;
+  border-radius: 10px;
+}
+
+.steps .three-steps .step .card .card-body {
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 1px 5px -4px #000000;
+  margin: 0px;
+  border-radius: 10px;
+  padding: 25px 10px;
+}
+
+.steps .three-steps .step .card .card-body h3 {
+  font-size: 25px;
+  font-family: 'TheFontBold', Arial, sans-serif;
+  color: #656565;
+}
+
+.steps .three-steps .step h1 {
+  font-family: 'TheFontBold', Arial, sans-serif;
+  font-size: 60px;
+  color: #D8D8D8;
+}
+
+.steps .three-steps .road {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.steps .three-steps .road .hifens {
+  font-family: 'TheFontBold', Arial, sans-serif;
+  font-size: 35px;
+  color: red;
+}
+
+.show-app {
+  margin-top: 10rem;
+}
+
+.show-app .container .title h3 {
+  font-family: 'FuturaBk', Arial, sans-serif;
+  font-size: 53px;
+  letter-spacing: 0px;
+}
+
+.show-app .container .title h3 b {
+  font: normal normal bold 53px/65px 'TheFontBold';
+}
+
+.show-app .container .title h2 {
+  font-size: 90px;
+  font-family: 'TheFontBold', Arial, sans-serif;
+}
+
+.show-app .container .title h2 span {
+  font-family: 'FuturaBk', Arial, sans-serif;
+  font-size: 70px;
+}
+
+.show-app .container .title .desc {
+  font-family: 'FuturaBk', Arial, sans-serif;
+  font-size: 53px;
+}
+
+.show-app .container .title .desc b {
+  font-family: 'TheFontBold', Arial, sans-serif;
+  color: #FE1846;
+}
+
+.show-app .container .title .desc span {
+  font-family: 'TheFontBold', Arial, sans-serif;
+  color: #0197A6;
+}
+
+.functionalities {
+  margin-top: 150px;
+}
+
+.functionalities .button-details .title {
+  font-family: 'FuturaBk', Arial, sans-serif;
+  color: #DADADA;
+  font-size: 22px;
+  margin: 5px;
+}
+
+.mount-your-plan {
+  margin-top: 150px;
+}
+
+.mount-your-plan .brands {
+  margin-bottom: -21rem;
+}
+
+.mount-your-plan .brands img {
+  width: 85%;
+  height: 100%;
+  display: block;
+}
+
+.mount-your-plan .card {
+  position: relative;
+  background-color: #FCFCFC;
+  border: solid 3px #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 1px 9px -4px #000000;
+  box-shadow: 0px 1px 9px -4px #a79696;
+}
+
+.mount-your-plan .content {
+  margin-top: 150px;
+}
+
+.mount-your-plan .content .description h3 {
+  font-family: 'TheFontBold', Arial, sans-serif;
+  font-size: 40px;
+}
+
+.mount-your-plan .content .description h3 span {
+  font-family: 'FuturaBk', Arial, sans-serif;
+}
+
+.mount-your-plan .content .description .tiny {
+  font-family: 'FuturaBk', Arial, sans-serif;
+  font-size: 25px;
+  color: #BABABA;
+}
+
+.mount-your-plan .mount {
+  margin-top: 40px;
+}
+
+.mount-your-plan .mount .mount-image {
+  width: 95%;
+  height: 95%;
+  position: relative;
+  margin-bottom: -20px;
+}
+
+.mount-your-plan .mount .gradient {
+  border-radius: 40px;
+  background: #3d0547;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(32%, #3d0547), color-stop(53%, #4c0844), color-stop(72%, #6a0d3f), color-stop(86%, #961437), to(#f62524));
+  background: linear-gradient(180deg, #3d0547 32%, #4c0844 53%, #6a0d3f 72%, #961437 86%, #f62524 100%);
+}
+
+.mount-your-plan .mount .gradient h2 {
+  font-size: 53px;
+  font-family: 'TheFontBold', Arial, sans-serif;
+  color: #fff;
+}
+
+.mount-your-plan .mount .gradient h1 {
+  font-size: 88px;
+  font-family: 'TheFontBold', Arial, sans-serif;
+  color: #fff;
+}
+
+.mount-your-plan .mount .gradient .heart {
+  width: 65px;
+  margin-left: 10px;
+}
+
+.mount-your-plan .mount .modules {
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 1px 5px -4px #000000;
+  margin: 10px;
+  overflow-y: auto;
+  max-height: 75rem;
+}
+
+.mount-your-plan .mount .modules .plan-details .title h3 {
+  font-family: 'FuturaBk', Arial, sans-serif;
+  font-size: 27px;
+  color: #CFC9C9;
+}
+
+.mount-your-plan .mount .modules .plan-details .price h2 {
+  font-family: 'TheFontBold', Arial, sans-serif;
+  font-size: 31px;
+  color: #030000;
+}
+
+.mount-your-plan .mount .modules .plan-details .price h1 {
+  font-family: 'TheFontBold', Arial, sans-serif;
+  font-size: 75px;
+  color: #20BBBD;
+}
+
+.mount-your-plan .mount .modules .plan-details .line {
+  border: solid 2px red;
+  margin: 0px 30px;
+}
+
+.mount-your-plan .mount .modules .module-list .card {
+  padding: 35px;
+  margin-bottom: 20px;
+}
+
+.mount-your-plan .mount .modules .module-list .card .item {
+  font-family: 'TheFontBold', Arial, sans-serif;
+  font-size: 25px;
+  color: #000000;
+}
+
+.mount-your-plan .mount .modules .module-list .card .item .icon {
+  margin-right: 25px;
+}
+
+.mount-your-plan .mount .modules .module-list .card .item p {
+  font-size: 15px;
+  font-family: 'FuturaBk', Arial, sans-serif;
+}
+
+.mount-your-plan .mount .modules .module-list .active {
+  background-color: #21BBC0;
+  border: solid 3px #21BBC0;
+  color: #fff;
+}
+
+.mount-your-plan .mount .modules .module-list .active .btn {
+  background-color: #fff0;
+  color: #fff;
+}
+
+.mount-your-plan .mount .modules .module-list .active h4 {
+  color: #fff;
+}
+
+.mount-your-plan .mount .modules .module-list .active h3 {
+  font-size: 25px;
+  font-family: 'TheFontBold', Arial, sans-serif;
+  color: #0F6A6D;
+}
+
+.mount-your-plan .mount .modules .module-list .coming-soon h4 {
+  color: #e4e4e4;
+}
+
+.mount-your-plan .mount .modules .module-list .coming-soon h3 {
+  color: #e4e4e4;
+}
+
+.mount-your-plan .mount .modules .module-list .btn {
+  color: #000000;
+  -webkit-box-shadow: 0px 1px 8px -4px #000000;
+  background-color: #EEECEC;
+  box-shadow: 0px 1px 8px -4px #000000;
+  padding: 5px 25px;
+  border-radius: 10px;
+}
+
+.mount-your-plan .mount .modules::-webkit-scrollbar {
+  width: 5px;
+}
+
+.mount-your-plan .mount .modules::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+
+.mount-your-plan .mount .modules::-webkit-scrollbar-thumb {
+  background-color: #fcfcfc00;
+  outline: 1px solid #fcfcfc00;
+}
+
+.mount-your-plan .modules-selected {
+  padding: 80px 120px 0px 120px;
+}
+
+.mount-your-plan .modules-selected .card {
+  border-radius: 45px;
+  border: solid 3px #fff;
+  background-color: #fff;
+  webkit-box-shadow: 0px 1px 9px -4px #a79696;
+  -webkit-box-shadow: -5px 4px 9px -4px #a79696;
+          box-shadow: -5px 4px 9px -4px #a79696;
+}
+
+.mount-your-plan .modules-selected .selected-modules {
+  background-color: #000000;
+  padding: 10px 40px;
+  border-radius: 35px;
+  font-size: 24px;
+  color: #fff;
+  font-family: 'FuturaBk', Arial, sans-serif;
+}
+
+.mount-your-plan .modules-selected .selected-modules b {
+  font-family: 'TheFontBold', Arial, sans-serif;
+}
+
+.mount-your-plan .modules-selected .add-modules {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.mount-your-plan .modules-selected .add-modules .card {
+  border-radius: 25px;
+  border: solid 3px #fff;
+  background-color: #fff;
+  webkit-box-shadow: -2px 5px 9px -4px #a79696;
+  -webkit-box-shadow: -2px 5px 9px -4px #a79696;
+          box-shadow: -2px 5px 9px -4px #a79696;
+}
+
+.mount-your-plan .modules-selected .add-modules h3 {
+  font-family: 'TheFontBold', Arial, sans-serif;
+  font-size: 29px;
+}
+
+.mount-your-plan .sell-showcase {
+  padding: 0px 120px;
+}
+
+.mount-your-plan .sell-showcase .card {
+  height: 100%;
+  width: 100%;
+}
+
+.mount-your-plan .sell-showcase .green {
+  background-color: #0BD877;
+  border: solid 3px #0BD877;
+  padding: 25px 55px;
+}
+
+.mount-your-plan .sell-showcase .green h1 {
+  font-size: 76px;
+  font-family: 'TheFontBold', Arial, sans-serif;
+}
+
+.mount-your-plan .sell-showcase .green h2 {
+  font-size: 76px;
+  font-family: 'TheFontBold', Arial, sans-serif;
+}
+
+.mount-your-plan .sell-showcase .green p {
+  font-family: 'FuturaBk', Arial, sans-serif;
+  font-size: 40px;
+}
+
+.mount-your-plan .sell-showcase .black {
+  background-color: #000000;
+  border: solid 5px #fff;
+  -webkit-box-shadow: 0px 1px 8px -4px #000000;
+  box-shadow: 0px 1px 8px -4px #000000;
+  padding: 25px 55px;
+}
+
+.mount-your-plan .sell-showcase .black .discount {
+  text-align: left;
+  font-family: 'TheFontBold', Arial, sans-serif;
+  color: #fff;
+}
+
+.mount-your-plan .sell-showcase .black .discount h1 {
+  font-size: 98px;
+}
+
+.mount-your-plan .sell-showcase .black .discount span {
+  font-size: 17px;
+  position: relative;
+  top: 75px;
+}
+
+.mount-your-plan .sell-showcase .black .discount b {
+  font-size: 25px;
+}
+
+.mount-your-plan .sell-showcase .black .price {
+  text-align: left;
+  font-family: 'TheFontBold', Arial, sans-serif;
+  color: #fff;
+}
+
+.mount-your-plan .sell-showcase .black .price h1 {
+  color: #0AD875;
+  font-size: 178px;
+}
+
+.mount-your-plan .sell-showcase .black .price h2 {
+  font-size: 90px;
+  font-family: 'FuturaBk', Arial, sans-serif;
+}
+
+.mount-your-plan .sell-showcase .black .price span {
+  top: 135px;
+  position: relative;
+  font-size: 31px;
+}
+
+.mount-your-plan .advertising {
+  font-size: 28px;
+  color: #989898;
+  font-family: 'FuturaBk', Arial, sans-serif;
+}
+
+.svg-black {
+  -webkit-filter: brightness(0) contrast(3);
+          filter: brightness(0) contrast(3);
+}
+
+.help-me h1 {
+  font-family: 'TheFontBold', Arial, sans-serif;
+  font-size: 31px;
+}
+
+.help-me .card {
+  background-color: #FBFBFB;
+  border-radius: 45px;
+  border: solid 4px #fff;
+  -webkit-box-shadow: 0px 1px 8px -4px #000000;
+  box-shadow: 0px 1px 8px -4px #000000;
+}
+
+.help-me .card label {
+  font-size: 26px;
+  font-family: "FuturaBk", Arial, sans-serif;
+  color: #6A6A6A;
+}
+
+.notebook-art {
+  position: relative;
+  margin-top: 150px;
+  background-image: url("/assets/imgs/notebook.png");
+  display: block;
+  width: 100%;
+  height: 1700px;
+}
+
+.main-questions {
+  margin-top: 0px;
+  padding-bottom: 240px;
+  background-image: url("/assets/imgs/svgs/main-questions.svg");
+}
+
+.main-questions .title {
+  margin-top: 80px;
+  color: #fff;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.main-questions .title b {
+  font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.main-questions .card {
+  border-radius: 35px;
+  padding: 25px;
+}
+
+.main-questions .card h2 {
+  font-size: 35px;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.footer {
+  margin-top: -120px;
+  width: 100%;
+  position: absolute;
+  background-image: url("/assets/imgs/svgs/footer.svg");
+}
+
+.footer .content {
+  margin-top: 130px;
+  padding: 0px 220px;
+}
+
+.footer .content p {
+  font-family: "FuturaBk", Arial, sans-serif;
+  font-size: 25px;
+}
+
+.footer .content p b {
+  font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.footer .content .btn {
+  padding: 20px;
+}
+
+.footer .content .btn b {
+  font-size: 23px;
+  font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.footer .content .btn span {
+  font-family: "FuturaBk", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.footer .content .line {
+  border: solid 2px #000000;
+}
+
+.footer .footer-details {
+  text-align: center;
+}
+
+.footer .footer-details .socials p {
+  font-size: 13px;
+}
+
+.footer .footer-details p {
+  font-family: "TheFontBold", Arial, sans-serif;
+  font-size: 21px;
+}
+
+.footer .footer-details .small {
+  font-family: "FuturaBk", Arial, sans-serif;
+  font-size: 25px;
+}
+
+.footer .footer-details .small-hours {
+  font-family: "FuturaBk", Arial, sans-serif;
+  font-size: 17px;
+}
+/*# sourceMappingURL=main.css.map */

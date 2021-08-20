@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "TheFontBold";
+    src: url("/assets/fonts/theboldfont.ttf");
+}
+
+@font-face {
+    font-family: "FuturaBk";
+    src: url("/assets/fonts/FuturaBkBTBook.ttf");
+}
+html, body {
+    margin: 0;
+}
+body {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    .presentation {
+        background-image: url("/assets/imgs/background-header.png");
+        background-repeat: no-repeat;
+        height: 1200px;
+    }
+
+    .ml-4 {
+        margin-left: 8px;
+    }
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+   
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: #592B65;
+    outline: 1px solid #672978;
+}
