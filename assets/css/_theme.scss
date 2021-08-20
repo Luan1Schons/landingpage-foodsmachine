@@ -1,11 +1,11 @@
 @font-face {
     font-family: "TheFontBold";
-    src: url("/assets/fonts/theboldfont.ttf");
+    src: url("https://luan1schons.github.io/landingpage-foodsmachine/assets/fonts/theboldfont.ttf");
 }
 
 @font-face {
     font-family: "FuturaBk";
-    src: url("/assets/fonts/FuturaBkBTBook.ttf");
+    src: url("https://luan1schons.github.io/landingpage-foodsmachine/assets/fonts/FuturaBkBTBook.ttf");
 }
 html, body {
     margin: 0;
@@ -15,7 +15,7 @@ body {
     width: 100%;
     height: 100%;
     .presentation {
-        background-image: url("/assets/imgs/background-header.png");
+        background-image: url("https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/background-header.png");
         background-repeat: no-repeat;
         height: 1200px;
     }
