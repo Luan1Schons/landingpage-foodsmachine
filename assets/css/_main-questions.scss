@@ -3,6 +3,15 @@
     padding-bottom: 240px;
     background-image: url("/assets/imgs/svgs/main-questions.svg");
 
+    .info-apps {
+
+        display: flex;
+        justify-content: center;
+        img {
+            width: 190px;
+        }
+    }
+
     .title {
         margin-top: 80px;
         color: #fff;

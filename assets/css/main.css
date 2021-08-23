@@ -798,12 +798,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .sell-showcase .green h1 {
-  font-size: min(76px, 6vw);
+  font-size: min(76px, 14vw);
   font-family: 'TheFontBold', Arial, sans-serif;
 }
 
 .mount-your-plan .sell-showcase .green h2 {
-  font-size: min(76px, 6vw);
+  font-size: min(76px, 14vw);
   font-family: 'TheFontBold', Arial, sans-serif;
 }
 
@@ -827,7 +827,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .sell-showcase .black .discount h1 {
-  font-size: 98px;
+  font-size: min(98px, 15vw);
 }
 
 .mount-your-plan .sell-showcase .black .discount span {
@@ -848,11 +848,11 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .sell-showcase .black .price h1 {
   color: #0AD875;
-  font-size: min(176px, 11vw);
+  font-size: min(176px, 16vw);
 }
 
 .mount-your-plan .sell-showcase .black .price h2 {
-  font-size: 90px;
+  font-size: min(90px, 15vw);
   font-family: 'FuturaBk', Arial, sans-serif;
 }
 
@@ -905,6 +905,19 @@ body::-webkit-scrollbar-thumb {
   margin-top: 0px;
   padding-bottom: 240px;
   background-image: url("/assets/imgs/svgs/main-questions.svg");
+}
+
+.main-questions .info-apps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-questions .info-apps img {
+  width: 190px;
 }
 
 .main-questions .title {
