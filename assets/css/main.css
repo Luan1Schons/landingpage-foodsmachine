@@ -949,7 +949,12 @@ body::-webkit-scrollbar-thumb {
 
 .footer .content {
   margin-top: 130px;
-  padding: 0px 220px;
+}
+
+@media (min-width: 900px) {
+  .footer .content {
+    padding: 0px 220px;
+  }
 }
 
 .footer .content p {
