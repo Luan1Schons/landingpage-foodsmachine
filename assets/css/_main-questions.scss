@@ -21,9 +21,22 @@
     .card {
         border-radius: 35px;
         padding: 25px;
+        background-color: #F6F6F6;
         h2 {
             font-size: 35px;
             font-family: "FuturaBk", Arial, sans-serif;
+        }
+    }
+
+    .desc {
+        margin: 0px 40px;
+        padding:  20px 20px;
+        background-color: #fff;
+        border-radius: 0px 0px 35px 35px;
+        
+        p {
+            font-size: 24px;
+            font-family: "Gothic", Arial, sans-serif;
         }
     }
 }
