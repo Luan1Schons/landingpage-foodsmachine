@@ -179,7 +179,11 @@
     }
 
     .modules-selected {
-        padding: 80px 120px 0px 120px;
+        
+        @media (min-width: 900px)
+        {
+            padding: 80px 120px 0px 120px;
+        }
 
         .card {
             border-radius: 45px;
@@ -218,7 +222,11 @@
     }
 
     .sell-showcase {
-        padding: 0px 120px;
+
+        @media (min-width: 900px)
+        {
+            padding: 0px 120px;
+        }
 
         .card {
             height: 100%;
@@ -230,12 +238,12 @@
             padding: 25px 55px;
 
             h1 { 
-                font-size: 76px;
+                font-size:  #{"min(76px, 6vw)"};
                 font-family: 'TheFontBold', Arial, sans-serif;
             }
 
             h2 { 
-                font-size: 76px;
+                font-size: #{"min(76px, 6vw)"};
                 font-family: 'TheFontBold', Arial, sans-serif;
             }
             p {
@@ -277,7 +285,7 @@
 
                 h1 {
                     color: #0AD875;
-                    font-size: 178px;
+                    font-size: #{"min(176px, 11vw)"};
                 }
 
                 h2 {

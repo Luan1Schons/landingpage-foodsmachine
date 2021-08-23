@@ -21,6 +21,7 @@ body {
 }
 
 body .presentation {
+  display: inline-block;
   background-image: url("https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/background-header.png");
   background-repeat: no-repeat;
   height: 1200px;
@@ -322,10 +323,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header-card {
-  margin: 50px 90px;
   margin-top: 20%;
   font-family: 'TheFontBold', Arial, sans-serif;
   text-align: center;
+}
+
+@media (min-width: 900px) {
+  .header-card {
+    margin: 50px 90px;
+  }
 }
 
 .header-card h2 {
@@ -727,8 +733,10 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid #fcfcfc00;
 }
 
-.mount-your-plan .modules-selected {
-  padding: 80px 120px 0px 120px;
+@media (min-width: 900px) {
+  .mount-your-plan .modules-selected {
+    padding: 80px 120px 0px 120px;
+  }
 }
 
 .mount-your-plan .modules-selected .card {
@@ -772,8 +780,10 @@ body::-webkit-scrollbar-thumb {
   font-size: 29px;
 }
 
-.mount-your-plan .sell-showcase {
-  padding: 0px 120px;
+@media (min-width: 900px) {
+  .mount-your-plan .sell-showcase {
+    padding: 0px 120px;
+  }
 }
 
 .mount-your-plan .sell-showcase .card {
@@ -788,12 +798,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .sell-showcase .green h1 {
-  font-size: 76px;
+  font-size: min(76px, 6vw);
   font-family: 'TheFontBold', Arial, sans-serif;
 }
 
 .mount-your-plan .sell-showcase .green h2 {
-  font-size: 76px;
+  font-size: min(76px, 6vw);
   font-family: 'TheFontBold', Arial, sans-serif;
 }
 
@@ -838,7 +848,7 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .sell-showcase .black .price h1 {
   color: #0AD875;
-  font-size: 178px;
+  font-size: min(176px, 11vw);
 }
 
 .mount-your-plan .sell-showcase .black .price h2 {
@@ -885,7 +895,7 @@ body::-webkit-scrollbar-thumb {
 .notebook-art {
   position: relative;
   margin-top: 150px;
-  background-image: url("https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/notebook.png");
+  background-image: url("/assets/imgs/notebook.png");
   display: block;
   width: 100%;
   height: 1700px;
@@ -894,7 +904,7 @@ body::-webkit-scrollbar-thumb {
 .main-questions {
   margin-top: 0px;
   padding-bottom: 240px;
-  background-image: url("https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/svgs/main-questions.svg");
+  background-image: url("/assets/imgs/svgs/main-questions.svg");
 }
 
 .main-questions .title {
@@ -921,7 +931,7 @@ body::-webkit-scrollbar-thumb {
   margin-top: -120px;
   width: 100%;
   position: absolute;
-  background-image: url("https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/svgs/footer.svg");
+  background-image: url("/assets/imgs/svgs/footer.svg");
 }
 
 .footer .content {

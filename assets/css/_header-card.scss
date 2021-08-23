@@ -1,5 +1,9 @@
 .header-card { 
-    margin: 50px 90px;
+    @media (min-width: 900px)
+    {
+        margin: 50px 90px;
+    }
+
     margin-top: 20%;
     font-family: 'TheFontBold', Arial, sans-serif;
     text-align: center;
