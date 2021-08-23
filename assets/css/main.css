@@ -907,15 +907,6 @@ body::-webkit-scrollbar-thumb {
   background-image: url("/assets/imgs/svgs/main-questions.svg");
 }
 
-.main-questions .info-apps {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .main-questions .info-apps img {
   width: 190px;
 }
