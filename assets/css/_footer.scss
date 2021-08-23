@@ -6,7 +6,9 @@
 
     .content {
         margin-top: 130px;
-        padding: 0px 220px;
+        @media (min-width: 900px) {
+            padding: 0px 220px;
+        }
 
         p {
             font-family: "FuturaBk", Arial, sans-serif;
