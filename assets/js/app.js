@@ -1,5 +1,5 @@
 $('.carousel-perfect-for-all').owlCarousel({
-    loop:false,
+    loop:true,
     center: true,
     margin:10,
     nav:false,

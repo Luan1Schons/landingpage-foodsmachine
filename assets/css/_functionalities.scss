@@ -8,4 +8,59 @@
                 margin: 5px;
             }
         }
+
+        .integrations {
+            .card {
+                padding: 80px 30px;
+                background-color: #FCFCFC;
+                border: solid 4px #fff;
+                border-radius: 40px;
+            }
+            .line {
+                border: solid 2px #f7f7f7;
+                margin: 80px 0px;
+            }
+
+            .coming-soon {
+                h3 {
+                    font-size: 23px;
+                    color: #E1E2E1;
+                    margin: auto;
+                    font-family: 'FuturaBk', Arial, sans-serif;
+                    b {
+                        font-family: 'TheFontBold', Arial, sans-serif;
+                    }
+                }
+            }
+        }
+
+        .benefits {
+            .card {
+                padding: 40px 0px;
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            li {
+                &::before {
+                    content: "•"; 
+                    color: #D8D8D8;
+                    display: inline-block; 
+                    width: 1em;
+                    margin-left: -1em}
+            }
+
+            .title {
+                h4 {
+                    font-size: 18px;
+                    font-family: 'TheFontBold', Arial, sans-serif;
+                }
+
+                .icon {
+                    width: 35px;
+                }
+            }
+        }
 }
