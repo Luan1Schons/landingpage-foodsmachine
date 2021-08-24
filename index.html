@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="assets\js\owl\assets\owl.carousel.min.css">
   <link rel="stylesheet" href="assets\js\owl\assets\owl.theme.libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCqdefault.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -32,7 +33,7 @@
               <a class="nav-link active" aria-current="page" href="#">FUNCIONALIDADES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">MONTE SEU PLANO <img class="nav-item-heart"
+              <a class="nav-link" href="#monte-seu-plano">MONTE SEU PLANO <img class="nav-item-heart"
                   src="assets/imgs/svgs/heart.svg" /></a>
             </li>
             <li class="nav-item">
@@ -176,11 +177,11 @@
                           <div class="d-flex justify-content-center">
                             <div class="selected-modules mt-4">MÓDULOS <b>SELECIONADOS</b></div>
                           </div>
-          
+
                           <div class="container">
                             <div class="col-md-12">
                               <div class="row add-modules">
-          
+
                                 <div class="col-md-6">
                                   <div class="card">
                                     <div class="card-body">
@@ -188,11 +189,11 @@
                                         <div class="col-md-2 svg-black">
                                           <img src="assets/imgs/svgs/modules/my-site-delivery.svg" class="icon" />
                                         </div>
-          
+
                                         <div class="col-md-6 col-sm-12 mb-3">
                                           <h3>MEU SITE DELIVERY</h3>
                                         </div>
-          
+
                                         <div class="col-md-4 d-flex justify-content-center mt-2">
                                           <div class="switch">
                                             <input id="one" class="input" type="checkbox" />
@@ -203,7 +204,7 @@
                                     </div>
                                   </div>
                                 </div>
-          
+
                                 <div class="col-md-6 col-sm-12 mb-3">
                                   <div class="card">
                                     <div class="card-body">
@@ -211,11 +212,11 @@
                                         <div class="col-md-2 svg-black">
                                           <img src="assets/imgs/svgs/modules/agendamento.svg" class="icon" />
                                         </div>
-          
+
                                         <div class="col-md-6">
                                           <h3>AGENDAMENTO</h3>
                                         </div>
-          
+
                                         <div class="col-md-4 d-flex justify-content-center mt-2">
                                           <div class="switch">
                                             <input id="one" class="input" type="checkbox" />
@@ -226,7 +227,7 @@
                                     </div>
                                   </div>
                                 </div>
-          
+
                               </div>
                             </div>
                           </div>
@@ -245,26 +246,26 @@
                               <p>POR 3 MESES</p>
                             </div>
                           </div>
-          
+
                         </div>
                         <div class="col-md-8 col-sm-12 col-12">
                           <div class="card black">
                             <div class="card-body">
                               <div class="discount">
-          
+
                                 <div class="col-md-12 col-sm-12">
                                   <b>TOTAL</b>
                                 </div>
-          
+
                                 <div class="col-md-12 col-sm-12 d-flex flex-wrap">
                                   <div class="line-discount" style="color: red;text-decoration:line-through">
                                     <h1 style="color: #fff;">R$63,55</h1>
                                   </div>
                                   <span>Mensais</span>
                                 </div>
-          
+
                               </div>
-          
+
                               <div class="price">
                                 <div class="col-md-12 col-sm-12">
                                   <div class="d-flex flex-wrap">
@@ -279,14 +280,14 @@
                         </div>
                       </div>
                     </div>
-          
+
                     <div class="payments-types">
                       <div class="container">
                         <div class="col-md-12 col-sm-12 mt-4">
-          
+
                           <div class="payments-method mt-5 mb-5">
                             <img src="assets/imgs/svgs/payments.svg" width="85%" />
-                          </div>         
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -387,7 +388,7 @@
   <!-- container -->
   <div class="container col-lg-12 col-sm-12">
 
-    <section class="youtube-video">
+    <section class="youtube-video" data-aos="fade-up">
 
       <div class="youtube-presentation">
 
@@ -404,7 +405,7 @@
   </div>
   </section>
 
-  <section class="perfect-for-all">
+  <section class="perfect-for-all" data-aos="fade-up">
 
     <div class="col-md-12 col-sm-12">
       <div class="title d-flex justify-content-center">
@@ -417,28 +418,111 @@
         <div class="card perfect-for-all-card">
           <div class="owl-carousel owl-theme carousel-perfect-for-all justify-content-center">
 
-            <div class="item d-flex justify-content-center">
-              <div class="icon mr-2 mt-2">
-                <img src="assets/imgs/perfect-for-all/marmita.png" />
+              <div class="item d-flex align-items-center justify-content-center mt-3">
+                <img class="icon me-2" width="50" src="assets/imgs/svgs/slide/marmitaria-fit.svg" />
+                <h3>MARMITARIA</h3>
               </div>
-              <h3>MARMITARIA</h3>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" width="50" src="assets/imgs/svgs/slide/restaurante.svg" />
+                <h3>RESTAURANTE</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" width="50" src="assets/imgs/svgs/slide/pizzaria.svg" />
+                <h3>PIZZARIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/hamburgueria.svg" />
+                <h3>HAMBURGUERIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/churrascaria.svg" />
+                <h3>CHURRASCARIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/temakeria.svg" />
+                <h3>TEMAKERIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/foodtruck.svg" />
+                <h3>FOOD TRUCK</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/churros.svg" />
+                <h3>CHURROS</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/fastfood.svg" />
+                <h3>FAST FOOD</h3>
+              </div>
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/sorveteria.svg" />
+                <h3>SORVETERIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/acaiteria.svg" />
+                <h3>AÇAITERIA</h3>
+              </div>
+              
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/barzinho.svg" />
+                <h3>BARZINHO</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/adegas.svg" />
+                <h3>ADEGAS</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/choperia.svg" />
+                <h3>CHOPERIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/frutos-do-mar.svg" />
+                <h3>FRUTOS DO MAR</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/esfirraria.svg" />
+                <h3>ESFIRRARIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/salgados-e-doces.svg" />
+                <h3>SALGADOS E DOCÊS</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/hortifrute.svg" />
+                <h3>HORTIFRUTE</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/creperia.svg" />
+                <h3>CREPERIA</h3>
+              </div>
+              
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <img class="icon me-2" src="assets/imgs/svgs/slide/dogueria.svg" />
+                <h3>DOGUERIA</h3>
+              </div>
+
+              <div class="item d-flex align-items-center  justify-content-center mt-3">
+                <h3>E MUITO MAIS...</h3>
+              </div>
+
             </div>
 
-            <div class="item d-flex justify-content-center">
-              <div class="icon mr-2 mt-2">
-                <img src="assets/imgs/perfect-for-all/marmita.png" />
-              </div>
-              <h3>PIZZARIA</h3>
-            </div>
-
-            <div class="item d-flex justify-content-center">
-              <div class="icon mr-2 mt-2">
-                <img src="assets/imgs/perfect-for-all/marmita.png" />
-              </div>
-              <h3>HAMBURGUERIA</h3>
-            </div>
-
-          </div>
         </div>
       </div>
     </div>
@@ -447,21 +531,21 @@
   <section class="steps">
 
     <div class="peoples d-flex">
-      <div class="item">
+      <div class="item" data-aos="fade-up">
         <img src="assets/imgs/svgs/people-1.svg" />
       </div>
 
-      <div class="item">
+      <div class="item" data-aos="fade-up">
         <img src="assets/imgs/svgs/people-2.svg" />
       </div>
 
-      <div class="item">
+      <div class="item" data-aos="fade-up">
         <img src="assets/imgs/svgs/people-3.svg" />
       </div>
     </div>
     <div class="content">
 
-      <div class="cloud">
+      <div class="cloud" data-aos="fade-right">
         <img src="assets/imgs/svgs/clouds.svg" />
       </div>
 
@@ -473,7 +557,7 @@
         <div class="container">
           <div class="row">
 
-            <div class="col-md-2 step">
+            <div class="col-md-2 step" data-aos="fade-right">
               <h1 class="text-center">1º</h1>
               <div class="card">
                 <div class="card-body">
@@ -486,7 +570,7 @@
               <div class="hifens">---------</div>
             </div>
 
-            <div class="col-md-3 step">
+            <div class="col-md-3 step" data-aos="fade-right">
               <h1 class="text-center">2º</h1>
               <div class="card">
                 <div class="card-body text-center">
@@ -500,7 +584,7 @@
               <div class="hifens">---------</div>
             </div>
 
-            <div class="col-md-3 step">
+            <div class="col-md-3 step" data-aos="fade-right">
               <h1 class="text-center">3º</h1>
               <div class="card">
                 <div class="card-body text-center">
@@ -538,7 +622,7 @@
       <div class="button-details col-md-12 col-sm-12 text-center">
         <p class="title">CLIQUE ABAIXO PARA VER</p>
         <button class="btn btn-red-functionalities text-align center" data-bs-toggle="collapse" href="#functionalities"
-          role="button" aria-expanded="false" aria-controls="functionalities">VER TODAS AS <b> FUNCIONALIDADES!</b> <i
+          role="button" aria-expanded="false" aria-controls="functionalities" data-aos="fade-up">VER TODAS AS <b> FUNCIONALIDADES!</b> <i
             class="fas fa-sort-down ml-4"></i></button>
       </div>
 
@@ -1007,7 +1091,36 @@
   </section>
 
   <section class="mount-your-plan">
-    <div class="brands d-flex justify-content-center">
+    <div class="brands d-flex justify-content-center" data-aos="fade-up" data-aos-duration="7000">
+
+      <div class="ifood" data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
+        <img src="assets/imgs/svgs/modules/integrations/ifood.svg"/>
+      </div>
+
+      <div class="aiqfome" data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
+        <img src="assets/imgs/svgs/modules/integrations/aiqfome.svg"/>
+      </div>
+
+      <div class="deliverymuch" data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
+        <img src="assets/imgs/svgs/modules/integrations/deliverymuch.svg"/>
+      </div>
+
+      <div class="ubereats" data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
+        <img src="assets/imgs/svgs/modules/integrations/ubereats.svg"/>
+      </div>
+
+      <div class="rappi" data-aos="fade-up"
+      data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
+        <img src="assets/imgs/svgs/modules/integrations/rappi.svg"/>
+      </div>
+
+
+  
+
       <img src="assets/imgs/brands.png" />
     </div>
     <div class="col-md-12 p-3">
@@ -1022,7 +1135,7 @@
               <span class="tiny">ESTAMOS AQUI PARA TE AJUDAR A CRESCER</span>
             </div>
 
-            <div class="col-md-6 offset-md-3 mount">
+            <div class="col-md-6 offset-md-3 mount" id="monte-seu-plano" data-aos="fade-up">
               <img src="assets/imgs/svgs/mount-your-plan.svg" class="mount-image" width="95%" />
               <div class="card gradient">
 
@@ -2278,6 +2391,10 @@
   <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/owl/owl.carousel.min.js"></script>
   <script src="assets/js/app.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

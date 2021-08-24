@@ -327,6 +327,10 @@ body::-webkit-scrollbar-thumb {
   font-size: 31px;
 }
 
+.register .modal-dialog .modal-content .payments-method {
+  text-align: center;
+}
+
 .btn-purple {
   background-color: #592b65;
   border: solid 2px #672978;
@@ -698,12 +702,15 @@ body::-webkit-scrollbar-thumb {
   display: none !important;
 }
 
-.perfect-for-all .perfect-for-all-card .owl-carousel .item .icon {
-  padding: 3px;
-  margin-right: 20px;
+.perfect-for-all .perfect-for-all-card .owl-carousel .item {
+  margin: auto;
 }
 
-.perfect-for-all .perfect-for-all-card h3 {
+.perfect-for-all .perfect-for-all-card .owl-carousel .item img {
+  width: 50px;
+}
+
+.perfect-for-all .perfect-for-all-card .owl-carousel .item h3 {
   font-size: 35px;
   font-weight: 300;
 }
@@ -932,9 +939,75 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .brands img {
-  width: 85%;
+  width: 75%;
   height: 100%;
   display: block;
+}
+
+.mount-your-plan .brands .ifood {
+  position: absolute;
+  margin: 75px 580px 0px 0px;
+}
+
+.mount-your-plan .brands .ifood img {
+  width: 90px;
+  height: 93px;
+}
+
+.mount-your-plan .brands .aiqfome {
+  position: absolute;
+  margin: 320px 1325px 0px 0px;
+}
+
+.mount-your-plan .brands .aiqfome img {
+  width: 112px;
+  height: 112px;
+  -webkit-transform: rotate(-14deg);
+          transform: rotate(-14deg);
+  -webkit-transform-origin: left top 0;
+          transform-origin: left top 0;
+}
+
+.mount-your-plan .brands .deliverymuch {
+  position: absolute;
+  margin: 0px -230px 0px 0px;
+}
+
+.mount-your-plan .brands .deliverymuch img {
+  width: 115px;
+  height: 115px;
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+  -webkit-transform-origin: left top 0;
+          transform-origin: left top 0;
+}
+
+.mount-your-plan .brands .ubereats {
+  position: absolute;
+  margin: 305px 315px 0px 0px;
+}
+
+.mount-your-plan .brands .ubereats img {
+  width: 115px;
+  height: 115px;
+  -webkit-transform: rotate(8deg);
+          transform: rotate(8deg);
+  -webkit-transform-origin: left top 0;
+          transform-origin: left top 0;
+}
+
+.mount-your-plan .brands .rappi {
+  position: absolute;
+  margin: 106px -822px 0px 0px;
+}
+
+.mount-your-plan .brands .rappi img {
+  width: 115px;
+  height: 115px;
+  -webkit-transform: rotate(6deg);
+          transform: rotate(6deg);
+  -webkit-transform-origin: left top 0;
+          transform-origin: left top 0;
 }
 
 .mount-your-plan .card {

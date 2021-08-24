@@ -4,10 +4,64 @@
     .brands{
         margin-bottom: -21rem;
         img{
-            width: 85%;
+            width: 75%;
             height: 100%;
             display: block;
         }
+
+        .ifood {
+            position: absolute;
+            margin:75px 580px 0px 0px;
+            img {
+                width: 90px;
+                height: 93px;
+            }
+        }
+
+        .aiqfome {
+            position: absolute;
+            margin: 320px 1325px 0px 0px;
+            img {
+                width: 112px;
+                height: 112px;
+                transform: rotate(-14deg);
+                transform-origin: left top 0;
+            }
+        }
+
+        .deliverymuch {
+            position: absolute;
+            margin: 0px -230px 0px 0px;
+            img {
+                width: 115px;
+                height: 115px;
+                transform: rotate(2deg);
+                transform-origin: left top 0;
+            }
+        }
+
+        .ubereats {
+            position: absolute;
+            margin: 305px 315px 0px 0px;
+            img {
+                width: 115px;
+                height: 115px;
+                transform: rotate(8deg);
+                transform-origin: left top 0;
+            }
+        }
+
+        .rappi {
+            position: absolute;
+            margin: 106px -822px 0px 0px;
+            img {
+                width: 115px;
+                height: 115px;
+                transform: rotate(6deg);
+                transform-origin: left top 0;
+            }
+        }
+
     }
 
 
