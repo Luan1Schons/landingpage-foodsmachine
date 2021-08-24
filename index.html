@@ -41,46 +41,298 @@
           </ul>
           <form class="d-flex flex-wrap">
             <div class="header-buttons">
-              <button type="button" class="btn btn-purple" data-bs-toggle="modal" data-bs-target="#exampleModal">ENTRAR</button>
-              <a href="#" class="btn btn-red-glow" type="submit">INICIE SEU TESTE GRÁTIS DE <b>15</b> DIAS</a>
+              <button type="button" class="btn btn-purple" data-bs-toggle="modal"
+                data-bs-target="#login">ENTRAR</button>
+              <button type="button" class="btn btn-red-glow" data-bs-toggle="modal" data-bs-target="#register">INICIE
+                SEU TESTE GRÁTIS DE <b>15</b> DIAS</button>
             </div>
           </form>
         </div>
       </div>
     </nav>
 
-    <!-- Modal -->
-    <div class="modal fade login-md w-100 h-100" id="exampleModal" tabindex="-1" aria-labelledby="Login" aria-hidden="true">
-      <div class="modal-dialog modal-xl" style="max-width: 100%;">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <div class="content">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="card">
-                    <div class="card-body d-flex justify-content-between">
-                        <form class="form col-md-12">
+    <!-- Modal Registro -->
+    <div class="register">
+      <div class="modal fade" id="register" tabindex="-1" aria-labelledby="register" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
 
-                          <div class="form-group mb-4">
-                            <label for="exampleInputEmail1"><b>EMAIL</b></label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          </div>
-                          <div class="form-group">
-                            <label for="exampleInputPassword1"><b>SENHA</b></label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
-                          </div>
-                          <div class="form-group reset-password">
-                            <label class="d-flex justify-content-center mt-1"><a href="#">ESQUECI A SENHA</a></label>
-                          </div>
-                          <div class="col-md-12 d-flex justify-content-center">
-                            <button type="submit" class="btn btn-login btn-block mt-4 w-50">ENTRAR</button>
-                          </div>
-                        </form>
+              <h5 class="modal-title text-center" id="register">CADASTRE SUA <span>EMPRESA</span> <img class="heart"
+                  width="35" src="assets/imgs/svgs/heart.svg" /></h5>
+
+
+              <div class="container">
+                <form>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">NOME DA LOJA</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
                     </div>
-                  </div>  
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">www.foodsmachine.com.br/</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="col-md-3">
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">CEP</label>
+                          <input type="text" class="form-control" id="exampleInputPassword1">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">CIDADE</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">ESTADO</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">BAIRRO</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">RUA</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Nº</label>
+                        <input type="number" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </div>
+
+                    <div class="line"></div>
+
+                    <div class="col-md-4">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">NOME</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </div>
+
+                    <div class="col-md-8">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">SOBRENOME</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </div>
+
+                    <div class="col-md-8">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">EMAIL</label>
+                        <input type="email" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">TELEFONE OU WHATSAPP</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">SENHA</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">REPITA A SENHA</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    </div>
+
+
+
+                    <div class="col-md-12 mt-4 modules-selected mt-4">
+                      <div class="card">
+                        <div class="body">
+                          <div class="d-flex justify-content-center">
+                            <div class="selected-modules mt-4">MÓDULOS <b>SELECIONADOS</b></div>
+                          </div>
+          
+                          <div class="container">
+                            <div class="col-md-12">
+                              <div class="row add-modules">
+          
+                                <div class="col-md-6">
+                                  <div class="card">
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-2 svg-black">
+                                          <img src="assets/imgs/svgs/modules/my-site-delivery.svg" class="icon" />
+                                        </div>
+          
+                                        <div class="col-md-6 col-sm-12 mb-3">
+                                          <h3>MEU SITE DELIVERY</h3>
+                                        </div>
+          
+                                        <div class="col-md-4 d-flex justify-content-center mt-2">
+                                          <div class="switch">
+                                            <input id="one" class="input" type="checkbox" />
+                                            <label for="one" class="slider"></label>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+          
+                                <div class="col-md-6 col-sm-12 mb-3">
+                                  <div class="card">
+                                    <div class="card-body">
+                                      <div class="row">
+                                        <div class="col-md-2 svg-black">
+                                          <img src="assets/imgs/svgs/modules/agendamento.svg" class="icon" />
+                                        </div>
+          
+                                        <div class="col-md-6">
+                                          <h3>AGENDAMENTO</h3>
+                                        </div>
+          
+                                        <div class="col-md-4 d-flex justify-content-center mt-2">
+                                          <div class="switch">
+                                            <input id="one" class="input" type="checkbox" />
+                                            <label for="one" class="slider"></label>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12 mt-4 sell-showcase">
+                      <div class="row equal">
+                        <div class="col-md-4 col-sm-12 col-12">
+                          <div class="card green">
+                            <div class="card-body">
+                              <h1>TESTE DE 15 DIAS GRÁTIS</h1>
+                              <h1>+</h1>
+                              <h2>15% OFF</h2>
+                              <p>POR 3 MESES</p>
+                            </div>
+                          </div>
+          
+                        </div>
+                        <div class="col-md-8 col-sm-12 col-12">
+                          <div class="card black">
+                            <div class="card-body">
+                              <div class="discount">
+          
+                                <div class="col-md-12 col-sm-12">
+                                  <b>TOTAL</b>
+                                </div>
+          
+                                <div class="col-md-12 col-sm-12 d-flex flex-wrap">
+                                  <div class="line-discount" style="color: red;text-decoration:line-through">
+                                    <h1 style="color: #fff;">R$63,55</h1>
+                                  </div>
+                                  <span>Mensais</span>
+                                </div>
+          
+                              </div>
+          
+                              <div class="price">
+                                <div class="col-md-12 col-sm-12">
+                                  <div class="d-flex flex-wrap">
+                                    <h1>R$54,01</h1>
+                                    <span>Mensais</span>
+                                  </div>
+                                  <h2>POR 3 MESES</h2>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          
+                    <div class="payments-types">
+                      <div class="container">
+                        <div class="col-md-12 col-sm-12 mt-4">
+          
+                          <div class="payments-method mt-5 mb-5">
+                            <img src="assets/imgs/svgs/payments.svg" width="85%" />
+                          </div>         
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-gradient"><b>FINALIZAR CADASTRO</b></button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Login -->
+  <div class="modal fade login-md w-100 h-100" id="login" tabindex="-1" aria-labelledby="Login" aria-hidden="true">
+    <div class="modal-dialog modal-xl" style="max-width: 100%;">
+      <div class="modal-content">
+        <div class="modal-header position-absolute top-0 end-0">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="content">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body d-flex justify-content-between">
+                    <form class="form col-md-12">
+
+                      <div class="form-group mb-4">
+                        <label for="exampleInputEmail1"><b>EMAIL</b></label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1"><b>SENHA</b></label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="form-group reset-password">
+                        <label class="d-flex justify-content-center mt-1"><a href="#">ESQUECI A SENHA</a></label>
+                      </div>
+                      <div class="col-md-12 d-flex justify-content-center">
+                        <button type="submit" class="btn btn-login btn-block mt-4 w-50">ENTRAR</button>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
             </div>
@@ -88,47 +340,48 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="offset-md-6 col-md-6 align-middle">
+  <div class="offset-md-6 col-md-6 align-middle">
 
-      <div class="header-card">
+    <div class="header-card">
 
-        <h2>MUITO MAIS QUE UM SISTEMA</h2>
-        <h1>PARA DELIVERY</h1>
+      <h2>MUITO MAIS QUE UM SISTEMA</h2>
+      <h1>PARA DELIVERY</h1>
 
-        <div class="card">
-          <div class="card-body">
-            <p> <b>ACABOU</b> aqui! a necessidade de ter um sistema para cada coisa,
-              Tenha seu site de delivery próprio, e um sistema completo, que ajuda sua empresa
-              a crescer e se organizar, e além disso tenha acesso as principais integrações
-              com os maiores marketplaces do mercado, aqui você tem o <b>PODER</b>! <b>AQUI VOCÊ TEM FOODS MACHINE!</b>
-            </p>
+      <div class="card">
+        <div class="card-body">
+          <p> <b>ACABOU</b> aqui! a necessidade de ter um sistema para cada coisa,
+            Tenha seu site de delivery próprio, e um sistema completo, que ajuda sua empresa
+            a crescer e se organizar, e além disso tenha acesso as principais integrações
+            com os maiores marketplaces do mercado, aqui você tem o <b>PODER</b>! <b>AQUI VOCÊ TEM FOODS MACHINE!</b>
+          </p>
+        </div>
+      </div>
+
+      <div class="info-apps">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="assets/imgs/apps/google-play.png" alt="Google Play" />
+          </div>
+
+          <div class="col-md-3">
+            <img src="assets/imgs/apps/appstore.png" alt="App Store" />
+          </div>
+
+          <div class="col-md-3">
+            <img src="assets/imgs/apps/web.png" alt="Web" />
+          </div>
+
+          <div class="col-md-3">
+            <img src="assets/imgs/apps/windows.png" alt="Windows" />
           </div>
         </div>
-
-        <div class="info-apps">
-          <div class="row">
-            <div class="col-md-3">
-              <img src="assets/imgs/apps/google-play.png" alt="Google Play" />
-            </div>
-
-            <div class="col-md-3">
-              <img src="assets/imgs/apps/appstore.png" alt="App Store" />
-            </div>
-
-            <div class="col-md-3">
-              <img src="assets/imgs/apps/web.png" alt="Web" />
-            </div>
-
-            <div class="col-md-3">
-              <img src="assets/imgs/apps/windows.png" alt="Windows" />
-            </div>
-          </div>
-        </div>
-
       </div>
 
     </div>
+
+  </div>
 
   </div>
   <!-- container -->

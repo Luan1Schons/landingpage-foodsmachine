@@ -1,0 +1,173 @@
+.register {
+    .modal-dialog {
+        .modal-content {
+            border-radius: 45px;
+
+            .modal-header {
+                display: flex;
+                flex-shrink: 0;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0rem 0rem;
+                border-bottom: none;
+                border-top-left-radius: calc(0.3rem - 1px);
+                border-top-right-radius: calc(0.3rem - 1px);
+
+                .btn-close {
+                    z-index: 9999;
+                    background-color: white;
+                    padding: 30px;
+                    border-radius: 45px;
+                    opacity: initial;
+                    -webkit-box-shadow: -1px 6px 10px 1px #00000029;
+                    box-shadow: -1px 6px 10px 1px #00000029;
+                }
+            }
+
+            .modal-body {
+                .modal-title {
+                    font-size: 20px;
+                    font-family: "FuturaBk", Arial, sans-serif;
+                    span {
+                        font-family: "TheFontBold", Arial, sans-serif;
+                    }
+                }
+
+                .container {
+                    padding: 0px 50px;
+                }
+
+                .line {
+                    margin: 80px 0px 80px 0px;
+                    border: solid 2px #f7f7f7;
+                }
+
+                .form-label {
+                    font-size: 17px;
+                    font-family: "FuturaBk", Arial, sans-serif;
+                }
+
+                .form-control {
+                    background-color: #fff;
+                    border: none;
+                    padding: 0px;
+                    border-radius: 35px;
+                    -webkit-box-shadow: -1px 6px 10px 1px #00000029;
+                    box-shadow: -1px 6px 10px 1px #00000029;
+                }
+
+                .modules-selected {
+                    .card {
+                        border-radius: 45px;
+                        border: solid 3px #fff;
+                        background-color: #fff;
+                        webkit-box-shadow: 0px 1px 9px -4px #a79696;
+                        box-shadow: -5px 4px 9px -4px #a79696;
+                    }
+                    .selected-modules {
+                        background-color: #000000;
+                        padding: 10px 40px;
+                        border-radius: 35px;
+                        font-size: 24px;
+                        color: #fff;
+                        font-family: "FuturaBk", Arial, sans-serif;
+                        b {
+                            font-family: "TheFontBold", Arial, sans-serif;
+                        }
+                    }
+
+                    .add-modules {
+                        margin-top: 80px;
+                        margin-bottom: 60px;
+                        .card {
+                            border-radius: 25px;
+                            border: solid 3px #fff;
+                            background-color: #fff;
+                            webkit-box-shadow: -2px 5px 9px -4px #a79696;
+                            box-shadow: -2px 5px 9px -4px #a79696;
+                        }
+                        h3 {
+                            font-family: "TheFontBold", Arial, sans-serif;
+                            font-size: 29px;
+                        }
+                    }
+                }
+            }
+
+            .sell-showcase {
+                .card {
+                    border-radius: 45px;
+                    height: 100%;
+                }
+                .green {
+                    background-color: #0BD877;
+
+                    text-align: center;
+        
+                    h1 { 
+                        font-size:  #{"min(46px, 6vw)"};
+                        font-family: 'TheFontBold', Arial, sans-serif;
+                    }
+        
+                    h2 { 
+                        font-size: #{"min(46px, 6vw)"};
+                        font-family: 'TheFontBold', Arial, sans-serif;
+                    }
+                    p {
+                        font-family: 'FuturaBk', Arial, sans-serif;
+                        font-size: 40px;
+                    }
+                }
+        
+                .black{
+                    background-color: #000000;
+                    border: solid 5px #212121;
+                    -webkit-box-shadow: 0px 1px 8px -4px #000000;
+                    box-shadow: 0px 1px 8px -4px #000000;
+                    padding: 25px 55px;
+        
+                    .discount {
+                        text-align: left;
+                        font-family: 'TheFontBold', Arial, sans-serif;
+                        color: #fff;
+                        h1 {
+                            font-size: #{"min(68px, 10vw)"};
+                        }
+                    
+                        span {
+                            font-size: 17px;
+                            position: relative;
+                            top: 45px;
+                        }
+                        b{
+                            font-size: 25px;
+                        }
+                    }
+        
+                    .price {
+                        text-align: left;
+                        font-family: 'TheFontBold', Arial, sans-serif;
+                        color: #fff;
+        
+                        h1 {
+                            color: #0AD875;
+                            font-size: #{"min(100px, 14vw)"};
+                        }
+        
+                        h2 {
+                            
+                            font-size: #{"min(65px, 10vw)"};
+                            font-family: 'FuturaBk', Arial, sans-serif;
+                        }
+        
+                        span {
+                            top: 60px;
+                            position: relative;
+                            font-size: 31px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

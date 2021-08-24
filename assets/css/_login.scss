@@ -1,27 +1,27 @@
 .login-md {
     .modal-dialog {
+        border-radius: none;
         margin: 0px;
+        padding: 0px;
         height: 100%;
         .modal-content {
             background: rgba(0, 0, 0, 0);
-            background-image: url(https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/bg-header.png);
-            background-position: center top;
-            background-size: 100% 100%;
-            padding: 0px 90px;
+            background-image: url(https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/bg-login.png);
             .modal-header {
+                z-index: 9999;
                 display: flex;
                 flex-shrink: 0;
                 align-items: center;
                 justify-content: space-between;
-                padding: 1rem 1rem;
                 border-bottom: none;
                 border-top-left-radius: calc(0.3rem - 1px);
                 border-top-right-radius: calc(0.3rem - 1px);
-
+                margin: 0px;
                 .btn-close {
                     background-color: white;
                     padding: 20px;
                     border-radius: 45px;
+                    opacity: initial;
                 }
             }
 
@@ -67,7 +67,7 @@
             }
             .card-body {
                 padding: 160px 110px;
-                height: 850px;
+                height: 930px;
             }
         }
     }

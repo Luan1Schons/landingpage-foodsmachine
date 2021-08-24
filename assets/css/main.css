@@ -71,19 +71,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 .login-md .modal-dialog {
+  border-radius: none;
   margin: 0px;
+  padding: 0px;
   height: 100%;
 }
 
 .login-md .modal-dialog .modal-content {
   background: rgba(0, 0, 0, 0);
-  background-image: url(https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/bg-header.png);
-  background-position: center top;
-  background-size: 100% 100%;
-  padding: 0px 90px;
+  background-image: url(https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/bg-login.png);
 }
 
 .login-md .modal-dialog .modal-content .modal-header {
+  z-index: 9999;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,16 +95,17 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 1rem 1rem;
   border-bottom: none;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
+  margin: 0px;
 }
 
 .login-md .modal-dialog .modal-content .modal-header .btn-close {
   background-color: white;
   padding: 20px;
   border-radius: 45px;
+  opacity: initial;
 }
 
 .login-md .modal-dialog .modal-content .form {
@@ -143,7 +144,187 @@ body::-webkit-scrollbar-thumb {
 
 .login-md .modal-dialog .content .card-body {
   padding: 160px 110px;
-  height: 850px;
+  height: 930px;
+}
+
+.register .modal-dialog .modal-content {
+  border-radius: 45px;
+}
+
+.register .modal-dialog .modal-content .modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0rem 0rem;
+  border-bottom: none;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.register .modal-dialog .modal-content .modal-header .btn-close {
+  z-index: 9999;
+  background-color: white;
+  padding: 30px;
+  border-radius: 45px;
+  opacity: initial;
+  -webkit-box-shadow: -1px 6px 10px 1px #00000029;
+  box-shadow: -1px 6px 10px 1px #00000029;
+}
+
+.register .modal-dialog .modal-content .modal-body .modal-title {
+  font-size: 20px;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.register .modal-dialog .modal-content .modal-body .modal-title span {
+  font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.register .modal-dialog .modal-content .modal-body .container {
+  padding: 0px 50px;
+}
+
+.register .modal-dialog .modal-content .modal-body .line {
+  margin: 80px 0px 80px 0px;
+  border: solid 2px #f7f7f7;
+}
+
+.register .modal-dialog .modal-content .modal-body .form-label {
+  font-size: 17px;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.register .modal-dialog .modal-content .modal-body .form-control {
+  background-color: #fff;
+  border: none;
+  padding: 0px;
+  border-radius: 35px;
+  -webkit-box-shadow: -1px 6px 10px 1px #00000029;
+  box-shadow: -1px 6px 10px 1px #00000029;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .card {
+  border-radius: 45px;
+  border: solid 3px #fff;
+  background-color: #fff;
+  webkit-box-shadow: 0px 1px 9px -4px #a79696;
+  -webkit-box-shadow: -5px 4px 9px -4px #a79696;
+          box-shadow: -5px 4px 9px -4px #a79696;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .selected-modules {
+  background-color: #000000;
+  padding: 10px 40px;
+  border-radius: 35px;
+  font-size: 24px;
+  color: #fff;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .selected-modules b {
+  font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .card {
+  border-radius: 25px;
+  border: solid 3px #fff;
+  background-color: #fff;
+  webkit-box-shadow: -2px 5px 9px -4px #a79696;
+  -webkit-box-shadow: -2px 5px 9px -4px #a79696;
+          box-shadow: -2px 5px 9px -4px #a79696;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules h3 {
+  font-family: "TheFontBold", Arial, sans-serif;
+  font-size: 29px;
+}
+
+.register .modal-dialog .modal-content .sell-showcase .card {
+  border-radius: 45px;
+  height: 100%;
+}
+
+.register .modal-dialog .modal-content .sell-showcase .green {
+  background-color: #0BD877;
+  text-align: center;
+}
+
+.register .modal-dialog .modal-content .sell-showcase .green h1 {
+  font-size: min(46px, 6vw);
+  font-family: 'TheFontBold', Arial, sans-serif;
+}
+
+.register .modal-dialog .modal-content .sell-showcase .green h2 {
+  font-size: min(46px, 6vw);
+  font-family: 'TheFontBold', Arial, sans-serif;
+}
+
+.register .modal-dialog .modal-content .sell-showcase .green p {
+  font-family: 'FuturaBk', Arial, sans-serif;
+  font-size: 40px;
+}
+
+.register .modal-dialog .modal-content .sell-showcase .black {
+  background-color: #000000;
+  border: solid 5px #212121;
+  -webkit-box-shadow: 0px 1px 8px -4px #000000;
+  box-shadow: 0px 1px 8px -4px #000000;
+  padding: 25px 55px;
+}
+
+.register .modal-dialog .modal-content .sell-showcase .black .discount {
+  text-align: left;
+  font-family: 'TheFontBold', Arial, sans-serif;
+  color: #fff;
+}
+
+.register .modal-dialog .modal-content .sell-showcase .black .discount h1 {
+  font-size: min(68px, 10vw);
+}
+
+.register .modal-dialog .modal-content .sell-showcase .black .discount span {
+  font-size: 17px;
+  position: relative;
+  top: 45px;
+}
+
+.register .modal-dialog .modal-content .sell-showcase .black .discount b {
+  font-size: 25px;
+}
+
+.register .modal-dialog .modal-content .sell-showcase .black .price {
+  text-align: left;
+  font-family: 'TheFontBold', Arial, sans-serif;
+  color: #fff;
+}
+
+.register .modal-dialog .modal-content .sell-showcase .black .price h1 {
+  color: #0AD875;
+  font-size: min(100px, 14vw);
+}
+
+.register .modal-dialog .modal-content .sell-showcase .black .price h2 {
+  font-size: min(65px, 10vw);
+  font-family: 'FuturaBk', Arial, sans-serif;
+}
+
+.register .modal-dialog .modal-content .sell-showcase .black .price span {
+  top: 60px;
+  position: relative;
+  font-size: 31px;
 }
 
 .btn-purple {
@@ -237,7 +418,7 @@ body::-webkit-scrollbar-thumb {
   border: solid 2px #fe043c;
   border-radius: 13px;
   color: #fff;
-  padding: 6px 25px;
+  padding: 10px 25px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
