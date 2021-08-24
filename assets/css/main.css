@@ -70,6 +70,82 @@ body::-webkit-scrollbar-thumb {
   margin-right: 77px;
 }
 
+.login-md .modal-dialog {
+  margin: 0px;
+  height: 100%;
+}
+
+.login-md .modal-dialog .modal-content {
+  background: rgba(0, 0, 0, 0);
+  background-image: url(https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/bg-header.png);
+  background-position: center top;
+  background-size: 100% 100%;
+  padding: 0px 90px;
+}
+
+.login-md .modal-dialog .modal-content .modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 1rem;
+  border-bottom: none;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.login-md .modal-dialog .modal-content .modal-header .btn-close {
+  background-color: white;
+  padding: 20px;
+  border-radius: 45px;
+}
+
+.login-md .modal-dialog .modal-content .form {
+  margin: auto;
+}
+
+.login-md .modal-dialog .modal-content .form label {
+  font-size: 19px;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.login-md .modal-dialog .modal-content .form .reset-password label {
+  font-family: "TheFontBold", Arial, sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+.login-md .modal-dialog .modal-content .form .reset-password label a {
+  text-decoration: none;
+  color: black;
+}
+
+.login-md .modal-dialog .modal-content .form .form-group .form-control {
+  background-color: #EFEFEF;
+  border: none;
+  padding: 5px;
+  border-radius: 35px;
+  -webkit-box-shadow: -5px 4px 9px -4px #00000029;
+  box-shadow: -5px 4px 9px -4px #00000029;
+}
+
+.login-md .modal-dialog .content .card {
+  border-radius: 45px;
+  width: 94%;
+}
+
+.login-md .modal-dialog .content .card-body {
+  padding: 160px 110px;
+  height: 850px;
+}
+
 .btn-purple {
   background-color: #592b65;
   border: solid 2px #672978;
@@ -154,6 +230,29 @@ body::-webkit-scrollbar-thumb {
 
 .btn-red-modules b {
   font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.btn-login {
+  background-color: #fe043c;
+  border: solid 2px #fe043c;
+  border-radius: 13px;
+  color: #fff;
+  padding: 6px 25px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  -webkit-box-shadow: inset 0px 3px 3px -4px #000000;
+  box-shadow: inset 0px 3px 3px -4px #000000;
+  font-size: 19px;
+  font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.btn-login:hover {
+  color: #fff;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
 }
 
 .btn-red-help {
@@ -697,6 +796,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .mount .gradient {
+  height: 60rem;
   border-radius: 40px;
   background: #3d0547;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(32%, #3d0547), color-stop(53%, #4c0844), color-stop(72%, #6a0d3f), color-stop(86%, #961437), to(#f62524));

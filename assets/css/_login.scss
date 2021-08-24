@@ -1,0 +1,74 @@
+.login-md {
+    .modal-dialog {
+        margin: 0px;
+        height: 100%;
+        .modal-content {
+            background: rgba(0, 0, 0, 0);
+            background-image: url(https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/bg-header.png);
+            background-position: center top;
+            background-size: 100% 100%;
+            padding: 0px 90px;
+            .modal-header {
+                display: flex;
+                flex-shrink: 0;
+                align-items: center;
+                justify-content: space-between;
+                padding: 1rem 1rem;
+                border-bottom: none;
+                border-top-left-radius: calc(0.3rem - 1px);
+                border-top-right-radius: calc(0.3rem - 1px);
+
+                .btn-close {
+                    background-color: white;
+                    padding: 20px;
+                    border-radius: 45px;
+                }
+            }
+
+            .form {
+
+                margin: auto;
+
+                label {
+                    font-size: 19px;
+                    font-family: "FuturaBk", Arial, sans-serif;
+                }
+                .reset-password {
+                    label {
+                        font-family: "TheFontBold", Arial, sans-serif;
+                        text-align: center;
+                        font-size: 16px;
+
+                        a{
+                            text-decoration: none;
+                            color: black;
+                        }
+                    }
+                    
+                }
+
+                .form-group { 
+                    .form-control {
+                        background-color: #EFEFEF;
+                        border: none;
+                        padding: 5px;
+                        border-radius: 35px;
+                        -webkit-box-shadow: -5px 4px 9px -4px #00000029;
+                        box-shadow: -5px 4px 9px -4px #00000029;
+                    }
+                }
+            }
+        }
+
+        .content {
+            .card {
+                border-radius: 45px;
+                width: 94%
+            }
+            .card-body {
+                padding: 160px 110px;
+                height: 850px;
+            }
+        }
+    }
+}
