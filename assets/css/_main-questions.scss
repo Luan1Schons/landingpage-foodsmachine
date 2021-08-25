@@ -1,17 +1,11 @@
 .main-questions {
+
     margin-top: 0px;
     padding-bottom: 240px;
-    background-image: url("/assets/imgs/svgs/main-questions.svg");
-
-    .info-apps {
-        img {
-            width: 190px;
-        }
-    }
 
     .title {
         margin-top: 80px;
-        color: #fff;
+        color: #000;
         font-family: "FuturaBk", Arial, sans-serif;
         b {
             font-family: "TheFontBold", Arial, sans-serif;
@@ -21,7 +15,10 @@
     .card {
         border-radius: 35px;
         padding: 25px;
-        background-color: #F6F6F6;
+        background-color: #FBFBFB;
+        border: none;
+        -webkit-box-shadow: -2px 5px 9px -4px #a79696;
+        box-shadow: -2px 5px 9px -4px #a79696;
         h2 {
             font-size: 35px;
             font-family: "FuturaBk", Arial, sans-serif;

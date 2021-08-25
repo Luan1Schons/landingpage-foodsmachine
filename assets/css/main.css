@@ -212,6 +212,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .register .modal-dialog .modal-content .modal-body .modules-selected .card {
+  height: 100%;
+  width: 100%;
   border-radius: 45px;
   border: solid 3px #fff;
   background-color: #fff;
@@ -238,6 +240,32 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 60px;
 }
 
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .item {
+  padding: 10px;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .ticket {
+  padding: 20px 0px;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .ticket .card {
+  border-radius: 0px 25px 25px 0px;
+  border: none;
+  background-color: #EEECEC;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .ticket .card .card-body {
+  padding: 5px;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .ticket h3 {
+  font-family: 'TheFontBold', Arial, sans-serif;
+  font-size: 19px;
+  color: #8A8A8A;
+}
+
 .register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .card {
   border-radius: 25px;
   border: solid 3px #fff;
@@ -247,9 +275,17 @@ body::-webkit-scrollbar-thumb {
           box-shadow: -2px 5px 9px -4px #a79696;
 }
 
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .card .card-body {
+  padding: 0px;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules img {
+  width: 50px;
+}
+
 .register .modal-dialog .modal-content .modal-body .modules-selected .add-modules h3 {
-  font-family: "TheFontBold", Arial, sans-serif;
-  font-size: 29px;
+  font-family: 'TheFontBold', Arial, sans-serif;
+  font-size: 22px;
 }
 
 .register .modal-dialog .modal-content .sell-showcase .card {
@@ -278,10 +314,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .register .modal-dialog .modal-content .sell-showcase .black {
-  background-color: #000000;
-  border: solid 5px #212121;
-  -webkit-box-shadow: 0px 1px 8px -4px #000000;
-  box-shadow: 0px 1px 8px -4px #000000;
+  background: #520d5e;
+  background: linear-gradient(31deg, #520d5e 15%, #482f71 32%, #20bbbd 100%);
+  border: solid 5px #2B98AA;
   padding: 25px 55px;
 }
 
@@ -493,6 +528,34 @@ body::-webkit-scrollbar-thumb {
   font-size: 45px;
 }
 
+.btn-cian {
+  background: #20BBBD;
+  border: solid 3px #20BBBD;
+  border-radius: 20px;
+  color: #fff;
+  padding: 20px 55px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 3px 5px -4px #000000;
+  font-size: 38px;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.btn-cian:hover {
+  color: #fff;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.btn-cian b {
+  font-family: "TheFontBold", Arial, sans-serif;
+  font-size: 45px;
+}
+
 .btn-white {
   background: #fff;
   border-radius: 20px;
@@ -581,26 +644,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 .form-control {
-  display: block;
-  width: 100%;
-  padding: 1rem;
-  font-size: 35px;
-  /* font-weight: 400; */
-  /* line-height: 1.5; */
-  color: #D2D3D5;
-  text-align: center;
   background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #ced4da;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border-radius: 1rem;
-  -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-  transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  color: #D2D3D5;
+  border: none;
+  text-align: center;
   font-family: "FuturaBk", Arial, sans-serif;
+  font-size: 22px;
+  padding: 16px;
+  border-radius: 35px;
+  -webkit-box-shadow: -1px 6px 10px 1px #00000029;
+  box-shadow: -1px 6px 10px 1px #00000029;
 }
 
 .alert-red {
@@ -722,17 +775,46 @@ body::-webkit-scrollbar-thumb {
 
 .steps .peoples {
   height: 310px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+}
+
+.steps .peoples .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .steps .peoples {
+    height: 110px;
+  }
+  .steps .peoples .container {
+    margin: 0px;
+    padding: 0px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 
 .steps .peoples .item {
-  margin-right: 12rem;
+  margin-right: 15rem;
 }
 
 .steps .peoples .item img {
   position: absolute;
   width: 240px;
+}
+
+@media (max-width: 768px) {
+  .steps .peoples .item {
+    margin-right: 6rem;
+  }
+  .steps .peoples .item img {
+    position: absolute;
+    width: 120px;
+  }
 }
 
 .steps .cloud img {
@@ -800,39 +882,46 @@ body::-webkit-scrollbar-thumb {
   margin-top: 10rem;
 }
 
+@media (max-width: 768px) {
+  .show-app .container .phone img {
+    width: 530px;
+    display: none;
+  }
+}
+
 .show-app .container .title h3 {
-  font-family: 'FuturaBk', Arial, sans-serif;
+  font-family: "FuturaBk", Arial, sans-serif;
   font-size: 53px;
   letter-spacing: 0px;
 }
 
 .show-app .container .title h3 b {
-  font: normal normal bold 53px/65px 'TheFontBold';
+  font: normal normal bold 53px/65px "TheFontBold";
 }
 
 .show-app .container .title h2 {
-  font-size: 90px;
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-size: min(90px, 17vw);
+  font-family: "TheFontBold", Arial, sans-serif;
 }
 
 .show-app .container .title h2 span {
-  font-family: 'FuturaBk', Arial, sans-serif;
-  font-size: 70px;
+  font-family: "FuturaBk", Arial, sans-serif;
+  font-size: min(70px, 14vw);
 }
 
 .show-app .container .title .desc {
-  font-family: 'FuturaBk', Arial, sans-serif;
+  font-family: "FuturaBk", Arial, sans-serif;
   font-size: 53px;
 }
 
 .show-app .container .title .desc b {
-  font-family: 'TheFontBold', Arial, sans-serif;
-  color: #FE1846;
+  font-family: "TheFontBold", Arial, sans-serif;
+  color: #fe1846;
 }
 
 .show-app .container .title .desc span {
-  font-family: 'TheFontBold', Arial, sans-serif;
-  color: #0197A6;
+  font-family: "TheFontBold", Arial, sans-serif;
+  color: #0197a6;
 }
 
 .functionalities {
@@ -938,6 +1027,12 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: -21rem;
 }
 
+@media (max-width: 768px) {
+  .mount-your-plan .brands {
+    display: none !important;
+  }
+}
+
 .mount-your-plan .brands img {
   width: 75%;
   height: 100%;
@@ -1014,7 +1109,7 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   background-color: #FCFCFC;
   border: solid 3px #fff;
-  border-radius: 20px;
+  border-radius: 35px;
   -webkit-box-shadow: 0px 1px 9px -4px #000000;
   box-shadow: 0px 1px 9px -4px #a79696;
 }
@@ -1184,6 +1279,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .modules-selected .card {
+  height: 100%;
+  width: 100%;
   border-radius: 45px;
   border: solid 3px #fff;
   background-color: #fff;
@@ -1210,6 +1307,32 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 60px;
 }
 
+.mount-your-plan .modules-selected .add-modules .item {
+  padding: 10px;
+}
+
+.mount-your-plan .modules-selected .add-modules .ticket {
+  padding: 20px 0px;
+}
+
+.mount-your-plan .modules-selected .add-modules .ticket .card {
+  border-radius: 0px 25px 25px 0px;
+  border: none;
+  background-color: #EEECEC;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.mount-your-plan .modules-selected .add-modules .ticket .card .card-body {
+  padding: 5px;
+}
+
+.mount-your-plan .modules-selected .add-modules .ticket h3 {
+  font-family: 'TheFontBold', Arial, sans-serif;
+  font-size: 19px;
+  color: #8A8A8A;
+}
+
 .mount-your-plan .modules-selected .add-modules .card {
   border-radius: 25px;
   border: solid 3px #fff;
@@ -1219,9 +1342,17 @@ body::-webkit-scrollbar-thumb {
           box-shadow: -2px 5px 9px -4px #a79696;
 }
 
+.mount-your-plan .modules-selected .add-modules .card .card-body {
+  padding: 0px;
+}
+
+.mount-your-plan .modules-selected .add-modules img {
+  width: 50px;
+}
+
 .mount-your-plan .modules-selected .add-modules h3 {
   font-family: 'TheFontBold', Arial, sans-serif;
-  font-size: 29px;
+  font-size: 22px;
 }
 
 @media (min-width: 900px) {
@@ -1257,8 +1388,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .sell-showcase .black {
-  background-color: #000000;
-  border: solid 5px #fff;
+  background: #520d5e;
+  background: linear-gradient(31deg, #520d5e 15%, #482f71 32%, #20bbbd 100%);
+  border: solid 5px #2B98AA;
   -webkit-box-shadow: 0px 1px 8px -4px #000000;
   box-shadow: 0px 1px 8px -4px #000000;
   padding: 25px 55px;
@@ -1307,14 +1439,24 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .advertising {
-  font-size: 28px;
+  font-size: 22px;
   color: #989898;
   font-family: 'FuturaBk', Arial, sans-serif;
+  margin-bottom: 200px;
 }
 
 .svg-black {
   -webkit-filter: brightness(0) contrast(3);
           filter: brightness(0) contrast(3);
+}
+
+.svg-gray {
+  -webkit-filter: grayscale(90%);
+          filter: grayscale(90%);
+}
+
+.help-me-bg {
+  background-color: #FBFBFB;
 }
 
 .help-me h1 {
@@ -1323,7 +1465,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .help-me .card {
-  background-color: #FBFBFB;
+  background-color: #fff;
   border-radius: 45px;
   border: solid 4px #fff;
   -webkit-box-shadow: 0px 1px 8px -4px #000000;
@@ -1331,33 +1473,73 @@ body::-webkit-scrollbar-thumb {
 }
 
 .help-me .card label {
-  font-size: 26px;
   font-family: "FuturaBk", Arial, sans-serif;
+  font-size: 12px;
   color: #6A6A6A;
 }
 
-.notebook-art {
-  position: relative;
+.notebook-art .notebook-bg {
   margin-top: 150px;
-  background-image: url("/assets/imgs/notebook.png");
   display: block;
-  width: 100%;
-  height: 1700px;
+}
+
+.notebook-art .notebook-bg img {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70%;
+}
+
+.notebook-art .container .title {
+  margin: 20px;
+}
+
+.notebook-art .container h1 {
+  font-family: "FuturaBk", Arial, sans-serif;
+  font-size: 65px;
+}
+
+.notebook-art .container h2 {
+  font-family: "TheFontBold", Arial, sans-serif;
+  font-size: 60px;
+}
+
+.notebook-art .container .btn {
+  font-family: "FuturaBk", Arial, sans-serif;
+  font-size: 21px !important;
+  padding: 10px 40px;
+}
+
+.notebook-art .container .btn b {
+  font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.clients {
+  margin-top: 220px;
+  margin-bottom: 220px;
+}
+
+.clients h3 {
+  font-size: 28px;
+  font-family: "FuturaBk", Arial, sans-serif;
+  color: #e6e7e8;
+}
+
+.clients .card {
+  border: none;
+}
+
+.clients img {
+  width: 320px;
 }
 
 .main-questions {
   margin-top: 0px;
   padding-bottom: 240px;
-  background-image: url("/assets/imgs/svgs/main-questions.svg");
-}
-
-.main-questions .info-apps img {
-  width: 190px;
 }
 
 .main-questions .title {
   margin-top: 80px;
-  color: #fff;
+  color: #000;
   font-family: "FuturaBk", Arial, sans-serif;
 }
 
@@ -1368,7 +1550,10 @@ body::-webkit-scrollbar-thumb {
 .main-questions .card {
   border-radius: 35px;
   padding: 25px;
-  background-color: #F6F6F6;
+  background-color: #FBFBFB;
+  border: none;
+  -webkit-box-shadow: -2px 5px 9px -4px #a79696;
+  box-shadow: -2px 5px 9px -4px #a79696;
 }
 
 .main-questions .card h2 {
@@ -1389,13 +1574,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer {
-  margin-top: -120px;
   width: 100%;
+  height: 100%;
   position: absolute;
   background-image: url("/assets/imgs/svgs/footer.svg");
+  background-repeat: no-repeat;
+  color: #CACACA;
 }
 
 .footer .content {
+  background-color: #FBFBFB;
   margin-top: 130px;
 }
 
@@ -1403,6 +1591,10 @@ body::-webkit-scrollbar-thumb {
   .footer .content {
     padding: 0px 220px;
   }
+}
+
+.footer .content .gray {
+  color: #A2A2A2;
 }
 
 .footer .content p {
@@ -1429,7 +1621,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .footer .content .line {
-  border: solid 2px #000000;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: solid 2px #CACACA;
 }
 
 .footer .footer-details {

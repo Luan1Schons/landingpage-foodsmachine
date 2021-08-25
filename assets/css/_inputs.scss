@@ -1,19 +1,12 @@
 .form-control {
-    display: block;
-    width: 100%;
-    padding: 1rem;
-    font-size: 35px;
-    /* font-weight: 400; */
-    /* line-height: 1.5; */
-    color: #D2D3D5;
-    text-align: center;
     background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: 1rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #D2D3D5;
+    border: none;
+    text-align: center;
     font-family: "FuturaBk", Arial, sans-serif;
+    font-size: 22px;
+    padding: 16px;
+    border-radius: 35px;
+    -webkit-box-shadow: -1px 6px 10px 1px #00000029;
+    box-shadow: -1px 6px 10px 1px #00000029;
 }

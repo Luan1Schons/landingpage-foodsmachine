@@ -2,13 +2,36 @@
     width: 100%;
     .peoples {
         height:310px;
-        justify-content: space-around;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        @media (max-width: 768px) {
+            height:110px;
+            .container {
+                margin: 0px;
+                padding: 0px;   
+                justify-content: space-around;
+            }
+        }
+
         .item{
-            margin-right: 12rem;
+            margin-right: 15rem;
             img {
                 position: absolute;
                 width: 240px;
             }
+
+            @media (max-width: 768px) {
+                margin-right: 6rem;
+                img {
+                    position: absolute;
+                    width: 120px;
+                }
+            }
+    
         }
     }
     margin-top: 160px;

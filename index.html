@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="assets\js\owl\assets\owl.carousel.min.css">
   <link rel="stylesheet" href="assets\js\owl\assets\owl.theme.libs/font-awesome/5.15.4/css/all.min.css"
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCqdefault.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -43,6 +43,8 @@
           <form class="d-flex flex-wrap">
             <div class="header-buttons">
               <button type="button" class="btn btn-purple" data-bs-toggle="modal"
+                data-bs-target="#promo">PROMO</button>
+              <button type="button" class="btn btn-purple" data-bs-toggle="modal"
                 data-bs-target="#login">ENTRAR</button>
               <button type="button" class="btn btn-red-glow" data-bs-toggle="modal" data-bs-target="#register">INICIE
                 SEU TESTE GRÁTIS DE <b>15</b> DIAS</button>
@@ -52,6 +54,25 @@
       </div>
     </nav>
 
+
+    <!-- Modal Promoção -->
+    <div class="promo">
+      <div class="modal fade" id="promo" tabindex="-1" aria-labelledby="promo" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Modal Registro -->
     <div class="register">
       <div class="modal fade" id="register" tabindex="-1" aria-labelledby="register" aria-hidden="true">
@@ -68,6 +89,7 @@
 
               <div class="container">
                 <form>
+
                   <div class="row">
                     <div class="col-md-6">
                       <div class="mb-3">
@@ -171,64 +193,113 @@
 
 
 
-                    <div class="col-md-12 mt-4 modules-selected mt-4">
-                      <div class="card">
-                        <div class="body">
-                          <div class="d-flex justify-content-center">
-                            <div class="selected-modules mt-4">MÓDULOS <b>SELECIONADOS</b></div>
-                          </div>
+                    <div class="col-md-12 mt-4 modules-selected">
+                      <div class="body">
+                        <div class="d-flex justify-content-center">
+                          <div class="selected-modules mt-4">MÓDULOS <b>SELECIONADOS</b></div>
+                        </div>
 
-                          <div class="container">
-                            <div class="col-md-12">
-                              <div class="row add-modules">
+                        <div class="container">
+                          <div class="col-md-12">
+                            <div class="row equal add-modules">
 
-                                <div class="col-md-6">
-                                  <div class="card">
-                                    <div class="card-body">
-                                      <div class="row">
-                                        <div class="col-md-2 svg-black">
-                                          <img src="assets/imgs/svgs/modules/my-site-delivery.svg" class="icon" />
-                                        </div>
-
-                                        <div class="col-md-6 col-sm-12 mb-3">
+                              <div class="col-md-6 mb-2">
+                                <div class="item">
+                                  <div class="row">
+                                    <div class="col-md-9" style="padding: 0px;">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                          <img src="assets/imgs/svgs/modules/my-site-delivery.svg"
+                                            class="icon svg-black me-2" />
                                           <h3>MEU SITE DELIVERY</h3>
                                         </div>
+                                      </div>
+                                    </div>
 
-                                        <div class="col-md-4 d-flex justify-content-center mt-2">
-                                          <div class="switch">
-                                            <input id="one" class="input" type="checkbox" />
-                                            <label for="one" class="slider"></label>
-                                          </div>
+                                    <div class="col-md-3 ticket">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-start align-items-start">
+                                          <h3 class="mt-2 ms-2">R$36,00</h3>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-
-                                <div class="col-md-6 col-sm-12 mb-3">
-                                  <div class="card">
-                                    <div class="card-body">
-                                      <div class="row">
-                                        <div class="col-md-2 svg-black">
-                                          <img src="assets/imgs/svgs/modules/agendamento.svg" class="icon" />
-                                        </div>
-
-                                        <div class="col-md-6">
-                                          <h3>AGENDAMENTO</h3>
-                                        </div>
-
-                                        <div class="col-md-4 d-flex justify-content-center mt-2">
-                                          <div class="switch">
-                                            <input id="one" class="input" type="checkbox" />
-                                            <label for="one" class="slider"></label>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-
                               </div>
+
+                              <div class="col-md-6 mb-2">
+                                <div class="item">
+                                  <div class="row">
+                                    <div class="col-md-9" style="padding: 0px;">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                          <img src="assets/imgs/svgs/modules/gestor-pedidos.svg"
+                                            class="icon svg-black me-2" />
+                                          <h3>GESTOR DE PEDIDOS</h3>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-md-3 ticket">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-start align-items-start">
+                                          <h3 class="mt-2 ms-2">INCLUSO</h3>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 mb-2">
+                                <div class="item">
+                                  <div class="row">
+                                    <div class="col-md-9" style="padding: 0px;">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                          <img src="assets/imgs/svgs/modules/relatorio.svg"
+                                            class="icon svg-black me-2" />
+                                          <h3>RELATÓRIO</h3>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-md-3 ticket">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-start align-items-start">
+                                          <h3 class="mt-2 ms-2">INCLUSO</h3>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 mb-2">
+                                <div class="item">
+                                  <div class="row">
+                                    <div class="col-md-9" style="padding: 0px;">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-center align-items-center">
+                                          <img src="assets/imgs/svgs/modules/clientes.svg"
+                                            class="icon svg-black me-2" />
+                                          <h3>CLIENTES</h3>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-md-3 ticket">
+                                      <div class="card">
+                                        <div class="card-body d-flex justify-content-start align-items-start">
+                                          <h3 class="mt-2 ms-2">INCLUSO</h3>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+
                             </div>
                           </div>
                         </div>
@@ -418,110 +489,110 @@
         <div class="card perfect-for-all-card">
           <div class="owl-carousel owl-theme carousel-perfect-for-all justify-content-center">
 
-              <div class="item d-flex align-items-center justify-content-center mt-3">
-                <img class="icon me-2" width="50" src="assets/imgs/svgs/slide/marmitaria-fit.svg" />
-                <h3>MARMITARIA</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" width="50" src="assets/imgs/svgs/slide/restaurante.svg" />
-                <h3>RESTAURANTE</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" width="50" src="assets/imgs/svgs/slide/pizzaria.svg" />
-                <h3>PIZZARIA</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/hamburgueria.svg" />
-                <h3>HAMBURGUERIA</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/churrascaria.svg" />
-                <h3>CHURRASCARIA</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/temakeria.svg" />
-                <h3>TEMAKERIA</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/foodtruck.svg" />
-                <h3>FOOD TRUCK</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/churros.svg" />
-                <h3>CHURROS</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/fastfood.svg" />
-                <h3>FAST FOOD</h3>
-              </div>
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/sorveteria.svg" />
-                <h3>SORVETERIA</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/acaiteria.svg" />
-                <h3>AÇAITERIA</h3>
-              </div>
-              
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/barzinho.svg" />
-                <h3>BARZINHO</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/adegas.svg" />
-                <h3>ADEGAS</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/choperia.svg" />
-                <h3>CHOPERIA</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/frutos-do-mar.svg" />
-                <h3>FRUTOS DO MAR</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/esfirraria.svg" />
-                <h3>ESFIRRARIA</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/salgados-e-doces.svg" />
-                <h3>SALGADOS E DOCÊS</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/hortifrute.svg" />
-                <h3>HORTIFRUTE</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/creperia.svg" />
-                <h3>CREPERIA</h3>
-              </div>
-              
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <img class="icon me-2" src="assets/imgs/svgs/slide/dogueria.svg" />
-                <h3>DOGUERIA</h3>
-              </div>
-
-              <div class="item d-flex align-items-center  justify-content-center mt-3">
-                <h3>E MUITO MAIS...</h3>
-              </div>
-
+            <div class="item d-flex align-items-center justify-content-center mt-3">
+              <img class="icon me-2" width="50" src="assets/imgs/svgs/slide/marmitaria-fit.svg" />
+              <h3>MARMITARIA</h3>
             </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" width="50" src="assets/imgs/svgs/slide/restaurante.svg" />
+              <h3>RESTAURANTE</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" width="50" src="assets/imgs/svgs/slide/pizzaria.svg" />
+              <h3>PIZZARIA</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/hamburgueria.svg" />
+              <h3>HAMBURGUERIA</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/churrascaria.svg" />
+              <h3>CHURRASCARIA</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/temakeria.svg" />
+              <h3>TEMAKERIA</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/foodtruck.svg" />
+              <h3>FOOD TRUCK</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/churros.svg" />
+              <h3>CHURROS</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/fastfood.svg" />
+              <h3>FAST FOOD</h3>
+            </div>
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/sorveteria.svg" />
+              <h3>SORVETERIA</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/acaiteria.svg" />
+              <h3>AÇAITERIA</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/barzinho.svg" />
+              <h3>BARZINHO</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/adegas.svg" />
+              <h3>ADEGAS</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/choperia.svg" />
+              <h3>CHOPERIA</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/frutos-do-mar.svg" />
+              <h3>FRUTOS DO MAR</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/esfirraria.svg" />
+              <h3>ESFIRRARIA</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/salgados-e-doces.svg" />
+              <h3>SALGADOS E DOCÊS</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/hortifrute.svg" />
+              <h3>HORTIFRUTE</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/creperia.svg" />
+              <h3>CREPERIA</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <img class="icon me-2" src="assets/imgs/svgs/slide/dogueria.svg" />
+              <h3>DOGUERIA</h3>
+            </div>
+
+            <div class="item d-flex align-items-center  justify-content-center mt-3">
+              <h3>E MUITO MAIS...</h3>
+            </div>
+
+          </div>
 
         </div>
       </div>
@@ -530,17 +601,19 @@
 
   <section class="steps">
 
-    <div class="peoples d-flex">
-      <div class="item" data-aos="fade-up">
-        <img src="assets/imgs/svgs/people-1.svg" />
-      </div>
+    <div class="peoples">
+      <div class="container">
+        <div class="item" data-aos="fade-up">
+          <img src="assets/imgs/svgs/people-1.svg" />
+        </div>
 
-      <div class="item" data-aos="fade-up">
-        <img src="assets/imgs/svgs/people-2.svg" />
-      </div>
+        <div class="item" data-aos="fade-up">
+          <img src="assets/imgs/svgs/people-2.svg" />
+        </div>
 
-      <div class="item" data-aos="fade-up">
-        <img src="assets/imgs/svgs/people-3.svg" />
+        <div class="item" data-aos="fade-up">
+          <img src="assets/imgs/svgs/people-3.svg" />
+        </div>
       </div>
     </div>
     <div class="content">
@@ -611,7 +684,7 @@
       </div>
 
       <div class="phone d-flex justify-content-center">
-        <img src="assets/imgs/phone.png" width="530" />
+        <img src="assets/imgs/phone.png" />
       </div>
 
     </div>
@@ -622,8 +695,8 @@
       <div class="button-details col-md-12 col-sm-12 text-center">
         <p class="title">CLIQUE ABAIXO PARA VER</p>
         <button class="btn btn-red-functionalities text-align center" data-bs-toggle="collapse" href="#functionalities"
-          role="button" aria-expanded="false" aria-controls="functionalities" data-aos="fade-up">VER TODAS AS <b> FUNCIONALIDADES!</b> <i
-            class="fas fa-sort-down ml-4"></i></button>
+          role="button" aria-expanded="false" aria-controls="functionalities" data-aos="fade-up">VER TODAS AS <b>
+            FUNCIONALIDADES!</b> <i class="fas fa-sort-down ml-4"></i></button>
       </div>
 
       <div class="collapse integrations" id="functionalities" style="border:none;">
@@ -632,19 +705,19 @@
           <div class="card-body">
             <div class="col-md-12 col-sm-12">
               <div class="row">
-                <div class="col-md-3 col-sm-12 text-center">
+                <div class="col-md-3 col-sm-12 text-center mb-2">
                   <img src="assets/imgs/svgs/modules/integrations/ifood.svg" class="icon" />
                 </div>
 
-                <div class="col-md-3 col-sm-12 text-center">
-                  <img src="assets/imgs/svgs/modules/integrations/delivery-much.svg" class="icon" />
+                <div class="col-md-3 col-sm-12 text-center mb-2">
+                  <img src="assets/imgs/svgs/modules/integrations/deliverymuch.svg" class="icon" />
                 </div>
 
-                <div class="col-md-3 col-sm-12 text-center">
+                <div class="col-md-3 col-sm-12 text-center mb-2">
                   <img src="assets/imgs/svgs/modules/integrations/rappi.svg" class="icon" />
                 </div>
 
-                <div class="col-md-3 col-sm-12 text-center">
+                <div class="col-md-3 col-sm-12 text-center mb-2">
                   <img src="assets/imgs/svgs/modules/integrations/mercadopago.svg" class="icon" />
                 </div>
               </div>
@@ -653,23 +726,25 @@
 
               <div class="col-md-12 col-sm-12 coming-soon">
                 <div class="row">
-                  <div class="col-md-3 col-sm-12 d-flex flex-wrap justify-content-center">
+                  <div class="col-md-3 col-sm-12 d-flex flex-wrap justify-content-center mb-2">
                     <img src="assets/imgs/svgs/modules/integrations/99food.svg"
                       class="icon align-middle mx-auto mt-3" />
                     <h3>EM <b>BREVE</b></h3>
                   </div>
 
-                  <div class="col-md-3 col-sm-12 d-flex flex-wrap justify-content-center">
-                    <img src="assets/imgs/svgs/modules/integrations/uber-eats.svg" class="icon align-middle mx-auto" />
+                  <div class="col-md-3 col-sm-12 d-flex flex-wrap justify-content-center mb-2">
+                    <img src="assets/imgs/svgs/modules/integrations/ubereatssoon.svg"
+                      class="icon align-middle mx-auto" />
                     <h3>EM <b>BREVE</b></h3>
                   </div>
 
-                  <div class="col-md-3 col-sm-12 d-flex flex-wrap justify-content-center">
-                    <img src="assets/imgs/svgs/modules/integrations/aiqfome.svg" class="icon align-middle mx-auto" />
+                  <div class="col-md-3 col-sm-12 d-flex flex-wrap justify-content-center mb-2">
+                    <img src="assets/imgs/svgs/modules/integrations/aiqfomesoon.svg"
+                      class="icon align-middle mx-auto" />
                     <h3>EM <b>BREVE</b></h3>
                   </div>
 
-                  <div class="col-md-3 col-sm-12 d-flex flex-wrap justify-content-center">
+                  <div class="col-md-3 col-sm-12 d-flex flex-wrap justify-content-center mb-2">
                     <img src="assets/imgs/svgs/modules/integrations/ze-delivery.svg"
                       class="icon align-middle mx-auto" />
                     <h3>EM <b>BREVE</b></h3>
@@ -1093,34 +1168,25 @@
   <section class="mount-your-plan">
     <div class="brands d-flex justify-content-center" data-aos="fade-up" data-aos-duration="7000">
 
-      <div class="ifood" data-aos="fade-up"
-      data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
-        <img src="assets/imgs/svgs/modules/integrations/ifood.svg"/>
+      <div class="ifood" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
+        <img src="assets/imgs/svgs/modules/integrations/ifood.svg" />
       </div>
 
-      <div class="aiqfome" data-aos="fade-up"
-      data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
-        <img src="assets/imgs/svgs/modules/integrations/aiqfome.svg"/>
+      <div class="aiqfome" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
+        <img src="assets/imgs/svgs/modules/integrations/aiqfome.svg" />
       </div>
 
-      <div class="deliverymuch" data-aos="fade-up"
-      data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
-        <img src="assets/imgs/svgs/modules/integrations/deliverymuch.svg"/>
+      <div class="deliverymuch" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
+        <img src="assets/imgs/svgs/modules/integrations/deliverymuch.svg" />
       </div>
 
-      <div class="ubereats" data-aos="fade-up"
-      data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
-        <img src="assets/imgs/svgs/modules/integrations/ubereats.svg"/>
+      <div class="ubereats" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
+        <img src="assets/imgs/svgs/modules/integrations/ubereats.svg" />
       </div>
 
-      <div class="rappi" data-aos="fade-up"
-      data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
-        <img src="assets/imgs/svgs/modules/integrations/rappi.svg"/>
+      <div class="rappi" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
+        <img src="assets/imgs/svgs/modules/integrations/rappi.svg" />
       </div>
-
-
-  
-
       <img src="assets/imgs/brands.png" />
     </div>
     <div class="col-md-12 p-3">
@@ -1137,7 +1203,7 @@
 
             <div class="col-md-6 offset-md-3 mount" id="monte-seu-plano" data-aos="fade-up">
               <img src="assets/imgs/svgs/mount-your-plan.svg" class="mount-image" width="95%" />
-              <div class="card gradient">
+              <div class="card gradient box-mount">
 
                 <h2>MONTE</h2>
 
@@ -2014,63 +2080,108 @@
           </div>
 
           <div class="col-md-12 mt-4 modules-selected">
-            <div class="card">
-              <div class="body">
-                <div class="d-flex justify-content-center">
-                  <div class="selected-modules mt-4">MÓDULOS <b>SELECIONADOS</b></div>
-                </div>
+            <div class="body">
+              <div class="d-flex justify-content-center">
+                <div class="selected-modules mt-4">MÓDULOS <b>SELECIONADOS</b></div>
+              </div>
 
-                <div class="container">
-                  <div class="col-md-12">
-                    <div class="row add-modules">
+              <div class="container">
+                <div class="col-md-12">
+                  <div class="row equal add-modules">
 
-                      <div class="col-md-6">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="row">
-                              <div class="col-md-2 svg-black">
-                                <img src="assets/imgs/svgs/modules/my-site-delivery.svg" class="icon" />
-                              </div>
-
-                              <div class="col-md-6 col-sm-12 mb-3">
+                    <div class="col-md-6 mb-2">
+                      <div class="item">
+                        <div class="row">
+                          <div class="col-md-10" style="padding: 0px;">
+                            <div class="card">
+                              <div class="card-body d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/my-site-delivery.svg" class="icon svg-black me-2" />
                                 <h3>MEU SITE DELIVERY</h3>
                               </div>
+                            </div>
+                          </div>
 
-                              <div class="col-md-4 d-flex justify-content-center mt-2">
-                                <div class="switch">
-                                  <input id="one" class="input" type="checkbox" />
-                                  <label for="one" class="slider"></label>
-                                </div>
+                          <div class="col-md-2 ticket">
+                            <div class="card">
+                              <div class="card-body d-flex justify-content-start align-items-start">
+                                <h3 class="mt-2 ms-2">R$36,00</h3>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
-
-                      <div class="col-md-6 col-sm-12 mb-3">
-                        <div class="card">
-                          <div class="card-body">
-                            <div class="row">
-                              <div class="col-md-2 svg-black">
-                                <img src="assets/imgs/svgs/modules/agendamento.svg" class="icon" />
-                              </div>
-
-                              <div class="col-md-6">
-                                <h3>AGENDAMENTO</h3>
-                              </div>
-
-                              <div class="col-md-4 d-flex justify-content-center mt-2">
-                                <div class="switch">
-                                  <input id="one" class="input" type="checkbox" />
-                                  <label for="one" class="slider"></label>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
                     </div>
+
+                    <div class="col-md-6 mb-2">
+                      <div class="item">
+                        <div class="row">
+                          <div class="col-md-10" style="padding: 0px;">
+                            <div class="card">
+                              <div class="card-body d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/gestor-pedidos.svg" class="icon svg-black me-2" />
+                                <h3>GESTOR DE PEDIDOS</h3>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-2 ticket">
+                            <div class="card">
+                              <div class="card-body d-flex justify-content-start align-items-start">
+                                <h3 class="mt-2 ms-2">INCLUSO</h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 mb-2">
+                      <div class="item">
+                        <div class="row">
+                          <div class="col-md-10" style="padding: 0px;">
+                            <div class="card">
+                              <div class="card-body d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/relatorio.svg" class="icon svg-black me-2" />
+                                <h3>RELATÓRIO</h3>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-2 ticket">
+                            <div class="card">
+                              <div class="card-body d-flex justify-content-start align-items-start">
+                                <h3 class="mt-2 ms-2">INCLUSO</h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-6 mb-2">
+                      <div class="item">
+                        <div class="row">
+                          <div class="col-md-10" style="padding: 0px;">
+                            <div class="card">
+                              <div class="card-body d-flex justify-content-center align-items-center">
+                                <img src="assets/imgs/svgs/modules/clientes.svg" class="icon svg-black me-2" />
+                                <h3>CLIENTES</h3>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-2 ticket">
+                            <div class="card">
+                              <div class="card-body d-flex justify-content-start align-items-start">
+                                <h3 class="mt-2 ms-2">INCLUSO</h3>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
                   </div>
                 </div>
               </div>
@@ -2108,6 +2219,11 @@
 
                     </div>
 
+                    <div class="col-md-12">
+                      <p class="text-white" style="font-size: 30px;opacity: 2;">
+                        -----------------------------------------------------------</p>
+                    </div>
+
                     <div class="price">
                       <div class="col-md-12 col-sm-12">
                         <div class="d-flex flex-wrap">
@@ -2131,11 +2247,11 @@
                   <img src="assets/imgs/svgs/payments.svg" width="85%" />
                 </div>
 
-                <button class="btn btn-gradient">
+                <button class="btn btn-cian">
                   FINALIZAR CADASTRO E INICIAR <b>TESTE 15 DIAS</b> GRÁTIS
                 </button>
 
-                <div class="col-md-12 col-sm-12 advertising">
+                <div class="col-md-12 col-sm-12 advertising mt-4">
                   <span>Fique tranquilo, dentro do período de teste não precisa pagar boleto ou adicionar cartão</span>
                 </div>
 
@@ -2147,58 +2263,63 @@
     </div>
   </section>
 
-  <section class="help-me">
-    <h1 class="text-center mt-5 mb-5">OU</h1>
-    <div class="container">
-      <div class="col-md-12">
-        <div class="card">
-          <div class="card-body">
-            <div class="col-md-12 mt-5">
-              <div class="d-flex justify-content-center">
-                <buton class="btn btn-red-help">PRECISO DE AJUDA ENTRE EM CONTATO COMIGO POR WHATSAPP</buton>
-              </div>
+  <section class="notebook-art">
+    <div class="notebook-bg d-flex justify-content-center">
+      <img src="/assets/imgs/notebook.png" />
+    </div>
 
-              <div class="col-md-8 offset-md-2 mt-3" style="height: 100%;">
-                <form>
-                  <div class="row">
-                    <div class="col-md-8">
-                      <div class="form-group text-center">
-                        <label for="exampleInputEmail1">NOME</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                          placeholder="DIGITE SEU NOME AQUI">
-                      </div>
-                      <div class="form-group text-center">
-                        <label for="exampleInputPassword1" class="text-center">DIGITE SEU WHATSAPP</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="(00)0000-0000">
-                      </div>
-                    </div>
-                    <div class="col-md-4 d-flex align-items-center justify-content-center">
-                      <button type="submit" class="btn btn-white mt-4"><i class="far fa-paper-plane me-2"></i>
-                        ENVIAR</button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="container text-center">
+
+      <div class="title">
+        <h1>TENHA ACESSO AGORA</h1>
+        <h2>A ESSA PODEROSA FERRAMENTA</h2>
+        <h1>E FAÇA SUA EMPRESA CRESCER.</h1>
+
+        <button type="button" class="btn btn-red-glow mt-5" data-bs-toggle="modal" data-bs-target="#register">INICIE
+          SEU TESTE GRÁTIS DE <b>15</b> DIAS</button>
+
       </div>
     </div>
+  </section>
+
+  <section class="clients">
+    <h3 class="text-center mb-5 mt-5">ALGUNS DE NOSSOS CLIENTES</h3>
+    <div class="row owl-carousel owl-theme clients-carousel">
+      <div class="item col">
+        <div class="card d-flex justify-content-center">
+          <img src="/assets/imgs/clients/super-gulosao.png" />
+        </div>
+      </div>
+
+      <div class="item col">
+        <div class="card d-flex justify-content-center">
+          <img src="/assets/imgs/clients/acai.svg" />
+        </div>
+      </div>
+      <div class="item col">
+        <div class="card d-flex justify-content-center">
+          <img src="/assets/imgs/clients/point-acai.png" />
+        </div>
+      </div>
+
+      <div class="item col">
+        <div class="card d-flex justify-content-center">
+          <img src="/assets/imgs/clients/brutus.png" />
+        </div>
+      </div>
+
+      <div class="item col">
+        <div class="card d-flex justify-content-center">
+          <img src="/assets/imgs/clients/cupcake-karen.png" />
+        </div>
+      </div>
+
+
     </div>
     </div>
   </section>
 
-  <section class="notebook-art"></section>
-
   <section class="main-questions">
-    <div class="col-md-12">
-      <div class="info-apps">
-        <div class="d-flex justify-content-center flex-wrap">
-          <img src="assets/imgs/apps/google-play.png" class="mb-4 mx-2" alt="Google Play" />
-          <img src="assets/imgs/apps/appstore.png" class="mb-4 mx-2" alt="App Store" />
-          <img src="assets/imgs/apps/web.png" class="mb-4 mx-2" alt="Web" />
-          <img src="assets/imgs/apps/windows.png" class="mb-4 mx-2" alt="Windows" />
-        </div>
-      </div>
-    </div>
 
     <div class="container">
 
@@ -2339,7 +2460,7 @@
       </div>
   </section>
 
-  <footer class="footer">
+  <footer class="footer" class="svg-gray">
     <div class="content">
       <div class="row">
         <div class="col-md-4 col-sm-12 text-center">
@@ -2347,7 +2468,7 @@
         </div>
 
         <div class="col-md-4 col-sm-12 text-center">
-          <img class="nav-item-heart" src="assets/imgs/svgs/logo-dark.svg" />
+          <img class="nav-item-heart" src="assets/imgs/svgs/logo-gray.svg" />
         </div>
 
         <div class="col-md-4 col-sm-12 text-center">
@@ -2356,34 +2477,77 @@
         </div>
 
         <div class="col-md-12 col-sm-12 text-center">
-          <div class="line mt-5 mb-5"></div>
+          <div class="line"></div>
         </div>
       </div>
 
       <div class="footer-details">
         <div class="row">
           <div class="col-md-3 socials">
-            <p>NOS ACOMPANHE NAS REDES SOCIAIS</p>
+            <p class="gray">NOS ACOMPANHE NAS REDES SOCIAIS</p>
           </div>
 
           <div class="col-md-3">
-            <p>FALE COM A GENTE</p>
+            <p class="gray">FALE COM A GENTE</p>
             <p class="small">contato@foodsmachine.com.br</p>
           </div>
 
           <div class="col-md-3">
-            <p>WHATSAPP E ATENDIMENTO</p>
+            <p class="gray">WHATSAPP E ATENDIMENTO</p>
             <p class="small">19 98445-1400</p>
           </div>
 
           <div class="col-md-3">
-            <p>HORÁRIOS DE FUNCIONAMENTO</p>
+            <p class="gray">HORÁRIOS DE FUNCIONAMENTO</p>
             <p class="small-hours">Segunda a Sexta das 9:00 as 21:00<br>
               Sábado e feriados das 10:00 as 21:00
             </p>
           </div>
+
+          <div class="col-md-8 offset-md-2 col-sm-12 mt-5 mb-5">
+            <section class="help-me">
+              <div class="container">
+                <div class="col-md-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="col-md-12 mt-5">
+                        <div class="d-flex justify-content-center">
+                          <buton class="btn btn-red-help">PRECISO DE AJUDA ENTRE EM CONTATO COMIGO POR WHATSAPP
+                          </buton>
+                        </div>
+
+                        <div class="col-md-8 offset-md-2 mt-3" style="height: 100%;">
+                          <form>
+                            <div class="d-flex flex-wrap justify-content-center">
+                              <div class="col-md-8">
+                                <div class="form-group text-center mb-2">
+                                  <label for="exampleInputEmail1">NOME</label>
+                                  <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="DIGITE SEU NOME AQUI">
+                                </div>
+                                <div class="form-group text-center mb-2">
+                                  <label for="exampleInputPassword1" class="text-center">DIGITE SEU WHATSAPP</label>
+                                  <input type="text" class="form-control" id="exampleInputPassword1"
+                                    placeholder="(00)0000-0000">
+                                </div>
+                              </div>
+                              <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                <button type="submit" class="btn btn-white mt-4" width="100%"><i
+                                    class="far fa-paper-plane me-2"></i>
+                                  <i class="far fa-paper-plane me-2"></i> ENVIAR</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
         </div>
+        </section>
       </div>
+    </div>
+    </div>
     </div>
   </footer>
   <!-- container -->

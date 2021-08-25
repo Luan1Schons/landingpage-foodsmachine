@@ -3,6 +3,11 @@
     
     .brands{
         margin-bottom: -21rem;
+
+        @media (max-width: 768px) {
+            display: none !important;
+        }
+
         img{
             width: 75%;
             height: 100%;
@@ -69,10 +74,11 @@
         position: relative;
         background-color: #FCFCFC;
         border: solid 3px #fff;
-        border-radius: 20px;
+        border-radius: 35px;
         -webkit-box-shadow: 0px 1px 9px -4px #000000; 
-        box-shadow: 0px 1px 9px -4px #a79696;  
+        box-shadow: 0px 1px 9px -4px #a79696; 
     }
+    
     .content{
         margin-top: 150px;
 
@@ -243,6 +249,8 @@
         }
 
         .card {
+            height: 100%;
+            width: 100%;
             border-radius: 45px;
             border: solid 3px #fff;
             background-color: #fff;
@@ -264,16 +272,49 @@
         .add-modules {
             margin-top: 80px;
             margin-bottom: 60px;
+
+            .item {
+                padding: 10px;
+            }
+            .ticket {
+                padding: 20px 0px;
+
+                .card {
+                    border-radius: 0px 25px 25px 0px;
+                    border: none;
+                    background-color: #EEECEC;
+                    -webkit-box-shadow: none;
+                    box-shadow: none;
+                    .card-body {
+                        padding: 5px;
+                    }
+                }
+
+                h3 {
+                    font-family: 'TheFontBold', Arial, sans-serif;
+                    font-size: 19px;   
+                    color: #8A8A8A;
+                }
+
+            }
+
             .card {
                 border-radius: 25px;
                 border: solid 3px #fff;
                 background-color: #fff;
                 webkit-box-shadow: -2px 5px 9px -4px #a79696;
                 box-shadow: -2px 5px 9px -4px #a79696;
+                .card-body {
+                    padding: 0px;
+                }
+            }
+
+            img {
+                width: 50px;
             }
             h3 {
                 font-family: 'TheFontBold', Arial, sans-serif;
-                font-size: 29px;
+                font-size: 22px;
             }
         }
     }
@@ -310,8 +351,9 @@
         }
 
         .black{
-            background-color: #000000;
-            border: solid 5px #fff;
+            background: rgb(82,13,94);
+            background: linear-gradient(31deg, rgba(82,13,94,1) 15%, rgba(72,47,113,1) 32%, rgba(32,187,189,1) 100%);
+            border: solid 5px #2B98AA;
             -webkit-box-shadow: 0px 1px 8px -4px #000000;
             box-shadow: 0px 1px 8px -4px #000000;
             padding: 25px 55px;
@@ -359,8 +401,9 @@
         }
     }
     .advertising {
-        font-size: 28px;
+        font-size: 22px;
         color: #989898;
         font-family: 'FuturaBk', Arial, sans-serif;
+        margin-bottom: 200px;
     }
 }
