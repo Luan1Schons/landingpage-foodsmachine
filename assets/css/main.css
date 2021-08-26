@@ -1708,7 +1708,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-image: url("/assets/imgs/svgs/footer.svg");
+  background-image: url("https://luan1schons.github.io/landingpage-foodsmachine/assets/imgs/svgs/footer.svg");
   background-repeat: no-repeat;
   color: #CACACA;
 }
