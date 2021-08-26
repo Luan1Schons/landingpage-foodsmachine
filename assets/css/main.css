@@ -1004,8 +1004,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .functionalities .benefits .card:hover .svg-black {
-  -webkit-filter: invert(1);
-          filter: invert(1);
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
 }
 
 .functionalities .benefits .item {
