@@ -27,6 +27,7 @@ $('.clients-carousel').owlCarousel({
 
 let clickFunctionalities = 0;
 $('.btn-red-functionalities').on('click', function(e){
+    console.log(clickFunctionalities);
     if(clickFunctionalities === 0){
       clickFunctionalities = 1;
       $('.brands').show();
