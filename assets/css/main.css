@@ -986,26 +986,30 @@ body::-webkit-scrollbar-thumb {
   box-shadow: none;
 }
 
+.functionalities .benefits .card ul {
+  list-style: none;
+}
+
+.functionalities .benefits .card li::before {
+  content: "•";
+  color: #d8d8d8;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 .functionalities .benefits .card:hover {
   background: linear-gradient(45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);
+}
+
+.functionalities .benefits .card:hover li {
+  color: #fff;
 }
 
 .functionalities .benefits .item {
   padding: 40px 0px;
   height: 100%;
   width: 100%;
-}
-
-.functionalities .benefits ul {
-  list-style: none;
-}
-
-.functionalities .benefits li::before {
-  content: "•";
-  color: #d8d8d8;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
 }
 
 .functionalities .benefits .title h4 {

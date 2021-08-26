@@ -55,8 +55,26 @@
                 -webkit-box-shadow: none; 
                 box-shadow: none;
             }
+
+            ul {
+                list-style: none;
+            }
+    
+            li {
+                &::before {
+                    content: "•";
+                    color: #d8d8d8;
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -1em;
+                }
+            }
+
             &:hover {
                 background: linear-gradient( 45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100% );
+                li {
+                   color: #fff;
+                }
             }
         }
         .item {
@@ -64,21 +82,6 @@
             height: 100%;
             width: 100%;
         }
-
-        ul {
-            list-style: none;
-        }
-
-        li {
-            &::before {
-                content: "•";
-                color: #d8d8d8;
-                display: inline-block;
-                width: 1em;
-                margin-left: -1em;
-            }
-        }
-
         .title {
             h4 {
                 font-size: 18px;
