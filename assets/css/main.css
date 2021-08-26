@@ -1012,6 +1012,12 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 
+.functionalities .benefits .card:hover .card {
+  padding: 120px 0px;
+  /* height: 100%; */
+  width: 100%;
+}
+
 .functionalities .benefits .item {
   padding: 40px 0px;
   height: 100%;
