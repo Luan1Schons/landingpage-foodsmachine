@@ -5,3 +5,7 @@
 .svg-gray {
     filter: grayscale(90%);
 }
+
+.svg-white{
+    filter: brightness(0) invert(1);
+}

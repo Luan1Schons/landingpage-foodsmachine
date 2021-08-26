@@ -1003,6 +1003,11 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 
+.functionalities .benefits .card:hover .svg-black {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
 .functionalities .benefits .item {
   padding: 40px 0px;
   height: 100%;
@@ -1453,6 +1458,11 @@ body::-webkit-scrollbar-thumb {
 .svg-gray {
   -webkit-filter: grayscale(90%);
           filter: grayscale(90%);
+}
+
+.svg-white {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
 }
 
 .help-me-bg {
