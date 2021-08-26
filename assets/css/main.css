@@ -998,12 +998,12 @@ body::-webkit-scrollbar-thumb {
   margin-left: -1em;
 }
 
-.functionalities .benefits .card:hover {
-  background: linear-gradient(45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);
+.functionalities .benefits .card li:hover {
+  color: #fff;
 }
 
-.functionalities .benefits .card:hover li {
-  color: #fff;
+.functionalities .benefits .card:hover {
+  background: linear-gradient(45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);
 }
 
 .functionalities .benefits .item {
