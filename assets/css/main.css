@@ -1008,6 +1008,10 @@ body::-webkit-scrollbar-thumb {
           filter: brightness(0) invert(1);
 }
 
+.functionalities .benefits .card:hover h4 {
+  color: #fff;
+}
+
 .functionalities .benefits .item {
   padding: 40px 0px;
   height: 100%;
