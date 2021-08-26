@@ -25,9 +25,13 @@ $('.clients-carousel').owlCarousel({
   paginationSpeed : 400,
 })
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    isHidden: false
-  }
+let clickFunctionalities = 0;
+$('.btn-red-functionalities').on('click', function(e){
+    if(clickFunctionalities === 0){
+      clickFunctionalities = 1;
+      $('.brands').show();
+    }else{
+      clickFunctionalities = 0;
+      $('.brands').hide();
+    }
 })
