@@ -25,9 +25,3 @@ $('.clients-carousel').owlCarousel({
   paginationSpeed : 400,
 })
 
-var app = new Vue({
-  el: '#app',
-  data: {
-    isHidden: false
-  }
-})
