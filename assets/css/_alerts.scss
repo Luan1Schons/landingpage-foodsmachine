@@ -5,4 +5,8 @@
     background-color: #FE043C;
     color: #fff;
     border-radius: 14px;
+
+    &:hover {
+        transform: translateY(-7px);
+      }
 }

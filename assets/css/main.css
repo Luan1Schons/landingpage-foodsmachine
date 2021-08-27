@@ -665,6 +665,11 @@ body::-webkit-scrollbar-thumb {
   border-radius: 14px;
 }
 
+.alert-red:hover {
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
 .header-card {
   margin-top: 20%;
   font-family: 'TheFontBold', Arial, sans-serif;
