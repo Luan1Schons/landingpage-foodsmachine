@@ -994,6 +994,12 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
 }
 
+@media (min-width: 768px) {
+  .functionalities .benefits {
+    margin: 0px !important;
+  }
+}
+
 .functionalities .benefits .card {
   -webkit-box-shadow: -9px 9px 10px -5px #d0d0d0;
   box-shadow: -9px 8px 10px -5px #d0d0d0;
