@@ -1,9 +1,17 @@
 .youtube-video {
 
+    .content {
+        img {
+            float: right;
+            margin-top: 1rem;
+        }
+    }
+
     .youtube-presentation {
         margin-top: 35px;
         display: flex;
         justify-content: center;
+
 
         iframe {
             padding: 15px;
