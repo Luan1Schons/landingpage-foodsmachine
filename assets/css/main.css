@@ -1170,7 +1170,7 @@ body::-webkit-scrollbar-thumb {
   padding: 0px 80px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .mount-your-plan .mount {
     padding: 0px;
   }
@@ -1197,15 +1197,34 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 
+@media (max-width: 768px) {
+  .mount-your-plan .mount .gradient h2 {
+    font-size: 2rem;
+  }
+}
+
 .mount-your-plan .mount .gradient h1 {
   font-size: 88px;
   font-family: 'TheFontBold', Arial, sans-serif;
   color: #fff;
 }
 
+@media (max-width: 768px) {
+  .mount-your-plan .mount .gradient h1 {
+    font-size: 5rem;
+  }
+}
+
 .mount-your-plan .mount .gradient .heart {
   width: 65px;
   margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .mount-your-plan .mount .gradient .heart {
+    width: 4rem;
+    margin-left: 5px;
+  }
 }
 
 .mount-your-plan .mount .modules {

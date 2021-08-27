@@ -104,7 +104,7 @@
         margin-top: 40px;
         padding: 0px 80px;
 
-        @media (min-width: 768px)
+        @media (max-width: 768px)
         {
             padding: 0px;
         }
@@ -125,16 +125,35 @@
                 font-size: 53px;
                 font-family: 'TheFontBold', Arial, sans-serif;
                 color: #fff;
+
+                @media (max-width: 768px)
+                {
+                    font-size: 2rem;
+                }
+
             }
             h1 {
                 font-size: 88px;
                 font-family: 'TheFontBold', Arial, sans-serif;
                 color: #fff;
+
+                @media (max-width: 768px)
+                {
+                    font-size: 5rem;
+                }
+
             }
 
             .heart {
                 width: 65px;
                 margin-left: 10px;
+
+                @media (max-width: 768px)
+                {
+                    width: 4rem;
+                    margin-left: 5px;
+                }
+
             }
         }
 
