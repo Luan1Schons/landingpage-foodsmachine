@@ -1170,6 +1170,12 @@ body::-webkit-scrollbar-thumb {
   padding: 0px 80px;
 }
 
+@media (min-width: 768px) {
+  .mount-your-plan .mount {
+    padding: 0px;
+  }
+}
+
 .mount-your-plan .mount .mount-image {
   width: 95%;
   height: 95%;
