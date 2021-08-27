@@ -39,7 +39,7 @@ $(document).ready(function () {
   })
 
 
-  $('#btnNeedHelpRegister').on('click', function(e) {
+  $('body').on('click','#btnNeedHelpRegister', function(e) {
     e.preventDefault();
     $('#btnAddModuleRegister').prop('disabled', true);
     $('#regiser-showcase').hide();
@@ -51,6 +51,11 @@ $(document).ready(function () {
     console.log('teste');
     e.preventDefault();
     $('#btnNeedHelpRegister').prop('disabled', true);
+  });
+
+  $('.register-btn').on('click', function(e) {
+    $('.need-help-to-mount-plan').html('<button type="button" class="btn btn-white" id="btnNeedHelpRegister"><b>PRECISA</b> DE AJUDA PARA MONTAR SEU PLANO</button>');
+    $('#regiser-showcase').show();
   });
 
 });
