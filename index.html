@@ -30,14 +30,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">FUNCIONALIDADES</a>
+              <a class="nav-link" aria-current="page" href="#funcionalidades">FUNCIONALIDADES</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#monte-seu-plano">MONTE SEU PLANO <img class="nav-item-heart"
                   src="assets/imgs/svgs/heart.svg" /></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SUPORTE</a>
+              <a class="nav-link" href="#support">SUPORTE</a>
             </li>
           </ul>
           <form class="d-flex flex-wrap">
@@ -493,9 +493,9 @@
           allowfullscreen></iframe>
       </div>
 
-      <div class="alert alert-red col-md-6 offset-md-3 my-4">
+      <button type="button" class="btn btn-red col-md-6 offset-md-3 my-4" data-bs-toggle="modal" data-bs-target="#register">
         MONTE SEU PLANO E INICIE SEU TESTE GRÁTIS DE <b>15</b> DIAS
-      </div>
+      </button>
 
   </div>
   </section>
@@ -714,12 +714,12 @@
     </div>
   </section>
 
-  <section class="functionalities">
+  <section class="functionalities" id="funcionalidades">
     <div class="content p-4">
       <div class="button-details col-md-12 col-sm-12 text-center">
         <p class="title">CLIQUE ABAIXO PARA VER</p>
         <button class="btn btn-red-functionalities text-align center" data-bs-toggle="collapse" href="#functionalities"
-          role="button" aria-expanded="false" aria-controls="functionalities" data-aos="fade-up">VER TODAS AS <b>
+          role="button" aria-expanded="true" aria-controls="functionalities" data-aos="fade-up">VER TODAS AS <b>
             FUNCIONALIDADES!</b> <i class="fas fa-sort-down ml-4"></i></button>
       </div>
 
@@ -1191,7 +1191,7 @@
 
   <section class="mount-your-plan">
 
-    <div class="brands d-flex justify-content-center" data-aos="fade-up" data-aos-duration="7000" style="display: none !important;">
+    <div class="brands d-flex justify-content-center" data-aos="fade-up" data-aos-duration="7000">
 
       <div class="ifood" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="7000">
         <img src="assets/imgs/svgs/modules/integrations/ifood.svg" />
@@ -2528,7 +2528,7 @@
           </div>
 
           <div class="col-md-8 offset-md-2 col-sm-12 mt-5 mb-5">
-            <section class="help-me">
+            <section class="help-me" id="support">
               <div class="container">
                 <div class="col-md-12">
                   <div class="card">

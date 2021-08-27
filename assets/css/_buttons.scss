@@ -10,6 +10,18 @@
   }
 }
 
+
+.btn-red {
+  background-color: #fe043c;
+  border-radius: 15px;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    color: #fff;
+    transform: translateY(-7px);
+  }
+}
+
 .btn-red-glow {
   background-color: #fe043c;
   border: solid 2px #fe043c;

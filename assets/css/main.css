@@ -381,6 +381,20 @@ body::-webkit-scrollbar-thumb {
           transform: translateY(-7px);
 }
 
+.btn-red {
+  background-color: #fe043c;
+  border-radius: 15px;
+  color: #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-red:hover {
+  color: #fff;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
 .btn-red-glow {
   background-color: #fe043c;
   border: solid 2px #fe043c;

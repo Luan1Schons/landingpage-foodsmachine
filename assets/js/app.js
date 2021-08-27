@@ -1,38 +1,40 @@
 $('.carousel-perfect-for-all').owlCarousel({
-    loop:true,
-    center: true,
-    margin:10,
-    nav:false,
-    items:1,
-    autoplay: true,
-    autoplayTimeout: 3000,
-    singleItem:true,
-    slideSpeed : 300,
-    paginationSpeed : 400,
+  loop: true,
+  center: true,
+  margin: 10,
+  nav: false,
+  items: 1,
+  autoplay: true,
+  autoplayTimeout: 3000,
+  singleItem: true,
+  slideSpeed: 300,
+  paginationSpeed: 400,
 })
 
 
 $('.clients-carousel').owlCarousel({
-  loop:true,
+  loop: true,
   center: true,
-  margin:10,
-  nav:false,
-  items:5,
+  margin: 10,
+  nav: false,
+  items: 5,
   autoplay: true,
   autoplayTimeout: 3000,
-  singleItem:true,
-  slideSpeed : 300,
-  paginationSpeed : 400,
+  singleItem: true,
+  slideSpeed: 300,
+  paginationSpeed: 400,
 })
 
-let clickFunctionalities = 0;
-$('.btn-red-functionalities').on('click', function(e){
-    console.log(clickFunctionalities);
-    if(clickFunctionalities === 0){
+$(document).ready(function () {
+  let clickFunctionalities = 0;
+  $('.btn-red-functionalities').on('click', function (e) {
+
+    if (clickFunctionalities === 0) {
       clickFunctionalities = 1;
-      $('.brands').show();
-    }else{
+      $(".brands").hide();
+    } else {
       clickFunctionalities = 0;
-      $('.brands').hide();
+      $(".brands").show();
     }
-})
+  })
+});
