@@ -103,12 +103,6 @@
     .mount {
         margin-top: 40px;
         padding: 0px 80px;
-
-        @media (min-width: 768px)
-        {
-            padding: 0px;
-        }
-
         .mount-image {
             width: 95%;
             height: 95%;
