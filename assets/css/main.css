@@ -999,6 +999,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .functionalities .benefits .card:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
   background: linear-gradient(45deg, #21BABF, #8B017D 100%);
   color: #fff;
 }
