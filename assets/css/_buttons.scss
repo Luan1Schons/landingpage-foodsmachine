@@ -148,6 +148,31 @@
   }
 }
 
+
+.btn-cian-register {
+  background: #20BBBD;
+  border: solid 3px #20BBBD;
+  border-radius: 20px;
+  color: #fff;
+  padding: 20px 55px;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 3px 5px -4px #000000;
+  font-size: 23px;
+  font-family: "FuturaBk", Arial, sans-serif;
+  &:hover {
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  b {
+    font-family: "TheFontBold", Arial, sans-serif;
+    font-size: 28px;
+  }
+}
+
 .btn-cian {
   background: #20BBBD;
   border: solid 3px #20BBBD;

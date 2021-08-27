@@ -147,6 +147,10 @@ body::-webkit-scrollbar-thumb {
   height: 930px;
 }
 
+.register {
+  z-index: 9998;
+}
+
 .register .modal-dialog .modal-content {
   border-radius: 45px;
 }
@@ -286,6 +290,62 @@ body::-webkit-scrollbar-thumb {
 .register .modal-dialog .modal-content .modal-body .modules-selected .add-modules h3 {
   font-family: 'TheFontBold', Arial, sans-serif;
   font-size: 22px;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions {
+  margin-top: 150px;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions h3 {
+  font-size: 14px;
+  color: #C9C9C9;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions .line {
+  border: solid 2px #F1F1F1;
+  margin: 0px 0px 30px 0px;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions .btn {
+  width: 100% !important;
+  padding: 15px !important;
+  font-size: 18px;
+  border-radius: 35px;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions .btn b {
+  font-size: 18px;
+  font-family: 'TheFontBold', Arial, sans-serif;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions .btn-white {
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 3px 5px -4px #000000;
+  -webkit-box-shadow: 0px 1px 7px -4px #000000;
+  box-shadow: 0px 1px 7px -4px #000000;
+  border: solid 3px #f9f9f9;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions .btn-white b {
+  color: #fe1846;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions .btn-dark {
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 3px 5px -4px #000000;
+  -webkit-box-shadow: 0px 1px 7px -4px #000000;
+  box-shadow: 0px 1px 7px -4px #000000;
+  border: solid 3px #000000;
+  background-color: #000000;
+  font-size: 14px;
+  font-family: 'TheFontBold', Arial, sans-serif;
+  color: #fff;
+}
+
+.register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions .btn-dark b {
+  color: #fff;
 }
 
 .register .modal-dialog .modal-content .sell-showcase .card {
@@ -540,6 +600,34 @@ body::-webkit-scrollbar-thumb {
 .btn-gradient b {
   font-family: "TheFontBold", Arial, sans-serif;
   font-size: 45px;
+}
+
+.btn-cian-register {
+  background: #20BBBD;
+  border: solid 3px #20BBBD;
+  border-radius: 20px;
+  color: #fff;
+  padding: 20px 55px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 3px 5px -4px #000000;
+  font-size: 23px;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.btn-cian-register:hover {
+  color: #fff;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.btn-cian-register b {
+  font-family: "TheFontBold", Arial, sans-serif;
+  font-size: 28px;
 }
 
 .btn-cian {
@@ -1435,6 +1523,10 @@ body::-webkit-scrollbar-thumb {
   font-size: 22px;
 }
 
+.mount-your-plan .sell-showcase {
+  padding: 0px 10rem !important;
+}
+
 @media (min-width: 900px) {
   .mount-your-plan .sell-showcase {
     padding: 0px 120px;
@@ -1787,6 +1879,235 @@ body::-webkit-scrollbar-thumb {
 .main-questions .desc p {
   font-size: 24px;
   font-family: "Gothic", Arial, sans-serif;
+}
+
+.add-module-modal {
+  z-index: 9999;
+}
+
+.add-module-modal .modal {
+  position: fixed;
+  top: auto !important;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+.add-module-modal .modal-xl {
+  max-width: 640px;
+}
+
+.add-module-modal .modal-dialog .modal-content {
+  background-color: #f0ffff00;
+  border: none;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0rem 0rem;
+  border-bottom: none;
+  border-top-left-radius: calc(0.3rem - 1px);
+  border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-header .btn-close {
+  position: absolute;
+  margin-top: 30px;
+  right: 0;
+  z-index: 9999;
+  background-color: white;
+  padding: 30px;
+  border-radius: 45px;
+  opacity: initial;
+  -webkit-box-shadow: -1px 6px 10px 1px #00000029;
+  box-shadow: -1px 6px 10px 1px #00000029;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modal-title {
+  padding: 0px;
+  font-size: 20px;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modal-title span {
+  font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .gradient {
+  margin-top: -20px;
+  height: 50rem;
+  border-radius: 40px;
+  background: #3d0547;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(32%, #3d0547), color-stop(53%, #4c0844), color-stop(72%, #6a0d3f), color-stop(86%, #961437), to(#f62524));
+  background: linear-gradient(180deg, #3d0547 32%, #4c0844 53%, #6a0d3f 72%, #961437 86%, #f62524 100%);
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .gradient h2 {
+  font-size: 53px;
+  font-family: "TheFontBold", Arial, sans-serif;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .add-module-modal .modal-dialog .modal-content .modal-body .gradient h2 {
+    font-size: 3rem;
+  }
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .gradient h1 {
+  font-size: 88px;
+  font-family: "TheFontBold", Arial, sans-serif;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .add-module-modal .modal-dialog .modal-content .modal-body .gradient h1 {
+    font-size: 3rem;
+  }
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .gradient .heart {
+  width: 65px;
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .add-module-modal .modal-dialog .modal-content .modal-body .gradient .heart {
+    display: none;
+  }
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .gradient .card {
+  position: relative;
+  background-color: #FCFCFC;
+  border: solid 3px #fff;
+  border-radius: 35px;
+  -webkit-box-shadow: 0px 1px 9px -4px #000000;
+  box-shadow: 0px 1px 9px -4px #a79696;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules {
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 1px 5px -4px #000000;
+  margin: 10px;
+  overflow-y: auto;
+  max-height: 75rem;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .plan-details .title h3 {
+  font-family: "FuturaBk", Arial, sans-serif;
+  font-size: 27px;
+  color: #cfc9c9;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .plan-details .price h2 {
+  font-family: "TheFontBold", Arial, sans-serif;
+  font-size: 31px;
+  color: #030000;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .plan-details .price h1 {
+  font-family: "TheFontBold", Arial, sans-serif;
+  font-size: 75px;
+  color: #20bbbd;
+}
+
+@media (max-width: 768px) {
+  .add-module-modal .modal-dialog .modal-content .modal-body .modules .plan-details .price h1 {
+    font-size: 3rem;
+  }
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .plan-details .line {
+  border: solid 2px red;
+  margin: 0px 30px;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card {
+  padding: 35px;
+  margin-bottom: 20px;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card .item {
+  font-family: "TheFontBold", Arial, sans-serif;
+  font-size: 25px;
+  color: #000000;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card .item .icon {
+  margin-right: 25px;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card .item p {
+  font-size: 15px;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .active {
+  background-color: #21bbc0;
+  border: solid 3px #21bbc0;
+  color: #fff;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .active .btn {
+  background-color: #fff0;
+  color: #fff;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .active h4 {
+  color: #fff;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .active h3 {
+  font-size: 25px;
+  font-family: "TheFontBold", Arial, sans-serif;
+  color: #0f6a6d;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .coming-soon h4 {
+  color: #e4e4e4;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .coming-soon h3 {
+  color: #e4e4e4;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .btn {
+  color: #000000;
+  -webkit-box-shadow: 0px 1px 8px -4px #000000;
+  background-color: #eeecec;
+  box-shadow: 0px 1px 8px -4px #000000;
+  padding: 5px 25px;
+  border-radius: 10px;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules::-webkit-scrollbar {
+  width: 5px;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+          box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules::-webkit-scrollbar-thumb {
+  background-color: #fcfcfc00;
+  outline: 1px solid #fcfcfc00;
 }
 
 .footer {

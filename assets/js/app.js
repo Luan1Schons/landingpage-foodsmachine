@@ -37,4 +37,20 @@ $(document).ready(function () {
       $(".brands").show();
     }
   })
+
+
+  $('#btnNeedHelpRegister').on('click', function(e) {
+    e.preventDefault();
+    $('#btnAddModuleRegister').prop('disabled', true);
+    $('#regiser-showcase').hide();
+    $(this).removeClass( "btn-white" ).addClass( "btn-dark" );
+    $(this).text('OK, ENTRAREMOS EM CONTATO O MAIS RÁPIDO POSSÍVEL')
+  });
+
+  $('#btnAddModuleRegister').on('click', function(e) {
+    console.log('teste');
+    e.preventDefault();
+    $('#btnNeedHelpRegister').prop('disabled', true);
+  });
 });
+

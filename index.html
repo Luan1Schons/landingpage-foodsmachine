@@ -97,8 +97,912 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal Adicionar Módulo -->
+    <div class="add-module-modal">
+      <div class="modal fade" id="add-module-modal" tabindex="-1" aria-labelledby="add-module-modal" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="container">
+                <div class="card gradient box-mount" id="monte-seu-plano">
+
+                  <h2 class="text-center">MONTE</h2>
+
+                  <div class="d-flex justify-content-center">
+                    <h1>SEU PLANO</h1>
+                    <img class="heart" src="assets/imgs/svgs/heart.svg">
+                  </div>
+
+                  <div class="card modules">
+                    <div class="card-body">
+                      <div class="plan-details">
+                        <div class="title text-center">
+                          <h3>VALOR DO SEU PLANO</h3>
+                        </div>
+                        <div class="price d-flex flex-wrap justify-content-center align-items-center">
+                          <h1>R$00,00</h1>
+                          <h2 class="ms-3">Mês</h2>
+                        </div>
+
+                        <div class="line"></div>
+
+                        <div class="container mt-4">
+                          <div class="module-list">
+
+                            <div class="col-md-6 offset-md-4">
+                              <button class="btn-red-modules mt-4 mb-4"><img
+                                  src="assets/imgs/svgs/modules/btn-icons/hand.svg">
+                                ESSÊNCIAIS</button>
+                            </div>
+
+                            <div class="card active">
+                              <div class="row">
+                                <div class="col-md-8 d-flex justify-content-end item">
+                                  <img src="assets/imgs/svgs/modules/my-site-delivery.svg" class="icon">
+                                  <h4>MEU SITE DELIVERY</h4>
+                                </div>
+
+                                <div class="col-md-4">
+                                  <h3>INCLUSO</h3>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseSiteDelivery"
+                                  aria-expanded="false" aria-controls="collapseSiteDelivery">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseSiteDelivery">
+                              <div class="desc m-5">
+                                Tenha um Cardápio Digital que impressione seus clientes, fácil de usar e totalmente
+                                integrado com WhatsApp, e tenha seu link próprio, para compartilhar através das redes
+                                sociais .
+                              </div>
+                            </div>
+
+
+                            <div class="card active">
+                              <div class="row">
+                                <div class="col-md-8 d-flex justify-content-end item">
+                                  <img src="assets/imgs/svgs/modules/gestor-pedidos.svg" class="icon">
+                                  <h4>GESTOR DE PEDIDOS</h4>
+                                </div>
+
+                                <div class="col-md-4">
+                                  <h3>INCLUSO</h3>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseGestorPedidos"
+                                  aria-expanded="false" aria-controls="collapseGestorPedidos">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseGestorPedidos">
+                              <div class="desc m-5">
+                                Centralize todos seus pedidos do seu cardápio ou até mesmo das integrações como ifood ,
+                                rappi, delivery much em um só lugar, e aumente a produtividade de sua equipe. Veja
+                                status
+                                de cada pedido, ative impressão automática, aparência limpa e fácil de utilizar.
+                              </div>
+                            </div>
+
+
+                            <div class="card mt-2">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="col-md-12 d-flex justify-content-end">
+                                      <img src="assets/imgs/svgs/modules/venda-balcao.svg" class="icon">
+                                      <h4>VENDA BALCÃO</h4>
+                                    </div>
+                                    <div class="col-md-12 d-flex justify-content-end">
+                                      <p>(FRENTE DE CAIXA PDV)</p>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <div class="switch">
+                                      <input id="one" class="input" type="checkbox">
+                                      <label for="one" class="slider"></label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseVendaBalcao"
+                                  aria-expanded="false" aria-controls="collapseVendaBalcao">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseVendaBalcao">
+                              <div class="desc m-5">
+                                Ofereça um atendimento otimizado para seu cliente, com visual limpo e fácil de entender,
+                                crie pedidos , edite e exclua, de uma forma rápida!
+                              </div>
+                            </div>
+
+                            <div class="card mt-2 coming-soon">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="col-md-12 d-flex justify-content-end">
+                                      <img src="assets/imgs/svgs/modules/comandas-e-mesas.svg" class="icon">
+                                      <h4>COMANDAS E MESAS</h4>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <h3>EM BREVE</h3>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseComandasEMesas"
+                                  aria-expanded="false" aria-controls="collapseComandasEMesas">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseComandasEMesas">
+                              <div class="desc m-5">
+                                Automatize seu estabelecimento , recebendo pedidos diretamente da mesa via qr code, sem
+                                deixar seu cliente esperando e seu garçom com acesso a todas as comandas podendo
+                                adicionar
+                                itens e fechar a conta.
+                              </div>
+                            </div>
+
+                            <div class="card active">
+                              <div class="row">
+                                <div class="col-md-8 d-flex justify-content-end item">
+                                  <img src="assets/imgs/svgs/modules/gestor-pedidos.svg" class="icon">
+                                  <h4 class="me-4">RELATÓRIO</h4>
+                                </div>
+
+                                <div class="col-md-4">
+                                  <h3>INCLUSO</h3>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseRelatorio"
+                                  aria-expanded="false" aria-controls="collapseRelatorio">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseRelatorio">
+                              <div class="desc m-5">
+                                Saiba como está o crescimento de sua empresa, através do relatório completo com
+                                faturamento diária, semanal, mensal e anual. Veja ranking dos itens mais vendidos, saiba
+                                horários que mais vende, até mesmo os dias da semana que mais vende! e muito mais...
+                              </div>
+                            </div>
+
+                            <div class="card mt-2">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="col-md-12 d-flex justify-content-end">
+                                      <img src="assets/imgs/svgs/modules/gestao-de-estoque.svg" class="icon">
+                                      <h4>GESTÃO DE ESTOQUE</h4>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <div class="switch">
+                                      <input id="one" class="input" type="checkbox">
+                                      <label for="one" class="slider"></label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseGestorEstoque"
+                                  aria-expanded="false" aria-controls="collapseGestorEstoque">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseGestorEstoque">
+                              <div class="desc m-5">
+                                Não passe mais aperto por faltar algo na hora que mais precisa! controle todos os itens
+                                e
+                                insumos, crie, edite e exclua de uma forma simples e rápida. Faça adição ou retirada de
+                                estoque, saiba o custo de cada item e insumo, e cadastre também ilimitadamente!
+                              </div>
+                            </div>
+
+                            <div class="card active">
+                              <div class="row">
+                                <div class="col-md-8 d-flex justify-content-end item">
+                                  <img src="assets/imgs/svgs/modules/clientes.svg" class="icon">
+                                  <h4 class="me-4">CLIENTES</h4>
+                                </div>
+
+                                <div class="col-md-4">
+                                  <h3>INCLUSO</h3>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseClientes"
+                                  aria-expanded="false" aria-controls="collapseClientes">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseClientes">
+                              <div class="desc m-5">
+                                Conheça quem compra de você! tenha acesso as informações necessárias como Email,
+                                WhatsApp,
+                                Endereço para suas futuras campanhas de marketing, saiba também a quantos dias seu
+                                cliente
+                                não faz novas compras, e muito mais...
+                              </div>
+                            </div>
+
+
+                            <div class="card mt-2">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="col-md-12 d-flex justify-content-end">
+                                      <img src="assets/imgs/svgs/modules/gestao-de-estoque.svg" class="icon">
+                                      <h4>AGENDAMENTO</h4>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <div class="switch">
+                                      <input id="one" class="input" type="checkbox">
+                                      <label for="one" class="slider"></label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseAgendamento"
+                                  aria-expanded="false" aria-controls="collapseAgendamento">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseAgendamento">
+                              <div class="desc m-5">
+                                Receba agendamento até mesmo quando estiver fechado, receba notificações para começar a
+                                produção do item agendado.
+                              </div>
+                            </div>
+
+                            <div class="col-md-6 offset-md-4">
+                              <button class="btn-red-modules mt-4"><img
+                                  src="assets/imgs/svgs/modules/btn-icons/marketing.svg">
+                                Marketing</button>
+                            </div>
+
+                            <div class="card mt-4">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="col-md-12 d-flex justify-content-end">
+                                      <img src="assets/imgs/svgs/modules/cashback.svg" class="icon">
+                                      <h4 class="me-4">Cashback</h4>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <div class="switch">
+                                      <input id="one" class="input" type="checkbox">
+                                      <label for="one" class="slider"></label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseCashback"
+                                  aria-expanded="false" aria-controls="collapseCashback">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseCashback">
+                              <div class="desc m-5">
+                                Aumente a fidelidade de seus clientes, configure o valor e que será convertido em pontos
+                                para seu cliente trocar por descontos e até mesmo por produtos, veja a quantidade de
+                                clientes utilizando o cashback.
+                              </div>
+                            </div>
+
+
+                            <div class="card mt-4">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="col-md-12 d-flex justify-content-end">
+                                      <img src="assets/imgs/svgs/modules/desconto.svg" class="icon">
+                                      <h4>CUPOM DE DESCONTO</h4>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <div class="switch">
+                                      <input id="one" class="input" type="checkbox">
+                                      <label for="one" class="slider"></label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseDesconto"
+                                  aria-expanded="false" aria-controls="collapseDesconto">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseDesconto">
+                              <div class="desc m-5">
+                                Aumente suas vendas oferecendo cupom de desconto para seus clientes, envie cupom de
+                                desconto via cupom não fiscal, por popup e também por palavra chave!
+                              </div>
+                            </div>
+
+                            <div class="card mt-4">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="col-md-12 d-flex justify-content-end">
+                                      <img src="assets/imgs/svgs/modules/sms.svg" class="icon">
+                                      <h4>SMS MARKETING</h4>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <div class="switch">
+                                      <input id="one" class="input" type="checkbox">
+                                      <label for="one" class="slider"></label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseSms"
+                                  aria-expanded="false" aria-controls="collapseSms">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseSms">
+                              <div class="desc m-5">
+                                Aumente suas vendas enviando sms marketing para seus clientes, envie promoções, cupom de
+                                desconto, novidades, ofertas e muito mais, faça a recarga do valor desejado e utilize
+                                quando quiser da forma que quiser.
+                              </div>
+                            </div>
+
+
+                            <div class="card mt-4">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="col-md-12 d-flex justify-content-end">
+                                      <img src="assets/imgs/svgs/modules/promocoes.svg" class="icon">
+                                      <h4>PROMOÇÕES</h4>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <div class="switch">
+                                      <input id="one" class="input" type="checkbox">
+                                      <label for="one" class="slider"></label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapsePromocoes"
+                                  aria-expanded="false" aria-controls="collapsePromocoes">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapsePromocoes">
+                              <div class="desc m-5">
+                                Aumente seu ticket de vendas, mostrando promoções em destaque, com senso de escassez,
+                                configurando quantidade de cada item para a promoção faça promoções de desconto por
+                                porcentagens, entrega grátis e compre e ganhe!
+                              </div>
+                            </div>
+
+                            <div class="card mt-2 coming-soon">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="col-md-12 d-flex justify-content-end">
+                                      <img src="assets/imgs/svgs/modules/impulsionamento.svg" class="icon">
+                                      <h4>IMPULSIONAMENTO TURBO</h4>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <h3>EM BREVE</h3>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseImpulsionamento"
+                                  aria-expanded="false" aria-controls="collapseImpulsionamento">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseImpulsionamento">
+                              <div class="desc m-5">
+                                Faça impulsionamento turbo no facebook e instagram com apenas 3 cliques, defina o valor
+                                ,
+                                escolha a promoção , e faça descrição e finalize. (necessário ter crédito na conta do
+                                facebook)
+                              </div>
+                            </div>
+
+
+                            <div class="col-md-6 offset-md-3">
+                              <button class="btn-red-modules mt-4"><img
+                                  src="assets/imgs/svgs/modules/btn-icons/produtividade.svg">
+                                PRODUTIVIDADE</button>
+                            </div>
+
+                            <div class="card mt-2 coming-soon mt-4">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="col-md-12 d-flex justify-content-end">
+                                      <img src="assets/imgs/svgs/modules/monitor.svg" class="icon">
+                                      <h4>MONITOR PREPARO</h4>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <h3>EM BREVE</h3>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseMonitor"
+                                  aria-expanded="false" aria-controls="collapseMonitor">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseMonitor">
+                              <div class="desc m-5">
+                                Automatize ainda mais seu estabelecimento com pedidos atualizados diretamente da
+                                cozinha,
+                                aumentando a produtividade e organização de sua equipe, podendo marcar item como feito
+                                entre outras funções.
+                              </div>
+                            </div>
+
+
+                            <div class="card mt-2">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="col-md-12 d-flex justify-content-end">
+                                      <img src="assets/imgs/svgs/modules/entregador.svg" class="icon">
+                                      <h4>ENTREGADOR</h4>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <div class="switch">
+                                      <input id="one" class="input" type="checkbox">
+                                      <label for="one" class="slider"></label>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseEntregador"
+                                  aria-expanded="false" aria-controls="collapseEntregador">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseEntregador">
+                              <div class="desc m-5">
+                                Registre entregadores, configure como quer pagar o entregador, veja histórico de pedidos
+                                e
+                                valor por entrega, veja ganhos diários, semanal e mensal, imprima recibos de pagamento e
+                                muito mais.
+                              </div>
+                            </div>
+
+
+                            <div class="col-md-8 offset-md-3">
+                              <button class="btn-red-modules mt-4 mb-4"><img
+                                  src="assets/imgs/svgs/modules/btn-icons/gestor-financeiro.svg">
+                                GESTOR FINANCEIRO</button>
+                            </div>
+
+                            <div class="card mt-2 coming-soon">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="col-md-12 d-flex justify-content-end">
+                                      <img src="assets/imgs/svgs/modules/nfe.svg" class="icon">
+                                      <h4 class="me-4">NF-E E SAT</h4>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <h3>EM BREVE</h3>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseNFE"
+                                  aria-expanded="false" aria-controls="collapseNFE">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseNFE">
+                              <div class="desc m-5">
+                                Emita Nf-e e sat do seu pedido para seu cliente, de uma forma rápida e pratica!
+                              </div>
+                            </div>
+
+                            <div class="card mt-2 coming-soon">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="col-md-12 d-flex justify-content-end">
+                                      <img src="assets/imgs/svgs/modules/gestor-financeiro.svg" class="icon">
+                                      <h4>GESTOR FINANCEIRO</h4>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <h3>EM BREVE</h3>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-6 offset-md-3 mt-4">
+                                <button class="btn" data-bs-toggle="collapse" data-bs-target="#collapseFinanceiro"
+                                  aria-expanded="false" aria-controls="collapseFinanceiro">VER <b>DETALHES</b> <i
+                                    class="fas fa-chevron-down ms-2"></i></button>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseFinanceiro">
+                              <div class="desc m-5">
+                                Tenha o controle do seu caixa em detalhes, podendo abrir, fechar caixa, ver informações
+                                de
+                                entradas e saídas, pagamento de contas e de funcionários, histórico financeiro etc...
+                              </div>
+                            </div>
+
+
+
+                            <div class="col-md-6 offset-md-3">
+                              <button class="btn-red-modules mt-4 mb-4"><img
+                                  src="assets/imgs/svgs/modules/btn-icons/integrations.svg">
+                                INTEGRAÇÕES</button>
+                            </div>
+
+                            <div class="card">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-12 d-flex justify-content-start">
+
+                                    <div class="col-md-4 d-flex justify-content-start">
+                                      <img src="assets/imgs/svgs/modules/integrations/ifood.png" class="icon">
+                                    </div>
+                                    <div class="col-md-4 align-middle">
+                                      <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseIfood" aria-expanded="false"
+                                        aria-controls="collapseIfood">VER <b>DETALHES</b> <i
+                                          class="fas fa-chevron-down ms-2"></i></button>
+                                    </div>
+
+                                    <div class="col-md-3 d-flex justify-content-end">
+                                      <div class="switch">
+                                        <input id="one" class="input" type="checkbox">
+                                        <label for="one" class="slider"></label>
+                                      </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseIfood">
+                              <div class="desc m-5">
+                                Integre a sua conta do <b>Ifood</b> e centralize todos seus pedidos em um só lugar
+                              </div>
+                            </div>
+
+                            <div class="card">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-12 d-flex justify-content-start">
+
+                                    <div class="col-md-4 d-flex justify-content-start">
+                                      <img src="assets/imgs/svgs/modules/integrations/delivery-much.png" class="icon">
+                                    </div>
+                                    <div class="col-md-4 align-middle">
+                                      <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseDeliveryMuch" aria-expanded="false"
+                                        aria-controls="collapseDeliveryMuch">VER <b>DETALHES</b> <i
+                                          class="fas fa-chevron-down ms-2"></i></button>
+                                    </div>
+
+                                    <div class="col-md-3 d-flex justify-content-end">
+                                      <div class="switch">
+                                        <input id="one" class="input" type="checkbox">
+                                        <label for="one" class="slider"></label>
+                                      </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseDeliveryMuch">
+                              <div class="desc m-5">
+                                Integre a sua conta do <b>Delivery Much</b> e centralize todos seus pedidos em um só
+                                lugar
+                              </div>
+                            </div>
+
+                            <div class="card">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-12 d-flex justify-content-start">
+
+                                    <div class="col-md-4 d-flex justify-content-start">
+                                      <img src="assets/imgs/svgs/modules/integrations/rappi.svg" class="icon">
+                                    </div>
+                                    <div class="col-md-4 align-middle">
+                                      <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseRappi" aria-expanded="false"
+                                        aria-controls="collapseRappi">VER <b>DETALHES</b> <i
+                                          class="fas fa-chevron-down ms-2"></i></button>
+                                    </div>
+
+                                    <div class="col-md-3 d-flex justify-content-end">
+                                      <div class="switch">
+                                        <input id="one" class="input" type="checkbox">
+                                        <label for="one" class="slider"></label>
+                                      </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseRappi">
+                              <div class="desc m-5">
+                                Integre a sua conta do <b>Rappi</b> e centralize todos seus pedidos em um só lugar
+                              </div>
+                            </div>
+
+                            <div class="card">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-12 d-flex justify-content-start">
+
+                                    <div class="col-md-4 d-flex justify-content-start">
+                                      <img src="assets/imgs/svgs/modules/integrations/mercadopago.svg"  style="width: 110px;" class="icon">
+                                    </div>
+                                    <div class="col-md-4 align-middle">
+                                      <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseMercadoPago" aria-expanded="false"
+                                        aria-controls="collapseMercadoPago">VER <b>DETALHES</b> <i
+                                          class="fas fa-chevron-down ms-2"></i></button>
+                                    </div>
+
+                                    <div class="col-md-3 d-flex justify-content-end">
+                                      <div class="switch">
+                                        <input id="one" class="input" type="checkbox">
+                                        <label for="one" class="slider"></label>
+                                      </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseMercadoPago">
+                              <div class="desc m-5">
+                                Integre a sua conta do <b>Mercado Pago</b> e receba pagamentos online de seus clientes
+                              </div>
+                            </div>
+
+                            <div class="card coming-soon">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-12 d-flex justify-content-start">
+
+                                    <div class="col-md-4 d-flex justify-content-start">
+                                      <img src="assets/imgs/svgs/modules/integrations/uber-eats.png" class="icon">
+                                    </div>
+                                    <div class="col-md-4 align-middle">
+                                      <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseUberEats" aria-expanded="false"
+                                        aria-controls="collapseUberEats">VER <b>DETALHES</b> <i
+                                          class="fas fa-chevron-down ms-2"></i></button>
+                                    </div>
+
+                                    <div class="col d-flex justify-content-end">
+                                      <h3 class="mt-4">EM BREVE</h3>
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseUberEats">
+                              <div class="desc m-5">
+                                Integre a sua conta do <b>Uber Eats</b> e centralize todos seus pedidos em um só lugar
+                              </div>
+                            </div>
+
+                            <div class="card coming-soon">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-12 d-flex justify-content-start">
+
+                                    <div class="col-md-4 d-flex justify-content-start">
+                                      <img src="assets/imgs/svgs/modules/integrations/aiqfome.png" class="icon">
+                                    </div>
+                                    <div class="col-md-4 align-middle">
+                                      <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseAiqfome" aria-expanded="false"
+                                        aria-controls="collapseAiqfome">VER <b>DETALHES</b> <i
+                                          class="fas fa-chevron-down ms-2"></i></button>
+                                    </div>
+
+                                    <div class="col d-flex justify-content-end">
+                                      <h3 class="mt-4">EM BREVE</h3>
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseAiqfome">
+                              <div class="desc m-5">
+                                Integre a sua conta do <b>Ai que fome</b> e centralize todos seus pedidos em um só lugar
+                              </div>
+                            </div>
+
+                            <div class="card coming-soon">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-12 d-flex justify-content-start">
+
+                                    <div class="col-md-4 d-flex justify-content-start">
+                                      <img src="assets/imgs/svgs/modules/integrations/ze-delivery.svg" class="icon">
+                                    </div>
+                                    <div class="col-md-4 align-middle">
+                                      <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseZeDelivery" aria-expanded="false"
+                                        aria-controls="collapseZeDelivery">VER <b>DETALHES</b> <i
+                                          class="fas fa-chevron-down ms-2"></i></button>
+                                    </div>
+
+                                    <div class="col d-flex justify-content-end">
+                                      <h3 class="mt-4">EM BREVE</h3>
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseZeDelivery">
+                              <div class="desc m-5">
+                                Integre a sua conta do <b>Zé Delivery</b> e centralize todos seus pedidos em um só lugar
+                              </div>
+                            </div>
+
+                            <div class="card coming-soon">
+                              <div class="col-md-12 justify-content-center item">
+
+                                <div class="row">
+                                  <div class="col-md-12 d-flex justify-content-start">
+
+                                    <div class="col-md-4 d-flex justify-content-start">
+                                      <img src="assets/imgs/svgs/modules/integrations/99food.png" class="icon">
+                                    </div>
+                                    <div class="col-md-4 align-middle">
+                                      <button class="btn align-middle mt-4" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse99food" aria-expanded="false"
+                                        aria-controls="collapse99food">VER <b>DETALHES</b> <i
+                                          class="fas fa-chevron-down ms-2"></i></button>
+                                    </div>
+
+                                    <div class="col d-flex justify-content-end">
+                                      <h3 class="mt-4">EM BREVE</h3>
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapse99food">
+                              <div class="desc m-5">
+                                Integre a sua conta do <b>99 food</b> e centralize todos seus pedidos em um só lugar
+                              </div>
+                            </div>
+
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Modal Registro -->
-    <div class="register">
+    <div class="register" id="modalRegister">
       <div class="modal fade" id="register" tabindex="-1" aria-labelledby="register" aria-hidden="true">
         <div class="modal-dialog modal-xl">
           <div class="modal-content">
@@ -323,6 +1227,19 @@
                                 </div>
                               </div>
 
+                              <div class="extra-actions">
+                                <h3 class="text-center">CASO PRECISE CLIQUE NA OPÇÃO ABAIXO</h3>
+                                <div class="line"></div>
+                                <div class="d-flex flex-wrap justify-content-center justify-items-center">
+                                  <div class="col-md-6 col-sm-12 p-2"><button type="button" class="btn btn-cian"
+                                      data-bs-dismiss="modal" aria-label="Close" id="btnAddModuleRegister"
+                                      data-bs-toggle="modal" data-bs-target="#add-module-modal"><b>ADICIONAR</b> MAIS
+                                      MÓDULOS</button></div>
+                                  <div class="col-md-6 col-sm-12 p-2"><button type="button" class="btn btn-white"
+                                      id="btnNeedHelpRegister"><b>PRECISA</b> DE AJUDA PARA MONTAR SEU PLANO</button>
+                                  </div>
+                                </div>
+                              </div>
 
                             </div>
                           </div>
@@ -330,7 +1247,7 @@
                       </div>
                     </div>
 
-                    <div class="col-md-12 mt-4 sell-showcase">
+                    <div class="col-md-12 mt-4 sell-showcase" id="regiser-showcase">
                       <div class="row equal">
                         <div class="col-md-4 col-sm-12 col-12">
                           <div class="card green">
@@ -374,21 +1291,23 @@
                           </div>
                         </div>
                       </div>
-                    </div>
 
-                    <div class="payments-types">
-                      <div class="container">
-                        <div class="col-md-12 col-sm-12 mt-4">
+                      <div class="payments-types">
+                        <div class="container">
+                          <div class="col-md-12 col-sm-12 mt-4">
 
-                          <div class="payments-method mt-5 mb-5">
-                            <img src="assets/imgs/svgs/payments.svg" width="85%" />
+                            <div class="payments-method mt-5 mb-5">
+                              <img src="assets/imgs/svgs/payments.svg" width="85%" />
+                            </div>
                           </div>
                         </div>
                       </div>
+
                     </div>
 
+                    <button type="submit" class="btn btn-cian-register">FINALIZAR CADASTRO E INICIAR <b>TESTE 15
+                        DIAS</b> GRÁTIS</button>
 
-                    <button type="submit" class="btn btn-gradient"><b>FINALIZAR CADASTRO</b></button>
                 </form>
               </div>
             </div>
@@ -485,7 +1404,7 @@
 
     <section class="youtube-video d-flex justify-content-center" data-aos="fade-up">
       <div class="content">
-        <img src="assets/imgs/svgs/gotas.svg"/>
+        <img src="assets/imgs/svgs/gotas.svg" />
         <div class="youtube-presentation">
           <iframe width="1106" height="670" style="display:block;" src="https://www.youtube.com/embed/i9yJD7SgwV0"
             title="YouTube video player" frameborder="0"
@@ -1227,9 +2146,9 @@
               <span class="tiny">ESTAMOS AQUI PARA TE AJUDAR A CRESCER</span>
             </div>
 
-            <div class="col-md-6 offset-md-3 mount" id="monte-seu-plano" data-aos="fade-up">
+            <div class="col-md-6 offset-md-3 mount" data-aos="fade-up">
               <img src="assets/imgs/svgs/mount-your-plan.svg" class="mount-image" width="95%" />
-              <div class="card gradient box-mount">
+              <div class="card gradient box-mount" id="monte-seu-plano">
 
                 <h2>MONTE</h2>
 
@@ -2490,7 +3409,8 @@
     <div class="content">
       <div class="row">
         <div class="col-md-4 col-sm-12 text-center">
-          <p>FEITO COM <img class="nav-item-heart" src="assets/imgs/svgs/heart.svg" /> EM <b>CAMPINAS</b></p>
+          <p class="mt-5">FEITO COM <img class="nav-item-heart" src="assets/imgs/svgs/heart.svg" /> EM <b>CAMPINAS</b>
+          </p>
         </div>
 
         <div class="col-md-4 col-sm-12 text-center">

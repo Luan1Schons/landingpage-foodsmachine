@@ -350,6 +350,8 @@
 
     .sell-showcase {
 
+        
+        padding: 0px 10rem !important;
         @media (min-width: 900px)
         {
             padding: 0px 120px;
@@ -358,6 +360,7 @@
         .card {
             height: 100%;
             width: 100%;
+
         }
         .green {
             background-color: #0BD877;
