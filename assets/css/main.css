@@ -1199,7 +1199,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 768px) {
   .mount-your-plan .mount .gradient h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
@@ -1211,7 +1211,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 768px) {
   .mount-your-plan .mount .gradient h1 {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 
@@ -1222,8 +1222,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 768px) {
   .mount-your-plan .mount .gradient .heart {
-    width: 4rem;
-    margin-left: 5px;
+    display: none;
   }
 }
 
@@ -1251,6 +1250,12 @@ body::-webkit-scrollbar-thumb {
   font-family: 'TheFontBold', Arial, sans-serif;
   font-size: 75px;
   color: #20BBBD;
+}
+
+@media (max-width: 768px) {
+  .mount-your-plan .mount .modules .plan-details .price h1 {
+    font-size: 3rem;
+  }
 }
 
 .mount-your-plan .mount .modules .plan-details .line {

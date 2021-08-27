@@ -128,7 +128,7 @@
 
                 @media (max-width: 768px)
                 {
-                    font-size: 2rem;
+                    font-size: 3rem;
                 }
 
             }
@@ -139,7 +139,7 @@
 
                 @media (max-width: 768px)
                 {
-                    font-size: 5rem;
+                    font-size: 3rem;
                 }
 
             }
@@ -150,8 +150,7 @@
 
                 @media (max-width: 768px)
                 {
-                    width: 4rem;
-                    margin-left: 5px;
+                    display: none;
                 }
 
             }
@@ -184,6 +183,11 @@
                         font-family: 'TheFontBold', Arial, sans-serif;
                         font-size: 75px;
                         color: #20BBBD;
+
+                        @media (max-width: 768px)
+                        {
+                            font-size: 3rem;
+                        }
                     }
                 }
                 .line {
