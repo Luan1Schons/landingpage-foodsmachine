@@ -1,5 +1,10 @@
 .youtube-video {
 
+    @media (max-width: 768px)
+    {
+        display: none !important;
+    }
+
     .content {
         img {
             float: right;

@@ -726,6 +726,18 @@ body::-webkit-scrollbar-thumb {
   margin-top: 35px;
 }
 
+@media (max-width: 768px) {
+  .header-card .info-apps {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .youtube-video {
+    display: none !important;
+  }
+}
+
 .youtube-video .content img {
   float: right;
   margin-top: 1rem;
