@@ -947,6 +947,7 @@ body::-webkit-scrollbar-thumb {
 .functionalities .integrations .card {
   background-color: #fcfcfc00;
   border-radius: 40px;
+  border: none;
 }
 
 .functionalities .integrations .card .card-body {
@@ -999,10 +1000,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .functionalities .benefits .card:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   background: linear-gradient(45deg, #21BABF, #8B017D 100%);
   color: #fff;
+  z-index: 9999;
 }
 
 .functionalities .benefits .card:hover .svg-black {
@@ -1012,12 +1014,6 @@ body::-webkit-scrollbar-thumb {
 
 .functionalities .benefits .card:hover h4 {
   color: #fff;
-}
-
-.functionalities .benefits .card:hover .item {
-  padding: 80px 0px;
-  /* height: 100%; */
-  /* width: 100%; */
 }
 
 .functionalities .benefits .item {
