@@ -1160,6 +1160,10 @@ body::-webkit-scrollbar-thumb {
   margin-top: 150px;
 }
 
+.mount-your-plan .hideBrands {
+  display: none !important;
+}
+
 .mount-your-plan .brands {
   margin-bottom: -21rem;
 }

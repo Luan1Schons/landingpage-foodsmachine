@@ -26,15 +26,15 @@ $('.clients-carousel').owlCarousel({
 })
 
 $(document).ready(function () {
+
   let clickFunctionalities = 0;
   $('.btn-red-functionalities').on('click', function (e) {
-
     if (clickFunctionalities === 0) {
       clickFunctionalities = 1;
-      $(".brands").hide();
+      $('.brands').addClass('hideBrands');
     } else {
       clickFunctionalities = 0;
-      $(".brands").show();
+      $('.brands').removeClass('hideBrands');
     }
   })
 
@@ -52,5 +52,6 @@ $(document).ready(function () {
     e.preventDefault();
     $('#btnNeedHelpRegister').prop('disabled', true);
   });
+
 });
 
