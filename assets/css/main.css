@@ -999,7 +999,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .functionalities .benefits .card:hover {
-  background: linear-gradient(45deg, rgba(29, 236, 197, 0.5), rgba(91, 14, 214, 0.5) 100%);
+  background: linear-gradient(45deg, #21BABF, #8B017D 100%);
   color: #fff;
 }
 
