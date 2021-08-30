@@ -1450,6 +1450,63 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+.mount-your-plan .modules-selected .extra-actions {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.mount-your-plan .modules-selected .extra-actions h3 {
+  font-size: 14px;
+  color: #C9C9C9;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.mount-your-plan .modules-selected .extra-actions .line {
+  border: solid 2px #F1F1F1;
+  margin: 0px 0px 30px 0px;
+}
+
+.mount-your-plan .modules-selected .extra-actions .btn {
+  width: 100% !important;
+  padding: 15px !important;
+  font-size: 18px;
+  border-radius: 35px;
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+.mount-your-plan .modules-selected .extra-actions .btn b {
+  font-size: 18px;
+  font-family: 'TheFontBold', Arial, sans-serif;
+}
+
+.mount-your-plan .modules-selected .extra-actions .btn-white {
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 3px 5px -4px #000000;
+  -webkit-box-shadow: 0px 1px 7px -4px #000000;
+  box-shadow: 0px 1px 7px -4px #000000;
+  border: solid 3px #f9f9f9;
+}
+
+.mount-your-plan .modules-selected .extra-actions .btn-white b {
+  color: #fe1846;
+}
+
+.mount-your-plan .modules-selected .extra-actions .btn-dark {
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 3px 5px -4px #000000;
+  -webkit-box-shadow: 0px 1px 7px -4px #000000;
+  box-shadow: 0px 1px 7px -4px #000000;
+  border: solid 3px #000000;
+  background-color: #000000;
+  font-size: 14px;
+  font-family: 'TheFontBold', Arial, sans-serif;
+  color: #fff;
+}
+
+.mount-your-plan .modules-selected .extra-actions .btn-dark b {
+  color: #fff;
+}
+
 .mount-your-plan .modules-selected .card {
   height: 100%;
   width: 100%;
@@ -1528,18 +1585,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .sell-showcase {
-  padding: 0px 10rem !important;
+  padding: 0px 14rem !important;
 }
 
 @media (min-width: 900px) {
   .mount-your-plan .sell-showcase {
     padding: 0px 120px;
   }
-}
-
-.mount-your-plan .sell-showcase .card {
-  height: 100%;
-  width: 100%;
 }
 
 .mount-your-plan .sell-showcase .green {
@@ -1600,7 +1652,7 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .sell-showcase .black .price h1 {
   color: #0AD875;
-  font-size: min(176px, 16vw);
+  font-size: min(156px, 14vw);
 }
 
 .mount-your-plan .sell-showcase .black .price h2 {
@@ -1609,7 +1661,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .sell-showcase .black .price span {
-  top: 135px;
+  top: 115px;
   position: relative;
   font-size: 31px;
 }
@@ -2015,7 +2067,7 @@ body::-webkit-scrollbar-thumb {
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .plan-details .title h3 {
   font-family: "FuturaBk", Arial, sans-serif;
-  font-size: 27px;
+  font-size: 18px;
   color: #cfc9c9;
 }
 
@@ -2043,18 +2095,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card {
-  padding: 35px;
+  padding: 25px;
   margin-bottom: 20px;
+  height: 160px;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card img {
+  width: 50px;
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card .item {
   font-family: "TheFontBold", Arial, sans-serif;
   font-size: 25px;
   color: #000000;
-}
-
-.add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card .item .icon {
-  margin-right: 25px;
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card .item p {
@@ -2071,24 +2124,28 @@ body::-webkit-scrollbar-thumb {
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .active .btn {
   background-color: #fff0;
   color: #fff;
+  height: 40px;
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .active h4 {
   color: #fff;
+  white-space: normal;
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .active h3 {
-  font-size: 25px;
+  font-size: 18px;
   font-family: "TheFontBold", Arial, sans-serif;
   color: #0f6a6d;
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .coming-soon h4 {
   color: #e4e4e4;
+  white-space: normal;
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .coming-soon h3 {
   color: #e4e4e4;
+  white-space: normal;
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .btn {
@@ -2098,6 +2155,7 @@ body::-webkit-scrollbar-thumb {
   box-shadow: 0px 1px 8px -4px #000000;
   padding: 5px 25px;
   border-radius: 10px;
+  height: 40px;
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules::-webkit-scrollbar {

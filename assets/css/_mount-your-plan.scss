@@ -279,6 +279,62 @@
             padding: 80px 120px 0px 120px;
         }
 
+        .extra-actions {
+
+            margin-top: 150px;
+            margin-bottom: 100px;
+
+            h3 {
+                font-size: 14px;
+                color: #C9C9C9;
+                font-family: "FuturaBk", Arial, sans-serif;
+            }
+
+            .line {
+                border: solid 2px #F1F1F1;
+                margin: 0px 0px 30px 0px;
+            }
+
+            .btn {
+                width: 100% !important; 
+                padding: 15px !important;
+                font-size: 18px;
+                border-radius: 35px;
+                font-family: "FuturaBk", Arial, sans-serif;
+                b{
+                    font-size: 18px;
+                    font-family: 'TheFontBold', Arial, sans-serif;
+                }
+            }
+
+            .btn-white {
+                -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+                box-shadow: inset 0px 3px 5px -4px #000000;
+                -webkit-box-shadow: 0px 1px 7px -4px #000000;
+                box-shadow: 0px 1px 7px -4px #000000;
+                border: solid 3px #f9f9f9;
+                b {
+                    color: #fe1846;
+                }
+            }
+
+            .btn-dark {
+                -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+                box-shadow: inset 0px 3px 5px -4px #000000;
+                -webkit-box-shadow: 0px 1px 7px -4px #000000;
+                box-shadow: 0px 1px 7px -4px #000000;
+                border: solid 3px #000000;
+                background-color: #000000;
+                font-size: 14px;
+                font-family: 'TheFontBold', Arial, sans-serif;
+                color: #fff;
+                b {
+                    color: #fff;
+                }
+            }
+        }
+
+
         .card {
             height: 100%;
             width: 100%;
@@ -353,17 +409,12 @@
     .sell-showcase {
 
         
-        padding: 0px 10rem !important;
+        padding: 0px 14rem !important;
         @media (min-width: 900px)
         {
             padding: 0px 120px;
         }
 
-        .card {
-            height: 100%;
-            width: 100%;
-
-        }
         .green {
             background-color: #0BD877;
             border: solid 3px #0BD877;
@@ -417,7 +468,7 @@
 
                 h1 {
                     color: #0AD875;
-                    font-size: #{"min(176px, 16vw)"};
+                    font-size: #{"min(156px, 14vw)"};
                 }
 
                 h2 {
@@ -427,7 +478,7 @@
                 }
 
                 span {
-                    top: 135px;
+                    top: 115px;
                     position: relative;
                     font-size: 31px;
                 }

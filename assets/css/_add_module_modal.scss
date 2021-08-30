@@ -117,7 +117,7 @@
                         .title {
                             h3 {
                                 font-family: "FuturaBk", Arial, sans-serif;
-                                font-size: 27px;
+                                font-size: 18px;
                                 color: #cfc9c9;
                             }
                         }
@@ -145,15 +145,17 @@
                     }
                     .module-list {
                         .card {
-                            padding: 35px;
+                            padding: 25px;
                             margin-bottom: 20px;
+                            height: 160px;
+
+                            img {
+                                width: 50px;
+                            }
                             .item {
                                 font-family: "TheFontBold", Arial, sans-serif;
                                 font-size: 25px;
                                 color: #000000;
-                                .icon {
-                                    margin-right: 25px;
-                                }
 
                                 p {
                                     font-size: 15px;
@@ -169,14 +171,16 @@
                             .btn {
                                 background-color: #fff0;
                                 color: #fff;
+                                height: 40px;
                             }
 
                             h4 {
                                 color: #fff;
+                                white-space: normal;
                             }
 
                             h3 {
-                                font-size: 25px;
+                                font-size: 18px;
                                 font-family: "TheFontBold", Arial, sans-serif;
                                 color: #0f6a6d;
                             }
@@ -185,10 +189,12 @@
                         .coming-soon {
                             h4 {
                                 color: rgb(228, 228, 228);
+                                white-space: normal;
                             }
 
                             h3 {
                                 color: rgb(228, 228, 228);
+                                white-space: normal;
                             }
                         }
 
@@ -199,6 +205,7 @@
                             box-shadow: 0px 1px 8px -4px #000000;
                             padding: 5px 25px;
                             border-radius: 10px;
+                            height: 40px;
                         }
                     }
                 }
