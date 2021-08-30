@@ -1507,6 +1507,16 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 
+.mount-your-plan .modules-selected .extra-actions .btn-disabled {
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 3px 5px -4px #000000;
+  -webkit-box-shadow: 0px 1px 7px -4px #000000;
+  box-shadow: 0px 1px 7px -4px #000000;
+  background-color: #EFEFEF !important;
+  border: solid 3px #EFEFEF !important;
+  color: #fff;
+}
+
 .mount-your-plan .modules-selected .card {
   height: 100%;
   width: 100%;

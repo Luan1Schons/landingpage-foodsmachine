@@ -40,21 +40,17 @@ $(document).ready(function () {
 
 
   $('body').on('click','#btnNeedHelpRegister', function(e) {
+    console.log('teste');
     e.preventDefault();
-    $('#btnAddModuleRegister').prop('disabled', true);
+    $('#btnAddModuleRegister').removeClass('btn-cian').addClass('btn-disabled');
     $('#regiser-showcase').hide();
     $(this).removeClass( "btn-white" ).addClass( "btn-dark" );
     $(this).text('OK, ENTRAREMOS EM CONTATO O MAIS RÁPIDO POSSÍVEL')
   });
 
-  $('#btnAddModuleRegister').on('click', function(e) {
-    console.log('teste');
-    e.preventDefault();
-    $('#btnNeedHelpRegister').prop('disabled', true);
-  });
-
   $('.register-btn').on('click', function(e) {
-    $('.need-help-to-mount-plan').html('<button type="button" class="btn btn-white" id="btnNeedHelpRegister"><b>PRECISA</b> DE AJUDA PARA MONTAR SEU PLANO</button>');
+    e.preventDefault();
+    $('#btnAddModuleRegister').removeClass('btn-disabled').addClass('btn-cian');
     $('#regiser-showcase').show();
   });
 
