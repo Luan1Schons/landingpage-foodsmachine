@@ -334,15 +334,6 @@
                 }
             }
 
-            .btn-disabled {
-                -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
-                box-shadow: inset 0px 3px 5px -4px #000000;
-                -webkit-box-shadow: 0px 1px 7px -4px #000000;
-                box-shadow: 0px 1px 7px -4px #000000;
-                background-color: #EFEFEF !important;
-                border: solid 3px #EFEFEF !important;
-                color: #fff;
-            }
         }
 
 
@@ -420,10 +411,16 @@
     .sell-showcase {
 
         
-        padding: 0px 14rem !important;
-        @media (min-width: 900px)
+        padding: 0px 14rem;
+
+        @media (max-width: 900px)
         {
             padding: 0px 120px;
+        }
+
+        @media (max-width: 768px)
+        {
+            padding: 0px 0px;
         }
 
         .green {
