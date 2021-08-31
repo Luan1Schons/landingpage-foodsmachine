@@ -1,8 +1,23 @@
-.header-card { 
-    @media (min-width: 900px)
+.slogan {
+
+    @media (max-width: 1024px)
     {
-        margin: 50px 90px;
+        margin-top: 80px;
+        margin: auto;
     }
+
+
+}
+.header-card { 
+
+    margin: 50px 90px;
+
+
+    @media (max-width: 1024px)
+    {
+        margin: auto;
+    }
+
 
     margin-top: 20%;
     font-family: 'TheFontBold', Arial, sans-serif;

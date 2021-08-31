@@ -798,15 +798,23 @@ body::-webkit-scrollbar-thumb {
           transform: translateY(-7px);
 }
 
+@media (max-width: 1024px) {
+  .slogan {
+    margin-top: 80px;
+    margin: auto;
+  }
+}
+
 .header-card {
+  margin: 50px 90px;
   margin-top: 20%;
   font-family: 'TheFontBold', Arial, sans-serif;
   text-align: center;
 }
 
-@media (min-width: 900px) {
+@media (max-width: 1024px) {
   .header-card {
-    margin: 50px 90px;
+    margin: auto;
   }
 }
 
