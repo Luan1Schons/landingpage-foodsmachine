@@ -482,6 +482,12 @@
             box-shadow: 0px 1px 8px -4px #000000;
             padding: 25px 55px;
 
+
+            h4 {
+                font-size: #{"min(22px, 4vw)"};
+                font-family: "TheFontBold", Arial, sans-serif;
+                color: #fff;
+            }
             .discount {
                 text-align: left;
                 font-family: "TheFontBold", Arial, sans-serif;

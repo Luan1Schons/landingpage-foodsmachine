@@ -1751,6 +1751,12 @@ body::-webkit-scrollbar-thumb {
   padding: 25px 55px;
 }
 
+.mount-your-plan .sell-showcase .black h4 {
+  font-size: min(22px, 4vw);
+  font-family: "TheFontBold", Arial, sans-serif;
+  color: #fff;
+}
+
 .mount-your-plan .sell-showcase .black .discount {
   text-align: left;
   font-family: "TheFontBold", Arial, sans-serif;
