@@ -413,14 +413,19 @@
         
         padding: 0px 14rem;
 
+        @media (max-width: 1024px)
+        {
+            padding: 0px;
+        }
+
         @media (max-width: 900px)
         {
-            padding: 0px 120px;
+            padding: 0px;
         }
 
         @media (max-width: 768px)
         {
-            padding: 0px 0px;
+            padding: 0px;
         }
 
         .green {
@@ -429,6 +434,16 @@
             padding: 25px 55px;
 
             h1 { 
+                @media (max-width: 1024px)
+                {
+                    font-size:  #{"min(50px, 7vw)"};
+                }
+
+                @media (max-width: 768px)
+                {
+                    font-size:  #{"min(30px, 5vw)"};
+                }
+
                 font-size:  #{"min(76px, 14vw)"};
                 font-family: 'TheFontBold', Arial, sans-serif;
             }
@@ -456,6 +471,17 @@
                 font-family: 'TheFontBold', Arial, sans-serif;
                 color: #fff;
                 h1 {
+
+                    @media (max-width: 1024px)
+                    {
+                        font-size:  #{"min(60px, 7vw)"};
+                    }
+
+                    @media (max-width: 768px)
+                    {
+                        font-size:  #{"min(40px, 6vw)"};
+                    }
+
                     font-size: #{"min(98px, 15vw)"};
                 }
             
@@ -475,12 +501,33 @@
                 color: #fff;
 
                 h1 {
+
+                    @media (max-width: 1024px)
+                    {
+                        font-size:  #{"min(80px, 12vw)"};
+                    }
+
+                    @media (max-width: 768px)
+                    {
+                        font-size:  #{"min(60px, 8vw)"};
+                    }
+
                     color: #0AD875;
                     font-size: #{"min(156px, 14vw)"};
                 }
 
                 h2 {
                     
+                    @media (max-width: 1024px)
+                    {
+                        font-size:  #{"min(60px, 7vw)"};
+                    }
+
+                    @media (max-width: 768px)
+                    {
+                        font-size:  #{"min(40px, 6vw)"};
+                    }
+
                     font-size: #{"min(90px, 15vw)"};
                     font-family: 'FuturaBk', Arial, sans-serif;
                 }

@@ -692,7 +692,7 @@ body::-webkit-scrollbar-thumb {
   box-shadow: 0px 1px 7px -4px #000000;
   background-color: #EFEFEF !important;
   border: solid 3px #EFEFEF !important;
-  color: #fff;
+  color: #8A8A8A;
   padding: 15px !important;
   font-size: 18px;
   border-radius: 35px;
@@ -700,7 +700,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .btn-disabled:hover {
-  color: #fff;
+  color: #8A8A8A;
   -webkit-transform: translateY(-7px);
           transform: translateY(-7px);
 }
@@ -877,6 +877,15 @@ body::-webkit-scrollbar-thumb {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(23%, #3f0546), color-stop(33%, #6c0d3e), color-stop(69%, #be1b2f), to(#f42524));
   background: linear-gradient(180deg, #3f0546 23%, #6c0d3e 33%, #be1b2f 69%, #f42524 100%);
   border-radius: 25px;
+  width: 1106px;
+  height: 670px;
+}
+
+@media (max-width: 1024px) {
+  .youtube-video .youtube-presentation iframe {
+    width: 980px;
+    height: 670px;
+  }
 }
 
 .youtube-video .alert span {
@@ -1618,15 +1627,21 @@ body::-webkit-scrollbar-thumb {
   padding: 0px 14rem;
 }
 
+@media (max-width: 1024px) {
+  .mount-your-plan .sell-showcase {
+    padding: 0px;
+  }
+}
+
 @media (max-width: 900px) {
   .mount-your-plan .sell-showcase {
-    padding: 0px 120px;
+    padding: 0px;
   }
 }
 
 @media (max-width: 768px) {
   .mount-your-plan .sell-showcase {
-    padding: 0px 0px;
+    padding: 0px;
   }
 }
 
@@ -1639,6 +1654,18 @@ body::-webkit-scrollbar-thumb {
 .mount-your-plan .sell-showcase .green h1 {
   font-size: min(76px, 14vw);
   font-family: 'TheFontBold', Arial, sans-serif;
+}
+
+@media (max-width: 1024px) {
+  .mount-your-plan .sell-showcase .green h1 {
+    font-size: min(50px, 7vw);
+  }
+}
+
+@media (max-width: 768px) {
+  .mount-your-plan .sell-showcase .green h1 {
+    font-size: min(30px, 5vw);
+  }
 }
 
 .mount-your-plan .sell-showcase .green h2 {
@@ -1670,6 +1697,18 @@ body::-webkit-scrollbar-thumb {
   font-size: min(98px, 15vw);
 }
 
+@media (max-width: 1024px) {
+  .mount-your-plan .sell-showcase .black .discount h1 {
+    font-size: min(60px, 7vw);
+  }
+}
+
+@media (max-width: 768px) {
+  .mount-your-plan .sell-showcase .black .discount h1 {
+    font-size: min(40px, 6vw);
+  }
+}
+
 .mount-your-plan .sell-showcase .black .discount span {
   font-size: 17px;
   position: relative;
@@ -1691,9 +1730,33 @@ body::-webkit-scrollbar-thumb {
   font-size: min(156px, 14vw);
 }
 
+@media (max-width: 1024px) {
+  .mount-your-plan .sell-showcase .black .price h1 {
+    font-size: min(80px, 12vw);
+  }
+}
+
+@media (max-width: 768px) {
+  .mount-your-plan .sell-showcase .black .price h1 {
+    font-size: min(60px, 8vw);
+  }
+}
+
 .mount-your-plan .sell-showcase .black .price h2 {
   font-size: min(90px, 15vw);
   font-family: 'FuturaBk', Arial, sans-serif;
+}
+
+@media (max-width: 1024px) {
+  .mount-your-plan .sell-showcase .black .price h2 {
+    font-size: min(60px, 7vw);
+  }
+}
+
+@media (max-width: 768px) {
+  .mount-your-plan .sell-showcase .black .price h2 {
+    font-size: min(40px, 6vw);
+  }
 }
 
 .mount-your-plan .sell-showcase .black .price span {

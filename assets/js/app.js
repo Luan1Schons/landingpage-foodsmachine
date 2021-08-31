@@ -40,7 +40,6 @@ $(document).ready(function () {
 
 
   $('body').on('click','#btnNeedHelpRegister', function(e) {
-    console.log('teste');
     e.preventDefault();
     $('#btnAddModuleRegister').removeClass('btn-cian').addClass('btn-disabled');
     $('#regiser-showcase').hide();
@@ -48,10 +47,18 @@ $(document).ready(function () {
     $(this).text('OK, ENTRAREMOS EM CONTATO O MAIS RÁPIDO POSSÍVEL')
   });
 
+  $('body').on('click','#btnAddModuleRegister', function(e) {
+    e.preventDefault();
+    $('#btnAddModuleRegister').removeClass('btn-cian').addClass('btn-disabled');
+    $('#regiser-showcase').show();
+    $('#btnNeedHelpRegister').removeClass( "btn-dark" ).addClass( "btn-white" );
+    $('.need-help-to-mount-plan').html('<button type="button" class="btn btn-white" id="btnNeedHelpRegister"><b>PRECISA</b> DE AJUDA PARA MONTAR SEU PLANO</button>');
+  });
+
   $('.register-btn').on('click', function(e) {
     e.preventDefault();
-    $('#btnAddModuleRegister').removeClass('btn-disabled').addClass('btn-cian');
-    $('#regiser-showcase').show();
+    //$('#btnAddModuleRegister').removeClass('btn-disabled').addClass('btn-cian');
+    //$('#regiser-showcase').show();
   });
 
 });
