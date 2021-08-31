@@ -6,6 +6,11 @@
     .brands{
         margin-bottom: -21rem;
 
+        @media (max-width: 1024px)
+        {
+            margin-bottom: 0px;
+        }
+
         @media (max-width: 768px) {
             display: none !important;
         }
@@ -105,6 +110,11 @@
     .mount {
         margin-top: 40px;
         padding: 0px 80px;
+
+        @media (max-width: 1024px)
+        {
+            padding: 0px;
+        }
 
         @media (max-width: 768px)
         {

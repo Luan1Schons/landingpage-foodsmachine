@@ -1208,6 +1208,12 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: -21rem;
 }
 
+@media (max-width: 1024px) {
+  .mount-your-plan .brands {
+    margin-bottom: 0px;
+  }
+}
+
 @media (max-width: 768px) {
   .mount-your-plan .brands {
     display: none !important;
@@ -1317,6 +1323,12 @@ body::-webkit-scrollbar-thumb {
 .mount-your-plan .mount {
   margin-top: 40px;
   padding: 0px 80px;
+}
+
+@media (max-width: 1024px) {
+  .mount-your-plan .mount {
+    padding: 0px;
+  }
 }
 
 @media (max-width: 768px) {
