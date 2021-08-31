@@ -1375,7 +1375,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .mount .gradient {
-  height: 23rem;
   border-radius: 40px;
   background: #3d0547;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(32%, #3d0547), color-stop(53%, #4c0844), color-stop(72%, #6a0d3f), color-stop(86%, #961437), to(#f62524));
@@ -1389,7 +1388,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .mount .gradient h2 {
-  font-size: 53px;
+  font-size: 60px;
   font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
@@ -1401,7 +1400,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .mount .gradient h1 {
-  font-size: 88px;
+  font-size: 116px;
   font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
@@ -1428,7 +1427,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .mount .gradient .button .btn-white {
-  font-size: 70px;
+  font-size: 90px;
   color: #460746;
   padding: 30px;
   font-family: "TheFontBold", Arial, sans-serif;
