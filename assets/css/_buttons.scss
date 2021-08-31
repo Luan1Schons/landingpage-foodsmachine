@@ -148,6 +148,24 @@
   }
 }
 
+.btn-modal {
+  background: rgb(253,90,73);
+  background: linear-gradient(90deg, rgba(253,90,73,1) 21%, rgba(250,77,94,1) 55%, rgba(247,64,115,1) 100%);
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px 30px;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 3px 5px -4px #000000;
+  font-size: 29px;
+  font-family: "TheFontBold", Arial, sans-serif;
+  &:hover {
+    color: #fff;
+  }
+}
 
 .btn-cian-register {
   background: #20BBBD;

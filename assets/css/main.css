@@ -603,6 +603,28 @@ body::-webkit-scrollbar-thumb {
   font-size: 45px;
 }
 
+.btn-modal {
+  background: #fd5a49;
+  background: -webkit-gradient(linear, left top, right top, color-stop(21%, #fd5a49), color-stop(55%, #fa4d5e), to(#f74073));
+  background: linear-gradient(90deg, #fd5a49 21%, #fa4d5e 55%, #f74073 100%);
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px 30px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 3px 5px -4px #000000;
+  font-size: 29px;
+  font-family: "TheFontBold", Arial, sans-serif;
+}
+
+.btn-modal:hover {
+  color: #fff;
+}
+
 .btn-cian-register {
   background: #20BBBD;
   border: solid 3px #20BBBD;
@@ -2126,7 +2148,7 @@ body::-webkit-scrollbar-thumb {
 
 .add-module-modal .modal-dialog .modal-content .modal-body .gradient {
   margin-top: -20px;
-  height: 50rem;
+  height: 53rem;
   border-radius: 40px;
   background: #3d0547;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(32%, #3d0547), color-stop(53%, #4c0844), color-stop(72%, #6a0d3f), color-stop(86%, #961437), to(#f62524));
@@ -2171,50 +2193,60 @@ body::-webkit-scrollbar-thumb {
 .add-module-modal .modal-dialog .modal-content .modal-body .gradient .card {
   position: relative;
   background-color: #FCFCFC;
-  border: solid 3px #fff;
-  border-radius: 35px;
-  -webkit-box-shadow: 0px 1px 9px -4px #000000;
-  box-shadow: 0px 1px 9px -4px #a79696;
+  border-radius: 0px 0px 35px 35px;
 }
 
-.add-module-modal .modal-dialog .modal-content .modal-body .modules {
-  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
-  box-shadow: inset 0px 1px 5px -4px #000000;
-  margin: 10px;
-  overflow-y: auto;
-  max-height: 75rem;
+.add-module-modal .modal-dialog .modal-content .modal-body .gradient .sticky-price {
+  border-radius: 35px 35px 0px 0px !important;
+  margin: 0px 10px 0px 10px;
 }
 
-.add-module-modal .modal-dialog .modal-content .modal-body .modules .plan-details .title h3 {
+.add-module-modal .modal-dialog .modal-content .modal-body .gradient .sticky-price .plan-details .title h3 {
   font-family: "FuturaBk", Arial, sans-serif;
   font-size: 18px;
   color: #cfc9c9;
 }
 
-.add-module-modal .modal-dialog .modal-content .modal-body .modules .plan-details .price h2 {
+.add-module-modal .modal-dialog .modal-content .modal-body .gradient .sticky-price .plan-details .price h2 {
   font-family: "TheFontBold", Arial, sans-serif;
   font-size: 31px;
   color: #030000;
 }
 
-.add-module-modal .modal-dialog .modal-content .modal-body .modules .plan-details .price h1 {
+.add-module-modal .modal-dialog .modal-content .modal-body .gradient .sticky-price .plan-details .price h1 {
   font-family: "TheFontBold", Arial, sans-serif;
   font-size: 75px;
   color: #20bbbd;
 }
 
 @media (max-width: 768px) {
-  .add-module-modal .modal-dialog .modal-content .modal-body .modules .plan-details .price h1 {
+  .add-module-modal .modal-dialog .modal-content .modal-body .gradient .sticky-price .plan-details .price h1 {
     font-size: 3rem;
   }
 }
 
-.add-module-modal .modal-dialog .modal-content .modal-body .modules .plan-details .line {
+.add-module-modal .modal-dialog .modal-content .modal-body .gradient .sticky-price .plan-details .line {
   border: solid 2px red;
   margin: 0px 30px;
 }
 
+.add-module-modal .modal-dialog .modal-content .modal-body .gradient .sticky-price .card-body {
+  padding: 0.5rem 1rem 0rem 1rem;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modules {
+  margin: 0px 10px 0px 10px;
+  overflow-y: auto;
+  max-height: 75rem;
+}
+
 .add-module-modal .modal-dialog .modal-content .modal-body .modules .module-list .card {
+  position: relative;
+  background-color: #FCFCFC;
+  border: solid 3px #fff;
+  border-radius: 35px;
+  -webkit-box-shadow: 0px 1px 9px -4px #000000;
+  box-shadow: 0px 1px 9px -4px #a79696;
   padding: 25px;
   margin-bottom: 20px;
   height: 160px;
@@ -2276,6 +2308,14 @@ body::-webkit-scrollbar-thumb {
   padding: 5px 25px;
   border-radius: 10px;
   height: 40px;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modal-footer {
+  border: none;
+}
+
+.add-module-modal .modal-dialog .modal-content .modal-body .modal-footer .btn-modal {
+  position: absolute;
 }
 
 .add-module-modal .modal-dialog .modal-content .modal-body .modules::-webkit-scrollbar {
