@@ -26,7 +26,6 @@
             }
 
             .modal-body {
-
                 .modal-title {
                     font-size: 20px;
                     font-family: "FuturaBk", Arial, sans-serif;
@@ -83,32 +82,31 @@
                     .add-modules {
                         margin-top: 80px;
                         margin-bottom: 60px;
-            
+
                         .item {
                             padding: 10px;
                         }
                         .ticket {
                             padding: 20px 0px;
-            
+
                             .card {
                                 border-radius: 0px 25px 25px 0px;
                                 border: none;
-                                background-color: #EEECEC;
+                                background-color: #eeecec;
                                 -webkit-box-shadow: none;
                                 box-shadow: none;
                                 .card-body {
                                     padding: 5px;
                                 }
                             }
-            
+
                             h3 {
-                                font-family: 'TheFontBold', Arial, sans-serif;
-                                font-size: 19px;   
-                                color: #8A8A8A;
+                                font-family: "TheFontBold", Arial, sans-serif;
+                                font-size: 19px;
+                                color: #8a8a8a;
                             }
-            
                         }
-            
+
                         .card {
                             border-radius: 25px;
                             border: solid 3px #fff;
@@ -119,39 +117,38 @@
                                 padding: 0px;
                             }
                         }
-            
+
                         img {
                             width: 50px;
                         }
                         h3 {
-                            font-family: 'TheFontBold', Arial, sans-serif;
+                            font-family: "TheFontBold", Arial, sans-serif;
                             font-size: 22px;
                         }
 
                         .extra-actions {
-
                             margin-top: 150px;
 
                             h3 {
                                 font-size: 14px;
-                                color: #C9C9C9;
+                                color: #c9c9c9;
                                 font-family: "FuturaBk", Arial, sans-serif;
                             }
 
                             .line {
-                                border: solid 2px #F1F1F1;
+                                border: solid 2px #f1f1f1;
                                 margin: 0px 0px 30px 0px;
                             }
 
                             .btn {
-                                width: 100% !important; 
+                                width: 100% !important;
                                 padding: 15px !important;
                                 font-size: 18px;
                                 border-radius: 35px;
                                 font-family: "FuturaBk", Arial, sans-serif;
-                                b{
+                                b {
                                     font-size: 18px;
-                                    font-family: 'TheFontBold', Arial, sans-serif;
+                                    font-family: "TheFontBold", Arial, sans-serif;
                                 }
                             }
 
@@ -174,7 +171,7 @@
                                 border: solid 3px #000000;
                                 background-color: #000000;
                                 font-size: 14px;
-                                font-family: 'TheFontBold', Arial, sans-serif;
+                                font-family: "TheFontBold", Arial, sans-serif;
                                 color: #fff;
                                 b {
                                     font-size: 14px;
@@ -187,74 +184,149 @@
             }
 
             .sell-showcase {
+                @media (max-width: 1324px) {
+                    padding: 0px 10vw;
+                }
+
+                @media (max-width: 900px) {
+                    padding: 0px;
+                }
+
+                @media (max-width: 768px) {
+                    padding: 0px;
+                }
+
                 .card {
                     border-radius: 45px;
                     height: 100%;
                 }
                 .green {
-                    background-color: #0BD877;
-
+                    background-color: #0bd877;
+                    border: solid 3px #0bd877;
+                    padding: 15px 35px;
                     text-align: center;
-        
-                    h1 { 
-                        font-size:  #{"min(46px, 6vw)"};
-                        font-family: 'TheFontBold', Arial, sans-serif;
+                    h1 {
+                        @media (max-width: 1324px) {
+                            font-size: #{"min(30px, 15vw)"};
+                        }
+
+                        @media (max-width: 768px) {
+                            font-size: #{"min(30px, 10vw)"};
+                        }
+
+                        font-size: #{"min(47px, 17vw)"};
+                        font-family: "TheFontBold", Arial, sans-serif;
                     }
-        
-                    h2 { 
-                        font-size: #{"min(46px, 6vw)"};
-                        font-family: 'TheFontBold', Arial, sans-serif;
+
+                    h2 {
+                        font-size: #{"min(67px, 14vw)"};
+                        font-family: "TheFontBold", Arial, sans-serif;
                     }
                     p {
-                        font-family: 'FuturaBk', Arial, sans-serif;
-                        font-size: 40px;
+                        font-family: "FuturaBk", Arial, sans-serif;
+                        font-size: #{"min(40px, 10vw)"};
                     }
                 }
-        
-                .black{
-                    background: rgb(82,13,94);
-                    background: linear-gradient(31deg, rgba(82,13,94,1) 15%, rgba(72,47,113,1) 32%, rgba(32,187,189,1) 100%);
-                    border: solid 5px #2B98AA;
+
+                .black {
+                    background: rgb(82, 13, 94);
+                    background: linear-gradient(
+                        31deg,
+                        rgba(82, 13, 94, 1) 15%,
+                        rgba(72, 47, 113, 1) 32%,
+                        rgba(32, 187, 189, 1) 100%
+                    );
+                    border: solid 5px #2b98aa;
+                    -webkit-box-shadow: 0px 1px 8px -4px #000000;
+                    box-shadow: 0px 1px 8px -4px #000000;
                     padding: 25px 55px;
         
+        
+                    .slashes {
+                        @media (max-width: 768px) {
+                            display: none;
+                        }
+                        
+                        @media (max-width: 1324px) {
+                            display: none;
+                        }
+                    }
+        
+                    h4 {
+                        font-size: #{"min(22px, 4vw)"};
+                        font-family: "TheFontBold", Arial, sans-serif;
+                        color: #fff;
+                    }
                     .discount {
                         text-align: left;
-                        font-family: 'TheFontBold', Arial, sans-serif;
+                        font-family: "TheFontBold", Arial, sans-serif;
                         color: #fff;
                         h1 {
-                            font-size: #{"min(68px, 10vw)"};
+                            @media (max-width: 1324px) {
+                                font-size: #{"min(40px, 7vw)"};
+                            }
+        
+                            @media (max-width: 768px) {
+                                font-size: #{"min(30px, 6vw)"};
+                            }
+        
+                            font-size: #{"min(68px, 15vw)"};
                         }
-                    
+        
                         span {
-                            font-size: 17px;
-                            position: relative;
-                            top: 45px;
+                            font-size: #{"min(17px, 12vw)"};
+                            position: absolute;
+                            margin-top: 2.2rem;
+                            font-size: 31px;
+                            float: right;
+                            margin-left: 10px;
+                            color: #fff;
                         }
-                        b{
+                        b {
                             font-size: 25px;
                         }
                     }
         
                     .price {
                         text-align: left;
-                        font-family: 'TheFontBold', Arial, sans-serif;
+                        font-family: "TheFontBold", Arial, sans-serif;
                         color: #fff;
         
                         h1 {
-                            color: #0AD875;
-                            font-size: #{"min(100px, 14vw)"};
+                            @media (max-width: 1324px) {
+                                font-size: #{"min(60px, 12vw)"};
+                            }
+        
+                            @media (max-width: 768px) {
+                                font-size: #{"min(40px, 8vw)"};
+                            }
+        
+                            color: #0ad875;
+                            font-size: #{"min(110px, 14vw)"};
                         }
         
                         h2 {
-                            
-                            font-size: #{"min(65px, 10vw)"};
-                            font-family: 'FuturaBk', Arial, sans-serif;
+                            @media (max-width: 1324px) {
+                                text-align: center;
+                                font-size: #{"min(30px, 10vw)"};
+                            }
+        
+                            @media (max-width: 768px) {
+                                text-align: center;
+                                font-size: #{"min(30px, 10vw)"};
+                            }
+        
+                            font-size: #{"min(80px, 15vw)"};
+                            font-family: "FuturaBk", Arial, sans-serif;
                         }
         
                         span {
-                            top: 60px;
-                            position: relative;
+                            position: absolute;
+                            margin-top: 4.5rem;
                             font-size: 31px;
+                            float: right;
+                            color: #fff;
+                            margin-left: 10px;
                         }
                     }
                 }

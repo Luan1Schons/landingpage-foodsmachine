@@ -255,7 +255,7 @@ body::-webkit-scrollbar-thumb {
 .register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .ticket .card {
   border-radius: 0px 25px 25px 0px;
   border: none;
-  background-color: #EEECEC;
+  background-color: #eeecec;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -265,9 +265,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .ticket h3 {
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   font-size: 19px;
-  color: #8A8A8A;
+  color: #8a8a8a;
 }
 
 .register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .card {
@@ -288,7 +288,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .register .modal-dialog .modal-content .modal-body .modules-selected .add-modules h3 {
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   font-size: 22px;
 }
 
@@ -298,12 +298,12 @@ body::-webkit-scrollbar-thumb {
 
 .register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions h3 {
   font-size: 14px;
-  color: #C9C9C9;
+  color: #c9c9c9;
   font-family: "FuturaBk", Arial, sans-serif;
 }
 
 .register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions .line {
-  border: solid 2px #F1F1F1;
+  border: solid 2px #f1f1f1;
   margin: 0px 0px 30px 0px;
 }
 
@@ -317,7 +317,7 @@ body::-webkit-scrollbar-thumb {
 
 .register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions .btn b {
   font-size: 18px;
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
 }
 
 .register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions .btn-white {
@@ -340,7 +340,7 @@ body::-webkit-scrollbar-thumb {
   border: solid 3px #000000;
   background-color: #000000;
   font-size: 14px;
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
 
@@ -349,52 +349,120 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 
+@media (max-width: 1324px) {
+  .register .modal-dialog .modal-content .sell-showcase {
+    padding: 0px 10vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .register .modal-dialog .modal-content .sell-showcase {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .register .modal-dialog .modal-content .sell-showcase {
+    padding: 0px;
+  }
+}
+
 .register .modal-dialog .modal-content .sell-showcase .card {
   border-radius: 45px;
   height: 100%;
 }
 
 .register .modal-dialog .modal-content .sell-showcase .green {
-  background-color: #0BD877;
+  background-color: #0bd877;
+  border: solid 3px #0bd877;
+  padding: 15px 35px;
   text-align: center;
 }
 
 .register .modal-dialog .modal-content .sell-showcase .green h1 {
-  font-size: min(46px, 6vw);
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-size: min(47px, 17vw);
+  font-family: "TheFontBold", Arial, sans-serif;
+}
+
+@media (max-width: 1324px) {
+  .register .modal-dialog .modal-content .sell-showcase .green h1 {
+    font-size: min(30px, 15vw);
+  }
+}
+
+@media (max-width: 768px) {
+  .register .modal-dialog .modal-content .sell-showcase .green h1 {
+    font-size: min(30px, 10vw);
+  }
 }
 
 .register .modal-dialog .modal-content .sell-showcase .green h2 {
-  font-size: min(46px, 6vw);
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-size: min(67px, 14vw);
+  font-family: "TheFontBold", Arial, sans-serif;
 }
 
 .register .modal-dialog .modal-content .sell-showcase .green p {
-  font-family: 'FuturaBk', Arial, sans-serif;
-  font-size: 40px;
+  font-family: "FuturaBk", Arial, sans-serif;
+  font-size: min(40px, 10vw);
 }
 
 .register .modal-dialog .modal-content .sell-showcase .black {
   background: #520d5e;
   background: linear-gradient(31deg, #520d5e 15%, #482f71 32%, #20bbbd 100%);
-  border: solid 5px #2B98AA;
+  border: solid 5px #2b98aa;
+  -webkit-box-shadow: 0px 1px 8px -4px #000000;
+  box-shadow: 0px 1px 8px -4px #000000;
   padding: 25px 55px;
+}
+
+@media (max-width: 768px) {
+  .register .modal-dialog .modal-content .sell-showcase .black .slashes {
+    display: none;
+  }
+}
+
+@media (max-width: 1324px) {
+  .register .modal-dialog .modal-content .sell-showcase .black .slashes {
+    display: none;
+  }
+}
+
+.register .modal-dialog .modal-content .sell-showcase .black h4 {
+  font-size: min(22px, 4vw);
+  font-family: "TheFontBold", Arial, sans-serif;
+  color: #fff;
 }
 
 .register .modal-dialog .modal-content .sell-showcase .black .discount {
   text-align: left;
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
 
 .register .modal-dialog .modal-content .sell-showcase .black .discount h1 {
-  font-size: min(68px, 10vw);
+  font-size: min(68px, 15vw);
+}
+
+@media (max-width: 1324px) {
+  .register .modal-dialog .modal-content .sell-showcase .black .discount h1 {
+    font-size: min(40px, 7vw);
+  }
+}
+
+@media (max-width: 768px) {
+  .register .modal-dialog .modal-content .sell-showcase .black .discount h1 {
+    font-size: min(30px, 6vw);
+  }
 }
 
 .register .modal-dialog .modal-content .sell-showcase .black .discount span {
-  font-size: 17px;
-  position: relative;
-  top: 45px;
+  font-size: min(17px, 12vw);
+  position: absolute;
+  margin-top: 2.2rem;
+  font-size: 31px;
+  float: right;
+  margin-left: 10px;
+  color: #fff;
 }
 
 .register .modal-dialog .modal-content .sell-showcase .black .discount b {
@@ -403,24 +471,53 @@ body::-webkit-scrollbar-thumb {
 
 .register .modal-dialog .modal-content .sell-showcase .black .price {
   text-align: left;
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
 
 .register .modal-dialog .modal-content .sell-showcase .black .price h1 {
-  color: #0AD875;
-  font-size: min(100px, 14vw);
+  color: #0ad875;
+  font-size: min(110px, 14vw);
+}
+
+@media (max-width: 1324px) {
+  .register .modal-dialog .modal-content .sell-showcase .black .price h1 {
+    font-size: min(60px, 12vw);
+  }
+}
+
+@media (max-width: 768px) {
+  .register .modal-dialog .modal-content .sell-showcase .black .price h1 {
+    font-size: min(40px, 8vw);
+  }
 }
 
 .register .modal-dialog .modal-content .sell-showcase .black .price h2 {
-  font-size: min(65px, 10vw);
-  font-family: 'FuturaBk', Arial, sans-serif;
+  font-size: min(80px, 15vw);
+  font-family: "FuturaBk", Arial, sans-serif;
+}
+
+@media (max-width: 1324px) {
+  .register .modal-dialog .modal-content .sell-showcase .black .price h2 {
+    text-align: center;
+    font-size: min(30px, 10vw);
+  }
+}
+
+@media (max-width: 768px) {
+  .register .modal-dialog .modal-content .sell-showcase .black .price h2 {
+    text-align: center;
+    font-size: min(30px, 10vw);
+  }
 }
 
 .register .modal-dialog .modal-content .sell-showcase .black .price span {
-  top: 60px;
-  position: relative;
+  position: absolute;
+  margin-top: 4.5rem;
   font-size: 31px;
+  float: right;
+  color: #fff;
+  margin-left: 10px;
 }
 
 .register .modal-dialog .modal-content .payments-method {
