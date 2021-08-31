@@ -1,13 +1,14 @@
-.mount-your-plan{
+.mount-your-plan {
     margin-top: 150px;
-    
-    .hideBrands { display: none !important; }
 
-    .brands{
+    .hideBrands {
+        display: none !important;
+    }
+
+    .brands {
         margin-bottom: -21rem;
 
-        @media (max-width: 1324px)
-        {
+        @media (max-width: 1324px) {
             margin-bottom: 0px;
         }
 
@@ -15,7 +16,7 @@
             display: none !important;
         }
 
-        img{
+        img {
             width: 70%;
             height: 100%;
             display: block;
@@ -23,7 +24,7 @@
 
         .ifood {
             position: absolute;
-            margin:75px 580px 0px 0px;
+            margin: 75px 580px 0px 0px;
             img {
                 width: 90px;
                 height: 93px;
@@ -73,51 +74,46 @@
                 transform-origin: left top 0;
             }
         }
-
     }
-
 
     .card {
         position: relative;
-        background-color: #FCFCFC;
+        background-color: #fcfcfc;
         border: solid 3px #fff;
         border-radius: 35px;
-        -webkit-box-shadow: 0px 1px 9px -4px #000000; 
-        box-shadow: 0px 1px 9px -4px #a79696; 
+        -webkit-box-shadow: 0px 1px 9px -4px #000000;
+        box-shadow: 0px 1px 9px -4px #a79696;
     }
-    
-    .content{
+
+    .content {
         margin-top: 150px;
 
         .description {
-            h3{
-                font-family: 'TheFontBold', Arial, sans-serif;
+            h3 {
+                font-family: "TheFontBold", Arial, sans-serif;
                 font-size: 40px;
                 span {
-                    font-family: 'FuturaBk', Arial, sans-serif;
+                    font-family: "FuturaBk", Arial, sans-serif;
                 }
             }
 
             .tiny {
-                font-family: 'FuturaBk', Arial, sans-serif;
+                font-family: "FuturaBk", Arial, sans-serif;
                 font-size: 25px;
-                color: #BABABA;
+                color: #bababa;
             }
         }
-
     }
 
     .mount {
         margin-top: 40px;
         padding: 0px 80px;
 
-        @media (max-width: 1324px)
-        {
+        @media (max-width: 1324px) {
             padding: 0px;
         }
 
-        @media (max-width: 768px)
-        {
+        @media (max-width: 768px) {
             padding: 0px;
         }
 
@@ -127,77 +123,96 @@
             position: relative;
             margin-bottom: -20px;
         }
-        
+
         .gradient {
-        height: 60rem;
-        border-radius:40px;
-        background: rgb(61,5,71);
-        background: linear-gradient(180deg, rgba(61,5,71,1) 32%, rgba(76,8,68,1) 53%, rgba(106,13,63,1) 72%, rgba(150,20,55,1) 86%, rgba(246,37,36,1) 100%);
+            height: 23rem;
+            border-radius: 40px;
+            background: rgb(61, 5, 71);
+            background: linear-gradient(
+                180deg,
+                rgba(61, 5, 71, 1) 32%,
+                rgba(76, 8, 68, 1) 53%,
+                rgba(106, 13, 63, 1) 72%,
+                rgba(150, 20, 55, 1) 86%,
+                rgba(246, 37, 36, 1) 100%
+            );
+
+            .gotas{
+                position: absolute;
+                margin-right: -2.2rem;
+                right: 0;
+            }
+
             h2 {
                 font-size: 53px;
-                font-family: 'TheFontBold', Arial, sans-serif;
+                font-family: "TheFontBold", Arial, sans-serif;
                 color: #fff;
 
-                @media (max-width: 768px)
-                {
+                @media (max-width: 768px) {
                     font-size: 3rem;
                 }
-
             }
             h1 {
                 font-size: 88px;
-                font-family: 'TheFontBold', Arial, sans-serif;
+                font-family: "TheFontBold", Arial, sans-serif;
                 color: #fff;
 
-                @media (max-width: 768px)
-                {
+                @media (max-width: 768px) {
                     font-size: 3rem;
                 }
-
             }
 
             .heart {
                 width: 65px;
                 margin-left: 10px;
 
-                @media (max-width: 768px)
-                {
+                @media (max-width: 768px) {
                     display: none;
                 }
+            }
 
+            .button {
+                padding: 0px 20px 20px 20px;
+                .btn-white {
+                    font-size: 70px;
+                    color: #460746;
+                    padding: 30px;
+                    font-family: "TheFontBold", Arial, sans-serif;
+                    -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+                    box-shadow: inset 0px 3px 5px -4px #000000;
+                    border: solid 3px #EFEFEF !important;
+                }
             }
         }
 
         .modules {
-            -webkit-box-shadow: inset 0px 1px 5px -4px #000000; 
+            -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
             box-shadow: inset 0px 1px 5px -4px #000000;
             margin: 10px;
             overflow-y: auto;
             max-height: 75rem;
-            
 
             .plan-details {
                 .title {
                     h3 {
-                    font-family: 'FuturaBk', Arial, sans-serif;
-                    font-size: 27px;
-                    color: #CFC9C9;
+                        font-family: "FuturaBk", Arial, sans-serif;
+                        font-size: 27px;
+                        color: #cfc9c9;
                     }
                 }
 
                 .price {
                     h2 {
-                        font-family: 'TheFontBold', Arial, sans-serif;
+                        font-family: "TheFontBold", Arial, sans-serif;
                         font-size: 31px;
                         color: #030000;
                     }
                     h1 {
-                        font-family: 'TheFontBold', Arial, sans-serif;
+                        font-family: "TheFontBold", Arial, sans-serif;
                         font-size: 75px;
-                        color: #20BBBD;
+                        color: #20bbbd;
 
-                        @media (max-width: 768px)
-                        {
+                        @media (max-width: 768px) {
                             font-size: 3rem;
                         }
                     }
@@ -212,22 +227,22 @@
                     padding: 35px;
                     margin-bottom: 20px;
                     .item {
-                        font-family: 'TheFontBold', Arial, sans-serif;
+                        font-family: "TheFontBold", Arial, sans-serif;
                         font-size: 25px;
                         color: #000000;
-                        .icon{
-                            margin-right:25px;
+                        .icon {
+                            margin-right: 25px;
                         }
 
                         p {
                             font-size: 15px;
-                            font-family: 'FuturaBk', Arial, sans-serif;
+                            font-family: "FuturaBk", Arial, sans-serif;
                         }
                     }
                 }
                 .active {
-                    background-color: #21BBC0;
-                    border: solid 3px #21BBC0;
+                    background-color: #21bbc0;
+                    border: solid 3px #21bbc0;
                     color: #fff;
 
                     .btn {
@@ -235,32 +250,31 @@
                         color: #fff;
                     }
 
-                    h4 { 
-                        color:#fff;
+                    h4 {
+                        color: #fff;
                     }
 
                     h3 {
                         font-size: 25px;
-                        font-family: 'TheFontBold', Arial, sans-serif;
-                        color:#0F6A6D;
+                        font-family: "TheFontBold", Arial, sans-serif;
+                        color: #0f6a6d;
                     }
                 }
 
                 .coming-soon {
-
-                    h4 { 
-                        color:rgb(228, 228, 228);
+                    h4 {
+                        color: rgb(228, 228, 228);
                     }
 
                     h3 {
-                        color:rgb(228, 228, 228);
+                        color: rgb(228, 228, 228);
                     }
                 }
 
                 .btn {
                     color: #000000;
                     -webkit-box-shadow: 0px 1px 8px -4px #000000;
-                    background-color: #EEECEC;
+                    background-color: #eeecec;
                     box-shadow: 0px 1px 8px -4px #000000;
                     padding: 5px 25px;
                     border-radius: 10px;
@@ -271,11 +285,11 @@
         .modules::-webkit-scrollbar {
             width: 5px;
         }
-           
+
         .modules::-webkit-scrollbar-track {
             box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
         }
-           
+
         .modules::-webkit-scrollbar-thumb {
             background-color: #fcfcfc00;
             outline: 1px solid #fcfcfc00;
@@ -283,40 +297,36 @@
     }
 
     .modules-selected {
-        
-        @media (min-width: 900px)
-        {
+        @media (min-width: 900px) {
             padding: 80px 120px 0px 120px;
         }
 
         .extra-actions {
-
             margin-top: 150px;
             margin-bottom: 100px;
 
             h3 {
                 font-size: 14px;
-                color: #C9C9C9;
+                color: #c9c9c9;
                 font-family: "FuturaBk", Arial, sans-serif;
             }
 
             .line {
-                border: solid 2px #F1F1F1;
+                border: solid 2px #f1f1f1;
                 margin: 0px 0px 30px 0px;
             }
 
             .btn {
-                width: 100% !important; 
+                width: 100% !important;
                 padding: 15px !important;
                 font-size: 18px;
                 border-radius: 35px;
                 font-family: "FuturaBk", Arial, sans-serif;
-                b{
+                b {
                     font-size: 18px;
-                    font-family: 'TheFontBold', Arial, sans-serif;
+                    font-family: "TheFontBold", Arial, sans-serif;
                 }
             }
-
 
             .btn-white {
                 -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
@@ -337,15 +347,13 @@
                 border: solid 3px #000000;
                 background-color: #000000;
                 font-size: 14px;
-                font-family: 'TheFontBold', Arial, sans-serif;
+                font-family: "TheFontBold", Arial, sans-serif;
                 color: #fff;
                 b {
                     color: #fff;
                 }
             }
-
         }
-
 
         .card {
             height: 100%;
@@ -362,9 +370,9 @@
             border-radius: 35px;
             font-size: 24px;
             color: #fff;
-            font-family: 'FuturaBk', Arial, sans-serif;
-            b{
-                font-family: 'TheFontBold', Arial, sans-serif;
+            font-family: "FuturaBk", Arial, sans-serif;
+            b {
+                font-family: "TheFontBold", Arial, sans-serif;
             }
         }
 
@@ -381,7 +389,7 @@
                 .card {
                     border-radius: 0px 25px 25px 0px;
                     border: none;
-                    background-color: #EEECEC;
+                    background-color: #eeecec;
                     -webkit-box-shadow: none;
                     box-shadow: none;
                     .card-body {
@@ -390,11 +398,10 @@
                 }
 
                 h3 {
-                    font-family: 'TheFontBold', Arial, sans-serif;
-                    font-size: 19px;   
-                    color: #8A8A8A;
+                    font-family: "TheFontBold", Arial, sans-serif;
+                    font-size: 19px;
+                    color: #8a8a8a;
                 }
-
             }
 
             .card {
@@ -412,134 +419,124 @@
                 width: 50px;
             }
             h3 {
-                font-family: 'TheFontBold', Arial, sans-serif;
+                font-family: "TheFontBold", Arial, sans-serif;
                 font-size: 22px;
             }
         }
     }
 
     .sell-showcase {
-
-        
+        margin-top: 150px;
         padding: 0px 14rem;
 
-        @media (max-width: 1324px)
-        {
+        @media (max-width: 1324px) {
             padding: 0px;
         }
 
-        @media (max-width: 900px)
-        {
+        @media (max-width: 900px) {
             padding: 0px;
         }
 
-        @media (max-width: 768px)
-        {
+        @media (max-width: 768px) {
             padding: 0px;
         }
 
         .green {
-            background-color: #0BD877;
-            border: solid 3px #0BD877;
+            background-color: #0bd877;
+            border: solid 3px #0bd877;
             padding: 25px 55px;
 
-            h1 { 
-                @media (max-width: 1324px)
-                {
-                    font-size:  #{"min(50px, 7vw)"};
+            h1 {
+                @media (max-width: 1324px) {
+                    font-size: #{"min(50px, 7vw)"};
                 }
 
-                @media (max-width: 768px)
-                {
-                    font-size:  #{"min(30px, 5vw)"};
+                @media (max-width: 768px) {
+                    font-size: #{"min(30px, 5vw)"};
                 }
 
-                font-size:  #{"min(76px, 14vw)"};
-                font-family: 'TheFontBold', Arial, sans-serif;
+                font-size: #{"min(76px, 14vw)"};
+                font-family: "TheFontBold", Arial, sans-serif;
             }
 
-            h2 { 
+            h2 {
                 font-size: #{"min(76px, 14vw)"};
-                font-family: 'TheFontBold', Arial, sans-serif;
+                font-family: "TheFontBold", Arial, sans-serif;
             }
             p {
-                font-family: 'FuturaBk', Arial, sans-serif;
+                font-family: "FuturaBk", Arial, sans-serif;
                 font-size: 40px;
             }
         }
 
-        .black{
-            background: rgb(82,13,94);
-            background: linear-gradient(31deg, rgba(82,13,94,1) 15%, rgba(72,47,113,1) 32%, rgba(32,187,189,1) 100%);
-            border: solid 5px #2B98AA;
+        .black {
+            background: rgb(82, 13, 94);
+            background: linear-gradient(
+                31deg,
+                rgba(82, 13, 94, 1) 15%,
+                rgba(72, 47, 113, 1) 32%,
+                rgba(32, 187, 189, 1) 100%
+            );
+            border: solid 5px #2b98aa;
             -webkit-box-shadow: 0px 1px 8px -4px #000000;
             box-shadow: 0px 1px 8px -4px #000000;
             padding: 25px 55px;
 
             .discount {
                 text-align: left;
-                font-family: 'TheFontBold', Arial, sans-serif;
+                font-family: "TheFontBold", Arial, sans-serif;
                 color: #fff;
                 h1 {
-
-                    @media (max-width: 1324px)
-                    {
-                        font-size:  #{"min(60px, 7vw)"};
+                    @media (max-width: 1324px) {
+                        font-size: #{"min(60px, 7vw)"};
                     }
 
-                    @media (max-width: 768px)
-                    {
-                        font-size:  #{"min(40px, 6vw)"};
+                    @media (max-width: 768px) {
+                        font-size: #{"min(40px, 6vw)"};
                     }
 
                     font-size: #{"min(98px, 15vw)"};
                 }
-            
+
                 span {
                     font-size: 17px;
                     position: relative;
                     top: 75px;
                 }
-                b{
+                b {
                     font-size: 25px;
                 }
             }
 
             .price {
                 text-align: left;
-                font-family: 'TheFontBold', Arial, sans-serif;
+                font-family: "TheFontBold", Arial, sans-serif;
                 color: #fff;
 
                 h1 {
-
-                    @media (max-width: 1324px)
-                    {
-                        font-size:  #{"min(80px, 12vw)"};
+                    @media (max-width: 1324px) {
+                        font-size: #{"min(80px, 12vw)"};
                     }
 
-                    @media (max-width: 768px)
-                    {
-                        font-size:  #{"min(60px, 8vw)"};
+                    @media (max-width: 768px) {
+                        font-size: #{"min(60px, 8vw)"};
                     }
 
-                    color: #0AD875;
+                    color: #0ad875;
                     font-size: #{"min(156px, 14vw)"};
                 }
 
                 h2 {
-                    
-                    @media (max-width: 1324px)
-                    {
-                        font-size:  #{"min(60px, 7vw)"};
+                    @media (max-width: 1324px) {
+                        font-size: #{"min(60px, 7vw)"};
                     }
 
-                    @media (max-width: 768px)
-                    {
-                        font-size:  #{"min(40px, 6vw)"};
+                    @media (max-width: 768px) {
+                        font-size: #{"min(40px, 6vw)"};
                     }
 
                     font-size: #{"min(90px, 15vw)"};
-                    font-family: 'FuturaBk', Arial, sans-serif;
+                    font-family: "FuturaBk", Arial, sans-serif;
                 }
 
                 span {
@@ -553,7 +550,7 @@
     .advertising {
         font-size: 22px;
         color: #989898;
-        font-family: 'FuturaBk', Arial, sans-serif;
+        font-family: "FuturaBk", Arial, sans-serif;
         margin-bottom: 200px;
     }
 }

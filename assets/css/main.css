@@ -1324,7 +1324,7 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .card {
   position: relative;
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
   border: solid 3px #fff;
   border-radius: 35px;
   -webkit-box-shadow: 0px 1px 9px -4px #000000;
@@ -1336,18 +1336,18 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .content .description h3 {
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   font-size: 40px;
 }
 
 .mount-your-plan .content .description h3 span {
-  font-family: 'FuturaBk', Arial, sans-serif;
+  font-family: "FuturaBk", Arial, sans-serif;
 }
 
 .mount-your-plan .content .description .tiny {
-  font-family: 'FuturaBk', Arial, sans-serif;
+  font-family: "FuturaBk", Arial, sans-serif;
   font-size: 25px;
-  color: #BABABA;
+  color: #bababa;
 }
 
 .mount-your-plan .mount {
@@ -1375,16 +1375,22 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .mount .gradient {
-  height: 60rem;
+  height: 23rem;
   border-radius: 40px;
   background: #3d0547;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(32%, #3d0547), color-stop(53%, #4c0844), color-stop(72%, #6a0d3f), color-stop(86%, #961437), to(#f62524));
   background: linear-gradient(180deg, #3d0547 32%, #4c0844 53%, #6a0d3f 72%, #961437 86%, #f62524 100%);
 }
 
+.mount-your-plan .mount .gradient .gotas {
+  position: absolute;
+  margin-right: -2.2rem;
+  right: 0;
+}
+
 .mount-your-plan .mount .gradient h2 {
   font-size: 53px;
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
 
@@ -1396,7 +1402,7 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .mount .gradient h1 {
   font-size: 88px;
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
 
@@ -1417,6 +1423,20 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+.mount-your-plan .mount .gradient .button {
+  padding: 0px 20px 20px 20px;
+}
+
+.mount-your-plan .mount .gradient .button .btn-white {
+  font-size: 70px;
+  color: #460746;
+  padding: 30px;
+  font-family: "TheFontBold", Arial, sans-serif;
+  -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
+  box-shadow: inset 0px 3px 5px -4px #000000;
+  border: solid 3px #EFEFEF !important;
+}
+
 .mount-your-plan .mount .modules {
   -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
   box-shadow: inset 0px 1px 5px -4px #000000;
@@ -1426,21 +1446,21 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .mount .modules .plan-details .title h3 {
-  font-family: 'FuturaBk', Arial, sans-serif;
+  font-family: "FuturaBk", Arial, sans-serif;
   font-size: 27px;
-  color: #CFC9C9;
+  color: #cfc9c9;
 }
 
 .mount-your-plan .mount .modules .plan-details .price h2 {
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   font-size: 31px;
   color: #030000;
 }
 
 .mount-your-plan .mount .modules .plan-details .price h1 {
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   font-size: 75px;
-  color: #20BBBD;
+  color: #20bbbd;
 }
 
 @media (max-width: 768px) {
@@ -1460,7 +1480,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .mount .modules .module-list .card .item {
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   font-size: 25px;
   color: #000000;
 }
@@ -1471,12 +1491,12 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .mount .modules .module-list .card .item p {
   font-size: 15px;
-  font-family: 'FuturaBk', Arial, sans-serif;
+  font-family: "FuturaBk", Arial, sans-serif;
 }
 
 .mount-your-plan .mount .modules .module-list .active {
-  background-color: #21BBC0;
-  border: solid 3px #21BBC0;
+  background-color: #21bbc0;
+  border: solid 3px #21bbc0;
   color: #fff;
 }
 
@@ -1491,8 +1511,8 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .mount .modules .module-list .active h3 {
   font-size: 25px;
-  font-family: 'TheFontBold', Arial, sans-serif;
-  color: #0F6A6D;
+  font-family: "TheFontBold", Arial, sans-serif;
+  color: #0f6a6d;
 }
 
 .mount-your-plan .mount .modules .module-list .coming-soon h4 {
@@ -1506,7 +1526,7 @@ body::-webkit-scrollbar-thumb {
 .mount-your-plan .mount .modules .module-list .btn {
   color: #000000;
   -webkit-box-shadow: 0px 1px 8px -4px #000000;
-  background-color: #EEECEC;
+  background-color: #eeecec;
   box-shadow: 0px 1px 8px -4px #000000;
   padding: 5px 25px;
   border-radius: 10px;
@@ -1539,12 +1559,12 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .modules-selected .extra-actions h3 {
   font-size: 14px;
-  color: #C9C9C9;
+  color: #c9c9c9;
   font-family: "FuturaBk", Arial, sans-serif;
 }
 
 .mount-your-plan .modules-selected .extra-actions .line {
-  border: solid 2px #F1F1F1;
+  border: solid 2px #f1f1f1;
   margin: 0px 0px 30px 0px;
 }
 
@@ -1558,7 +1578,7 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .modules-selected .extra-actions .btn b {
   font-size: 18px;
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
 }
 
 .mount-your-plan .modules-selected .extra-actions .btn-white {
@@ -1581,7 +1601,7 @@ body::-webkit-scrollbar-thumb {
   border: solid 3px #000000;
   background-color: #000000;
   font-size: 14px;
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
 
@@ -1606,11 +1626,11 @@ body::-webkit-scrollbar-thumb {
   border-radius: 35px;
   font-size: 24px;
   color: #fff;
-  font-family: 'FuturaBk', Arial, sans-serif;
+  font-family: "FuturaBk", Arial, sans-serif;
 }
 
 .mount-your-plan .modules-selected .selected-modules b {
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
 }
 
 .mount-your-plan .modules-selected .add-modules {
@@ -1629,7 +1649,7 @@ body::-webkit-scrollbar-thumb {
 .mount-your-plan .modules-selected .add-modules .ticket .card {
   border-radius: 0px 25px 25px 0px;
   border: none;
-  background-color: #EEECEC;
+  background-color: #eeecec;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -1639,9 +1659,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .modules-selected .add-modules .ticket h3 {
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   font-size: 19px;
-  color: #8A8A8A;
+  color: #8a8a8a;
 }
 
 .mount-your-plan .modules-selected .add-modules .card {
@@ -1662,11 +1682,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .modules-selected .add-modules h3 {
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   font-size: 22px;
 }
 
 .mount-your-plan .sell-showcase {
+  margin-top: 150px;
   padding: 0px 14rem;
 }
 
@@ -1689,14 +1710,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .sell-showcase .green {
-  background-color: #0BD877;
-  border: solid 3px #0BD877;
+  background-color: #0bd877;
+  border: solid 3px #0bd877;
   padding: 25px 55px;
 }
 
 .mount-your-plan .sell-showcase .green h1 {
   font-size: min(76px, 14vw);
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
 }
 
 @media (max-width: 1324px) {
@@ -1713,18 +1734,18 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .sell-showcase .green h2 {
   font-size: min(76px, 14vw);
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
 }
 
 .mount-your-plan .sell-showcase .green p {
-  font-family: 'FuturaBk', Arial, sans-serif;
+  font-family: "FuturaBk", Arial, sans-serif;
   font-size: 40px;
 }
 
 .mount-your-plan .sell-showcase .black {
   background: #520d5e;
   background: linear-gradient(31deg, #520d5e 15%, #482f71 32%, #20bbbd 100%);
-  border: solid 5px #2B98AA;
+  border: solid 5px #2b98aa;
   -webkit-box-shadow: 0px 1px 8px -4px #000000;
   box-shadow: 0px 1px 8px -4px #000000;
   padding: 25px 55px;
@@ -1732,7 +1753,7 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .sell-showcase .black .discount {
   text-align: left;
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
 
@@ -1764,12 +1785,12 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .sell-showcase .black .price {
   text-align: left;
-  font-family: 'TheFontBold', Arial, sans-serif;
+  font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
 
 .mount-your-plan .sell-showcase .black .price h1 {
-  color: #0AD875;
+  color: #0ad875;
   font-size: min(156px, 14vw);
 }
 
@@ -1787,7 +1808,7 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .sell-showcase .black .price h2 {
   font-size: min(90px, 15vw);
-  font-family: 'FuturaBk', Arial, sans-serif;
+  font-family: "FuturaBk", Arial, sans-serif;
 }
 
 @media (max-width: 1324px) {
@@ -1811,7 +1832,7 @@ body::-webkit-scrollbar-thumb {
 .mount-your-plan .advertising {
   font-size: 22px;
   color: #989898;
-  font-family: 'FuturaBk', Arial, sans-serif;
+  font-family: "FuturaBk", Arial, sans-serif;
   margin-bottom: 200px;
 }
 
