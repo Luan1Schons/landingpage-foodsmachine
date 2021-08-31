@@ -1085,12 +1085,13 @@ body::-webkit-scrollbar-thumb {
 
 .show-app .container .title h3 {
   font-family: "FuturaBk", Arial, sans-serif;
-  font-size: 53px;
+  font-size: min(53px, 10vw);
   letter-spacing: 0px;
 }
 
 .show-app .container .title h3 b {
-  font: normal normal bold 53px/65px "TheFontBold";
+  font-family: "TheFontBold", Arial, sans-serif;
+  font-size: min(53px, 15vw);
 }
 
 .show-app .container .title h2 {
@@ -1100,12 +1101,12 @@ body::-webkit-scrollbar-thumb {
 
 .show-app .container .title h2 span {
   font-family: "FuturaBk", Arial, sans-serif;
-  font-size: min(70px, 14vw);
+  font-size: min(90px, 17vw);
 }
 
 .show-app .container .title .desc {
   font-family: "FuturaBk", Arial, sans-serif;
-  font-size: 53px;
+  font-size: min(53px, 9vw);
 }
 
 .show-app .container .title .desc b {
@@ -1397,9 +1398,10 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1324px) {
   .mount-your-plan .mount .gradient h2 {
-    font-size: 3rem;
+    text-align: center;
+    font-size: min(40px, 14vw);
   }
 }
 
@@ -1409,9 +1411,10 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1324px) {
   .mount-your-plan .mount .gradient h1 {
-    font-size: 3rem;
+    text-align: center;
+    font-size: min(50px, 20vw);
   }
 }
 
@@ -1440,6 +1443,13 @@ body::-webkit-scrollbar-thumb {
   border: solid 3px #EFEFEF !important;
 }
 
+@media (max-width: 1324px) {
+  .mount-your-plan .mount .gradient .button .btn-white {
+    text-align: center;
+    font-size: min(50px, 20vw);
+  }
+}
+
 .mount-your-plan .mount .modules {
   -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
   box-shadow: inset 0px 1px 5px -4px #000000;
@@ -1462,13 +1472,13 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .mount .modules .plan-details .price h1 {
   font-family: "TheFontBold", Arial, sans-serif;
-  font-size: 75px;
+  font-size: 65px;
   color: #20bbbd;
 }
 
 @media (max-width: 768px) {
   .mount-your-plan .mount .modules .plan-details .price h1 {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 }
 
@@ -1691,12 +1701,12 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .sell-showcase {
   margin-top: 150px;
-  padding: 0px 14rem;
+  padding: 0px 15vw;
 }
 
 @media (max-width: 1324px) {
   .mount-your-plan .sell-showcase {
-    padding: 0px;
+    padding: 0px 10vw;
   }
 }
 
@@ -1719,30 +1729,30 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .sell-showcase .green h1 {
-  font-size: min(76px, 14vw);
+  font-size: min(67px, 17vw);
   font-family: "TheFontBold", Arial, sans-serif;
 }
 
 @media (max-width: 1324px) {
   .mount-your-plan .sell-showcase .green h1 {
-    font-size: min(50px, 7vw);
+    font-size: min(30px, 15vw);
   }
 }
 
 @media (max-width: 768px) {
   .mount-your-plan .sell-showcase .green h1 {
-    font-size: min(30px, 5vw);
+    font-size: min(30px, 10vw);
   }
 }
 
 .mount-your-plan .sell-showcase .green h2 {
-  font-size: min(76px, 14vw);
+  font-size: min(67px, 14vw);
   font-family: "TheFontBold", Arial, sans-serif;
 }
 
 .mount-your-plan .sell-showcase .green p {
   font-family: "FuturaBk", Arial, sans-serif;
-  font-size: 40px;
+  font-size: min(40px, 10vw);
 }
 
 .mount-your-plan .sell-showcase .black {
@@ -1752,6 +1762,18 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-shadow: 0px 1px 8px -4px #000000;
   box-shadow: 0px 1px 8px -4px #000000;
   padding: 25px 55px;
+}
+
+@media (max-width: 768px) {
+  .mount-your-plan .sell-showcase .black .slashes {
+    display: none;
+  }
+}
+
+@media (max-width: 1324px) {
+  .mount-your-plan .sell-showcase .black .slashes {
+    display: none;
+  }
 }
 
 .mount-your-plan .sell-showcase .black h4 {
@@ -1783,8 +1805,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .sell-showcase .black .discount span {
-  font-size: 17px;
+  font-size: min(17px, 12vw);
   position: relative;
+  float: right;
+  color: #fff;
   top: 75px;
 }
 
@@ -1822,20 +1846,24 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 1324px) {
   .mount-your-plan .sell-showcase .black .price h2 {
-    font-size: min(60px, 7vw);
+    text-align: center;
+    font-size: min(30px, 10vw);
   }
 }
 
 @media (max-width: 768px) {
   .mount-your-plan .sell-showcase .black .price h2 {
-    font-size: min(40px, 6vw);
+    text-align: center;
+    font-size: min(30px, 10vw);
   }
 }
 
 .mount-your-plan .sell-showcase .black .price span {
-  top: 115px;
   position: relative;
   font-size: 31px;
+  float: right;
+  top: -65px;
+  color: #fff;
 }
 
 .mount-your-plan .advertising {

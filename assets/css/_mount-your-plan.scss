@@ -150,8 +150,9 @@
                 font-family: "TheFontBold", Arial, sans-serif;
                 color: #fff;
 
-                @media (max-width: 768px) {
-                    font-size: 3rem;
+                @media (max-width: 1324px) {
+                    text-align: center;
+                    font-size: #{"min(40px, 14vw)"};
                 }
             }
             h1 {
@@ -159,8 +160,9 @@
                 font-family: "TheFontBold", Arial, sans-serif;
                 color: #fff;
 
-                @media (max-width: 768px) {
-                    font-size: 3rem;
+                @media (max-width: 1324px) {
+                    text-align: center;
+                    font-size: #{"min(50px, 20vw)"};
                 }
             }
 
@@ -183,6 +185,12 @@
                     -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
                     box-shadow: inset 0px 3px 5px -4px #000000;
                     border: solid 3px #EFEFEF !important;
+
+                    @media (max-width: 1324px) {
+                        text-align: center;
+                        font-size: #{"min(50px, 20vw)"};
+                    }
+
                 }
             }
         }
@@ -211,11 +219,11 @@
                     }
                     h1 {
                         font-family: "TheFontBold", Arial, sans-serif;
-                        font-size: 75px;
+                        font-size: 65px;
                         color: #20bbbd;
 
                         @media (max-width: 768px) {
-                            font-size: 3rem;
+                            font-size: 5rem;
                         }
                     }
                 }
@@ -429,10 +437,10 @@
 
     .sell-showcase {
         margin-top: 150px;
-        padding: 0px 14rem;
+        padding: 0px 15vw;
 
         @media (max-width: 1324px) {
-            padding: 0px;
+            padding: 0px 10vw;
         }
 
         @media (max-width: 900px) {
@@ -447,27 +455,26 @@
             background-color: #0bd877;
             border: solid 3px #0bd877;
             padding: 25px 55px;
-
             h1 {
                 @media (max-width: 1324px) {
-                    font-size: #{"min(50px, 7vw)"};
+                    font-size: #{"min(30px, 15vw)"};
                 }
 
                 @media (max-width: 768px) {
-                    font-size: #{"min(30px, 5vw)"};
+                    font-size: #{"min(30px, 10vw)"};
                 }
 
-                font-size: #{"min(76px, 14vw)"};
+                font-size: #{"min(67px, 17vw)"};
                 font-family: "TheFontBold", Arial, sans-serif;
             }
 
             h2 {
-                font-size: #{"min(76px, 14vw)"};
+                font-size: #{"min(67px, 14vw)"};
                 font-family: "TheFontBold", Arial, sans-serif;
             }
             p {
                 font-family: "FuturaBk", Arial, sans-serif;
-                font-size: 40px;
+                font-size: #{"min(40px, 10vw)"};
             }
         }
 
@@ -484,6 +491,16 @@
             box-shadow: 0px 1px 8px -4px #000000;
             padding: 25px 55px;
 
+
+            .slashes {
+                @media (max-width: 768px) {
+                    display: none;
+                }
+                
+                @media (max-width: 1324px) {
+                    display: none;
+                }
+            }
 
             h4 {
                 font-size: #{"min(22px, 4vw)"};
@@ -507,8 +524,10 @@
                 }
 
                 span {
-                    font-size: 17px;
+                    font-size: #{"min(17px, 12vw)"};
                     position: relative;
+                    float: right;
+                    color: #fff;
                     top: 75px;
                 }
                 b {
@@ -536,11 +555,13 @@
 
                 h2 {
                     @media (max-width: 1324px) {
-                        font-size: #{"min(60px, 7vw)"};
+                        text-align: center;
+                        font-size: #{"min(30px, 10vw)"};
                     }
 
                     @media (max-width: 768px) {
-                        font-size: #{"min(40px, 6vw)"};
+                        text-align: center;
+                        font-size: #{"min(30px, 10vw)"};
                     }
 
                     font-size: #{"min(90px, 15vw)"};
@@ -548,9 +569,11 @@
                 }
 
                 span {
-                    top: 115px;
                     position: relative;
                     font-size: 31px;
+                    float: right;
+                    top: -65px;
+                    color: #fff;
                 }
             }
         }
