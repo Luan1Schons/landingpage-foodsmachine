@@ -1385,6 +1385,10 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   margin-right: -2.2rem;
   right: 0;
+  top: -30px;
+  width: 40px;
+  -webkit-transform: rotate(-8deg);
+          transform: rotate(-8deg);
 }
 
 .mount-your-plan .mount .gradient h2 {
