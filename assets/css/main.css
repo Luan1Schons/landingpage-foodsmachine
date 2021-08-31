@@ -345,6 +345,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .register .modal-dialog .modal-content .modal-body .modules-selected .add-modules .extra-actions .btn-dark b {
+  font-size: 14px;
   color: #fff;
 }
 

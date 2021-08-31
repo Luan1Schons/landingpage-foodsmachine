@@ -49,7 +49,7 @@ $(document).ready(function () {
 
   $('body').on('click','#btnAddModuleRegister', function(e) {
     e.preventDefault();
-    $('#btnAddModuleRegister').removeClass('btn-cian').addClass('btn-disabled');
+    $('#btnAddModuleRegister').removeClass('btn-cian').removeClass('btn-disabled').addClass('btn-dark');
     $('#regiser-showcase').show();
     $('#btnNeedHelpRegister').removeClass( "btn-dark" ).addClass( "btn-white" );
     $('.need-help-to-mount-plan').html('<button type="button" class="btn btn-white" id="btnNeedHelpRegister"><b>PRECISA</b> DE AJUDA PARA MONTAR SEU PLANO</button>');
