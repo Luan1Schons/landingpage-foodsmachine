@@ -1804,7 +1804,7 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .sell-showcase {
   margin-top: 120px;
-  padding: 0vw 12vw 0px 17vw;
+  padding: 0vw 0vw 0px 17vw;
 }
 
 @media (max-width: 1324px) {
@@ -1838,7 +1838,7 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .sell-showcase .green h1 {
   font-family: "TheFontBold", Arial, sans-serif;
-  font-size: min(60px, 14vw);
+  font-size: min(64px, 14vw);
   color: #000000;
 }
 
@@ -1856,7 +1856,11 @@ body::-webkit-scrollbar-thumb {
   font-weight: bold;
 }
 
-.mount-your-plan .sell-showcase .black {
+.mount-your-plan .sell-showcase .container-black {
+  padding: 0px 20rem 0px 0px;
+}
+
+.mount-your-plan .sell-showcase .container-black .black {
   background: #520d5e;
   background: linear-gradient(31deg, #520d5e 15%, #482f71 32%, #20bbbd 100%);
   border: solid 5px #2b98aa;
@@ -1866,46 +1870,46 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 768px) {
-  .mount-your-plan .sell-showcase .black .slashes {
+  .mount-your-plan .sell-showcase .container-black .black .slashes {
     display: none;
   }
 }
 
 @media (max-width: 1324px) {
-  .mount-your-plan .sell-showcase .black .slashes {
+  .mount-your-plan .sell-showcase .container-black .black .slashes {
     display: none;
   }
 }
 
-.mount-your-plan .sell-showcase .black h4 {
+.mount-your-plan .sell-showcase .container-black .black h4 {
   font-size: min(17px, 4vw);
   font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
 
-.mount-your-plan .sell-showcase .black .discount {
+.mount-your-plan .sell-showcase .container-black .black .discount {
   text-align: left;
   font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
 
-.mount-your-plan .sell-showcase .black .discount h1 {
+.mount-your-plan .sell-showcase .container-black .black .discount h1 {
   font-size: min(70px, 15vw);
 }
 
 @media (max-width: 1324px) {
-  .mount-your-plan .sell-showcase .black .discount h1 {
+  .mount-your-plan .sell-showcase .container-black .black .discount h1 {
     font-size: min(50px, 7vw);
   }
 }
 
 @media (max-width: 768px) {
-  .mount-your-plan .sell-showcase .black .discount h1 {
+  .mount-your-plan .sell-showcase .container-black .black .discount h1 {
     font-size: min(40px, 6vw);
   }
 }
 
-.mount-your-plan .sell-showcase .black .discount span {
+.mount-your-plan .sell-showcase .container-black .black .discount span {
   font-size: min(20px, 5vw);
   position: relative;
   color: #fff;
@@ -1914,54 +1918,54 @@ body::-webkit-scrollbar-thumb {
   display: inline-block;
 }
 
-.mount-your-plan .sell-showcase .black .discount b {
+.mount-your-plan .sell-showcase .container-black .black .discount b {
   font-size: 20px;
 }
 
-.mount-your-plan .sell-showcase .black .price {
+.mount-your-plan .sell-showcase .container-black .black .price {
   text-align: left;
   font-family: "TheFontBold", Arial, sans-serif;
   color: #fff;
 }
 
-.mount-your-plan .sell-showcase .black .price h1 {
+.mount-your-plan .sell-showcase .container-black .black .price h1 {
   color: #0ad875;
   font-size: min(126px, 14vw);
 }
 
 @media (max-width: 1324px) {
-  .mount-your-plan .sell-showcase .black .price h1 {
+  .mount-your-plan .sell-showcase .container-black .black .price h1 {
     font-size: min(70px, 12vw);
   }
 }
 
 @media (max-width: 768px) {
-  .mount-your-plan .sell-showcase .black .price h1 {
+  .mount-your-plan .sell-showcase .container-black .black .price h1 {
     font-size: min(60px, 8vw);
   }
 }
 
-.mount-your-plan .sell-showcase .black .price h2 {
+.mount-your-plan .sell-showcase .container-black .black .price h2 {
   font-size: min(48px, 10vw);
   letter-spacing: 1rem;
   font-family: "FuturaBk", Arial, sans-serif;
 }
 
 @media (max-width: 1324px) {
-  .mount-your-plan .sell-showcase .black .price h2 {
+  .mount-your-plan .sell-showcase .container-black .black .price h2 {
     text-align: center;
     font-size: min(20px, 4vw);
   }
 }
 
 @media (max-width: 768px) {
-  .mount-your-plan .sell-showcase .black .price h2 {
+  .mount-your-plan .sell-showcase .container-black .black .price h2 {
     text-align: center;
     font-size: min(20px, 4vw);
   }
 }
 
-.mount-your-plan .sell-showcase .black .price span {
+.mount-your-plan .sell-showcase .container-black .black .price span {
   position: relative;
   font-size: 26px;
   color: #fff;
