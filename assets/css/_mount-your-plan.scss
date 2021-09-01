@@ -118,24 +118,23 @@
         }
 
         .mount-image {
-            width: 95%;
-            height: 95%;
+            width: 80%;
+            height: 86%;
             position: relative;
             margin-bottom: -20px;
         }
 
-        .gradient {
-            border-radius: 40px;
-            background: rgb(61, 5, 71);
-            background: linear-gradient(
-                180deg,
-                rgba(61, 5, 71, 1) 32%,
-                rgba(76, 8, 68, 1) 53%,
-                rgba(106, 13, 63, 1) 72%,
-                rgba(150, 20, 55, 1) 86%,
-                rgba(246, 37, 36, 1) 100%
-            );
+        .box-mount {
+            padding: 0px 70px;
+        }
 
+        .gradient {
+
+            border-radius: 55px;
+            background: rgb(61, 5, 71);
+            background: rgb(191,59,59);
+            background: linear-gradient(0deg, rgba(191,59,59,1) 0%, rgba(122,16,59,1) 47%, rgba(61,5,71,1) 100%);   
+            border: none;
             .gotas{
                 position: absolute;
                 margin-right: -2.2rem;
@@ -167,7 +166,7 @@
             }
 
             .heart {
-                width: 65px;
+                width: 85px;
                 margin-left: 10px;
 
                 @media (max-width: 768px) {
@@ -180,11 +179,12 @@
                 .btn-white {
                     font-size: 90px;
                     color: #460746;
-                    padding: 30px;
+                    padding: 60px 50px;
                     font-family: "TheFontBold", Arial, sans-serif;
                     -webkit-box-shadow: inset 0px 1px 5px -4px #000000;
                     box-shadow: inset 0px 3px 5px -4px #000000;
                     border: solid 3px #EFEFEF !important;
+                    border-radius: 65px;
 
                     @media (max-width: 1324px) {
                         text-align: center;
@@ -415,7 +415,6 @@
             }
 
             .card {
-                border-radius: 25px;
                 border: solid 3px #fff;
                 background-color: #fff;
                 webkit-box-shadow: -2px 5px 9px -4px #a79696;
@@ -436,11 +435,11 @@
     }
 
     .sell-showcase {
-        margin-top: 150px;
-        padding: 0px 15vw;
+        margin-top: 120px;
+        padding: 0vw 10vw;
 
         @media (max-width: 1324px) {
-            padding: 0px 10vw;
+            padding: 0px 12vw;
         }
 
         @media (max-width: 900px) {
@@ -451,30 +450,35 @@
             padding: 0px;
         }
 
+
+        .card {
+            border-radius: 55px;
+        }
+
         .green {
-            background-color: #0bd877;
-            border: solid 3px #0bd877;
-            padding: 25px 55px;
+            background-color: #0BD877;
+            border: solid 6px #0BD877;
+            -webkit-box-shadow: inset -3px 2px 8px -5px #000000;
+            box-shadow: inset -3px 2px 8px -5px #000000;
+
             h1 {
-                @media (max-width: 1324px) {
-                    font-size: #{"min(30px, 15vw)"};
-                }
-
-                @media (max-width: 768px) {
-                    font-size: #{"min(30px, 10vw)"};
-                }
-
-                font-size: #{"min(67px, 17vw)"};
                 font-family: "TheFontBold", Arial, sans-serif;
+                font-size: #{"min(67px, 14vw)"};;
+                color: #000000;
             }
 
             h2 {
-                font-size: #{"min(67px, 14vw)"};
                 font-family: "TheFontBold", Arial, sans-serif;
+                font-size: #{"min(57px, 14vw)"};;
+                color: #000000;
             }
+
             p {
                 font-family: "FuturaBk", Arial, sans-serif;
-                font-size: #{"min(40px, 10vw)"};
+                font-size: #{"min(16px, 14vw)"};;
+                color: #000000;
+                letter-spacing: 0.7rem;
+                font-weight: bold;
             }
         }
 
@@ -487,8 +491,8 @@
                 rgba(32, 187, 189, 1) 100%
             );
             border: solid 5px #2b98aa;
-            -webkit-box-shadow: 0px 1px 8px -4px #000000;
-            box-shadow: 0px 1px 8px -4px #000000;
+            -webkit-box-shadow: inset -3px 4px 12px -5px #000000;
+            box-shadow: inset -3px 4px 12px -5px #000000;
             padding: 25px 55px;
 
 
@@ -503,7 +507,7 @@
             }
 
             h4 {
-                font-size: #{"min(22px, 4vw)"};
+                font-size: #{"min(17px, 4vw)"};
                 font-family: "TheFontBold", Arial, sans-serif;
                 color: #fff;
             }
@@ -513,25 +517,26 @@
                 color: #fff;
                 h1 {
                     @media (max-width: 1324px) {
-                        font-size: #{"min(60px, 7vw)"};
+                        font-size: #{"min(50px, 7vw)"};
                     }
 
                     @media (max-width: 768px) {
                         font-size: #{"min(40px, 6vw)"};
                     }
 
-                    font-size: #{"min(98px, 15vw)"};
+                    font-size: #{"min(60px, 15vw)"};
                 }
 
                 span {
-                    font-size: #{"min(17px, 12vw)"};
+                    font-size: #{"min(12px, 12vw)"};
                     position: relative;
                     float: right;
                     color: #fff;
-                    top: 75px;
+                    margin-left: 5px;
+                    top:60px;
                 }
                 b {
-                    font-size: 25px;
+                    font-size: 20px;
                 }
             }
 
@@ -542,7 +547,7 @@
 
                 h1 {
                     @media (max-width: 1324px) {
-                        font-size: #{"min(80px, 12vw)"};
+                        font-size: #{"min(70px, 12vw)"};
                     }
 
                     @media (max-width: 768px) {
@@ -550,21 +555,22 @@
                     }
 
                     color: #0ad875;
-                    font-size: #{"min(156px, 14vw)"};
+                    font-size: #{"min(126px, 14vw)"};
                 }
 
                 h2 {
                     @media (max-width: 1324px) {
                         text-align: center;
-                        font-size: #{"min(30px, 10vw)"};
+                        font-size: #{"min(20px, 4vw)"};
                     }
 
                     @media (max-width: 768px) {
                         text-align: center;
-                        font-size: #{"min(30px, 10vw)"};
+                        font-size: #{"min(20px, 4vw)"};
                     }
 
-                    font-size: #{"min(90px, 15vw)"};
+                    font-size: #{"min(50px, 15vw)"};
+                    letter-spacing: 0.8rem;
                     font-family: "FuturaBk", Arial, sans-serif;
                 }
 
@@ -572,7 +578,7 @@
                     position: relative;
                     font-size: 31px;
                     float: right;
-                    top: -65px;
+                    top: 110px;
                     color: #fff;
                 }
             }
