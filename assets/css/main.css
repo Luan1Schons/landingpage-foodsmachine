@@ -1466,14 +1466,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .mount .mount-image {
-  width: 80%;
-  height: 86%;
+  width: 65%;
+  height: 76%;
   position: relative;
   margin-bottom: -20px;
 }
 
 .mount-your-plan .mount .box-mount {
-  padding: 0px 70px;
+  padding: 0px 13rem;
 }
 
 .mount-your-plan .mount .gradient {
@@ -1804,7 +1804,7 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .sell-showcase {
   margin-top: 120px;
-  padding: 0vw 10vw;
+  padding: 0vw 12vw 0px 17vw;
 }
 
 @media (max-width: 1324px) {
@@ -1838,19 +1838,19 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .sell-showcase .green h1 {
   font-family: "TheFontBold", Arial, sans-serif;
-  font-size: min(67px, 14vw);
+  font-size: min(60px, 14vw);
   color: #000000;
 }
 
 .mount-your-plan .sell-showcase .green h2 {
   font-family: "TheFontBold", Arial, sans-serif;
-  font-size: min(57px, 14vw);
+  font-size: min(50px, 14vw);
   color: #000000;
 }
 
 .mount-your-plan .sell-showcase .green p {
   font-family: "FuturaBk", Arial, sans-serif;
-  font-size: min(16px, 14vw);
+  font-size: min(20px, 4vw);
   color: #000000;
   letter-spacing: 0.7rem;
   font-weight: bold;
@@ -1862,7 +1862,7 @@ body::-webkit-scrollbar-thumb {
   border: solid 5px #2b98aa;
   -webkit-box-shadow: inset -3px 4px 12px -5px #000000;
   box-shadow: inset -3px 4px 12px -5px #000000;
-  padding: 25px 55px;
+  padding: 25px 45px 0px 45px;
 }
 
 @media (max-width: 768px) {
@@ -1910,7 +1910,8 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   color: #fff;
   margin-left: 5px;
-  text-decoration: none;
+  text-decoration: none !important;
+  display: inline-block;
 }
 
 .mount-your-plan .sell-showcase .black .discount b {
@@ -1925,7 +1926,7 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .sell-showcase .black .price h1 {
   color: #0ad875;
-  font-size: min(146px, 14vw);
+  font-size: min(126px, 14vw);
 }
 
 @media (max-width: 1324px) {
@@ -1941,7 +1942,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mount-your-plan .sell-showcase .black .price h2 {
-  font-size: min(55px, 10vw);
+  font-size: min(48px, 10vw);
   letter-spacing: 1rem;
   font-family: "FuturaBk", Arial, sans-serif;
 }
@@ -1962,7 +1963,7 @@ body::-webkit-scrollbar-thumb {
 
 .mount-your-plan .sell-showcase .black .price span {
   position: relative;
-  font-size: 36px;
+  font-size: 26px;
   color: #fff;
 }
 
