@@ -524,16 +524,15 @@
                         font-size: #{"min(40px, 6vw)"};
                     }
 
-                    font-size: #{"min(60px, 15vw)"};
+                    font-size: #{"min(70px, 15vw)"};
                 }
 
                 span {
-                    font-size: #{"min(12px, 12vw)"};
+                    font-size: #{"min(20px, 5vw)"};
                     position: relative;
-                    float: right;
                     color: #fff;
                     margin-left: 5px;
-                    top:60px;
+                    text-decoration: none;
                 }
                 b {
                     font-size: 20px;
@@ -555,7 +554,7 @@
                     }
 
                     color: #0ad875;
-                    font-size: #{"min(126px, 14vw)"};
+                    font-size: #{"min(146px, 14vw)"};
                 }
 
                 h2 {
@@ -569,16 +568,14 @@
                         font-size: #{"min(20px, 4vw)"};
                     }
 
-                    font-size: #{"min(50px, 15vw)"};
-                    letter-spacing: 0.8rem;
+                    font-size: #{"min(55px, 10vw)"};
+                    letter-spacing: 1rem;
                     font-family: "FuturaBk", Arial, sans-serif;
                 }
 
                 span {
                     position: relative;
-                    font-size: 31px;
-                    float: right;
-                    top: 110px;
+                    font-size: 36px;
                     color: #fff;
                 }
             }
